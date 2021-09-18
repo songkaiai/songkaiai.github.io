@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>songkaiai的博客</title>
   
-  <subtitle>你所热爱的，就是你的生活</subtitle>
-  <link href="http://https//songkaiai.github.io/atom.xml" rel="self"/>
   
-  <link href="http://https//songkaiai.github.io/"/>
+  <link href="https://username.github.io/project/atom.xml" rel="self"/>
+  
+  <link href="https://username.github.io/project/"/>
   <updated>2021-09-18T09:22:16.165Z</updated>
-  <id>http://https//songkaiai.github.io/</id>
+  <id>https://username.github.io/project/</id>
   
   <author>
     <name>songkaiai</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于搭建Hexo博客</title>
-    <link href="http://https//songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://https//songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://username.github.io/project/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://username.github.io/project/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-09-18T01:36:07.000Z</published>
     <updated>2021-09-18T09:22:16.165Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="Hexo" scheme="http://https//songkaiai.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://username.github.io/project/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>TEXT</title>
-    <link href="http://https//songkaiai.github.io/2021/09/18/TEXT/"/>
-    <id>http://https//songkaiai.github.io/2021/09/18/TEXT/</id>
+    <link href="https://username.github.io/project/2021/09/18/TEXT/"/>
+    <id>https://username.github.io/project/2021/09/18/TEXT/</id>
     <published>2021-09-18T00:49:38.000Z</published>
     <updated>2021-09-18T12:11:34.015Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://https//songkaiai.github.io/2021/09/18/hello-world/"/>
-    <id>http://https//songkaiai.github.io/2021/09/18/hello-world/</id>
+    <link href="https://username.github.io/project/2021/09/18/hello-world/"/>
+    <id>https://username.github.io/project/2021/09/18/hello-world/</id>
     <published>2021-09-17T16:09:46.958Z</published>
     <updated>2021-09-17T16:09:46.958Z</updated>
     
