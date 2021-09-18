@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-18T03:02:12.471Z</updated>
+  <updated>2021-09-18T06:18:54.159Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于搭建Hexo博客</title>
+    <link href="http://example.com/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-09-18T01:36:07.000Z</published>
+    <updated>2021-09-18T06:18:54.159Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>TEXT</title>
