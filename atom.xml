@@ -3,23 +3,18 @@
   <title>songkaiai的博客</title>
   
   
-  <link href="https://songkaiai.github.io/project/atom.xml" rel="self"/>
+  <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
-  <link href="https://songkaiai.github.io/project/"/>
+  <link href="https://songkaiai.github.io/"/>
   <updated>2021-09-18T09:22:16.165Z</updated>
-  <id>https://songkaiai.github.io/project/</id>
-  
-  <author>
-    <name>songkaiai</name>
-    
-  </author>
+  <id>https://songkaiai.github.io/</id>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>关于搭建Hexo博客</title>
-    <link href="https://songkaiai.github.io/project/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://songkaiai.github.io/project/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-09-18T01:36:07.000Z</published>
     <updated>2021-09-18T09:22:16.165Z</updated>
     
@@ -34,18 +29,18 @@
     
     
     
-    <category term="Hexo" scheme="https://songkaiai.github.io/project/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://songkaiai.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>TEXT</title>
-    <link href="https://songkaiai.github.io/project/2021/09/18/TEXT/"/>
-    <id>https://songkaiai.github.io/project/2021/09/18/TEXT/</id>
+    <link href="https://songkaiai.github.io/2021/09/18/TEXT/"/>
+    <id>https://songkaiai.github.io/2021/09/18/TEXT/</id>
     <published>2021-09-18T00:49:38.000Z</published>
-    <updated>2021-09-18T12:11:34.015Z</updated>
+    <updated>2021-09-18T12:32:21.198Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无有意义内容"><a href="#注意：这是一个测试博客，无有意义内容" class="headerlink" title="注意：这是一个测试博客，无有意义内容"></a>注意：这是一个测试博客，无有意义内容</h2><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png"><br>啊巴啊巴</p><p>测试上传图片以及收起</p><p>歪比歪比？歪比巴布。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无有意义内容"><a href="#注意：这是一个测试博客，无有意义内容" class="headerlink" title="注意：这是一个测试博客，无有意义内容"></a>注意：这是一个测试博客，无有意义内容</h2><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png"></p>]]></content>
     
     
       
@@ -60,8 +55,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://songkaiai.github.io/project/2021/09/18/hello-world/"/>
-    <id>https://songkaiai.github.io/project/2021/09/18/hello-world/</id>
+    <link href="https://songkaiai.github.io/2021/09/18/hello-world/"/>
+    <id>https://songkaiai.github.io/2021/09/18/hello-world/</id>
     <published>2021-09-17T16:09:46.958Z</published>
     <updated>2021-09-17T16:09:46.958Z</updated>
     
