@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>songkaiai的博客</title>
   
+  <subtitle>你所热爱的，就是你的生活</subtitle>
+  <link href="http://https//songkaiai.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
-  
-  <link href="http://example.com/"/>
+  <link href="http://https//songkaiai.github.io/"/>
   <updated>2021-09-18T09:22:16.165Z</updated>
-  <id>http://example.com/</id>
+  <id>http://https//songkaiai.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>songkaiai</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于搭建Hexo博客</title>
-    <link href="http://example.com/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://example.com/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
+    <link href="http://https//songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://https//songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-09-18T01:36:07.000Z</published>
     <updated>2021-09-18T09:22:16.165Z</updated>
     
@@ -34,23 +34,24 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="http://https//songkaiai.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>TEXT</title>
-    <link href="http://example.com/2021/09/18/TEXT/"/>
-    <id>http://example.com/2021/09/18/TEXT/</id>
+    <link href="http://https//songkaiai.github.io/2021/09/18/TEXT/"/>
+    <id>http://https//songkaiai.github.io/2021/09/18/TEXT/</id>
     <published>2021-09-18T00:49:38.000Z</published>
-    <updated>2021-09-18T11:49:06.484Z</updated>
+    <updated>2021-09-18T12:11:34.015Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无有意义内容"><a href="#注意：这是一个测试博客，无有意义内容" class="headerlink" title="注意：这是一个测试博客，无有意义内容"></a>注意：这是一个测试博客，无有意义内容</h2><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png"><br>啊巴啊巴</p><span id="more"></span><p>测试上传图片以及收起</p><p>歪比歪比？歪比巴布。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无有意义内容"><a href="#注意：这是一个测试博客，无有意义内容" class="headerlink" title="注意：这是一个测试博客，无有意义内容"></a>注意：这是一个测试博客，无有意义内容</h2><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png"><br>啊巴啊巴</p><p>测试上传图片以及收起</p><p>歪比歪比？歪比巴布。</p>]]></content>
     
     
-    <summary type="html">&lt;h2 id=&quot;注意：这是一个测试博客，无有意义内容&quot;&gt;&lt;a href=&quot;#注意：这是一个测试博客，无有意义内容&quot; class=&quot;headerlink&quot; title=&quot;注意：这是一个测试博客，无有意义内容&quot;&gt;&lt;/a&gt;注意：这是一个测试博客，无有意义内容&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://songkaiai.github.io/&quot;&gt;主页套娃&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;rororororororororororo[主页套娃](https://songkaiai.github.io/)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;img src=&quot;https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png&quot;&gt;&lt;br&gt;啊巴啊巴&lt;/p&gt;</summary>
+      
+      
+    <summary type="html">&lt;h2 id=&quot;注意：这是一个测试博客，无有意义内容&quot;&gt;&lt;a href=&quot;#注意：这是一个测试博客，无有意义内容&quot; class=&quot;headerlink&quot; title=&quot;注意：这是一个测试博客，无有意义内容&quot;&gt;&lt;/a&gt;注意：这是一个测试博客，无有意义内容&lt;/h2&gt;&lt;p&gt;&lt;a hre</summary>
+      
     
     
     
@@ -59,8 +60,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/09/18/hello-world/"/>
-    <id>http://example.com/2021/09/18/hello-world/</id>
+    <link href="http://https//songkaiai.github.io/2021/09/18/hello-world/"/>
+    <id>http://https//songkaiai.github.io/2021/09/18/hello-world/</id>
     <published>2021-09-17T16:09:46.958Z</published>
     <updated>2021-09-17T16:09:46.958Z</updated>
     
