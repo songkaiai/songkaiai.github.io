@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>songkaiai的博客</title>
   
-  
+  <subtitle>你所热爱的，就是你的生活</subtitle>
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
