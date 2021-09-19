@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>more</title>
+      <link href="/2021/09/19/more/"/>
+      <url>/2021/09/19/more/</url>
+      
+        <content type="html"><![CDATA[<p>摘要</p><span id="more"></span><p>正文</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> text </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于搭建Hexo博客</title>
       <link href="/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
       <url>/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
@@ -23,13 +48,25 @@
     
     
     <entry>
-      <title>TEXT</title>
+      <title>Text</title>
       <link href="/2021/09/18/TEXT/"/>
       <url>/2021/09/18/TEXT/</url>
       
-        <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无有意义内容"><a href="#注意：这是一个测试博客，无有意义内容" class="headerlink" title="注意：这是一个测试博客，无有意义内容"></a>注意：这是一个测试博客，无有意义内容</h2><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>]]></content>
       
       
+      <categories>
+          
+          <category> holy </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
       
     </entry>
     
