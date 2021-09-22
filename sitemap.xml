@@ -67,14 +67,14 @@
 
   
   <url>
-    <loc>https://songkaiai.github.io/tags/Hexo/</loc>
+    <loc>https://songkaiai.github.io/tags/text/</loc>
     <lastmod>2021-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/tags/text/</loc>
+    <loc>https://songkaiai.github.io/tags/Hexo/</loc>
     <lastmod>2021-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -90,14 +90,14 @@
 
   
   <url>
-    <loc>https://songkaiai.github.io/categories/text/</loc>
+    <loc>https://songkaiai.github.io/categories/holy/</loc>
     <lastmod>2021-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/holy/</loc>
+    <loc>https://songkaiai.github.io/categories/text/</loc>
     <lastmod>2021-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
