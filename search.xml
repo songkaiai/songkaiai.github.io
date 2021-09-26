@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Text</title>
+    <url>/2021/09/18/TEXT/</url>
+    <content><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span>
+<p><a href="https://songkaiai.github.io/">主页套娃</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure>
+<p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>
+]]></content>
+      <categories>
+        <category>Text</category>
+      </categories>
+      <tags>
+        <tag>text</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/09/18/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -17,21 +32,6 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Text</title>
-    <url>/2021/09/18/TEXT/</url>
-    <content><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span>
-<p><a href="https://songkaiai.github.io/">主页套娃</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure>
-<p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>
-]]></content>
-      <categories>
-        <category>Text</category>
-      </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
   </entry>
   <entry>
     <title>Read more</title>
@@ -57,6 +57,7 @@
       </categories>
       <tags>
         <tag>diary</tag>
+        <tag>攻防世界</tag>
       </tags>
   </entry>
   <entry>
@@ -80,6 +81,23 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装VMware虚拟机</title>
+    <url>/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
+    <content><![CDATA[<hr>
+<h2 id="1-下载VMware-Workstation-16-Pro虚拟机"><a href="#1-下载VMware-Workstation-16-Pro虚拟机" class="headerlink" title="1.下载VMware Workstation 16 Pro虚拟机"></a>1.下载VMware Workstation 16 Pro虚拟机</h2><p>##官网下载：<br><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></p>
+<span id="more"></span>
+
+<hr>
+<h2 id="2-下载系统文件，例如Linux系统、windows系统"><a href="#2-下载系统文件，例如Linux系统、windows系统" class="headerlink" title="2.下载系统文件，例如Linux系统、windows系统"></a>2.下载系统文件，例如Linux系统、windows系统</h2><p>Linux有很多版本，这里提供常见的一种</p>
+]]></content>
+      <categories>
+        <category>虚拟机</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
       </tags>
   </entry>
 </search>
