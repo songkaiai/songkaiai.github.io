@@ -2004,6 +2004,14 @@ pre code {
   top: 0;
   width: 100%;
 }
+a:not(.btn) {
+  border-bottom: none;
+}
+a:not(.btn):hover {
+  color: #f00;
+  font-weight: bold;
+  text-decoration: underline;
+}
 .post-gallery {
   display: flex;
   min-height: 200px;
