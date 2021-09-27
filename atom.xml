@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-09-26T07:44:52.035Z</updated>
+  <updated>2021-09-27T05:34:26.814Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>去除Next主题博客点击阅读全文后的#more标签</title>
+    <link href="https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/"/>
+    <id>https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/</id>
+    <published>2021-09-27T03:00:42.000Z</published>
+    <updated>2021-09-27T05:34:26.814Z</updated>
+    
+    <content type="html"><![CDATA[<p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p><p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p><p>把代码中的#more删掉就行了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;点击Next主题的产生的 &lt;strong&gt;阅读全文&lt;/strong&gt; 按钮后，进入的文章会打上 &lt;strong&gt;#more标签&lt;/strong&gt;&lt;br&gt;这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分&lt;br&gt;&lt;img src=&quot;h</summary>
+      
+    
+    
+    
+    <category term="Diary" scheme="https://songkaiai.github.io/categories/Diary/"/>
+    
+    
+    <category term="hexo" scheme="https://songkaiai.github.io/tags/hexo/"/>
+    
+    <category term="Next主题" scheme="https://songkaiai.github.io/tags/Next%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>安装VMware虚拟机</title>
@@ -42,7 +68,7 @@
     <link href="https://songkaiai.github.io/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/"/>
     <id>https://songkaiai.github.io/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/</id>
     <published>2021-09-23T05:15:52.000Z</published>
-    <updated>2021-09-26T09:24:00.454Z</updated>
+    <updated>2021-09-27T03:11:26.260Z</updated>
     
     <content type="html"><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><p>在博客根目录右键，点击Git Bash Here，输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><span id="more"></span><p>下载完成能在博客根目录下的 node_moduels 文件夹 中找到 live2d-widget文件夹</p><hr><h1 id="2-下载live2d文件（自己找······）"><a href="#2-下载live2d文件（自己找······）" class="headerlink" title="2.下载live2d文件（自己找······）"></a>2.下载live2d文件（自己找······）</h1><p>下载好之后将所有动画模板拷贝到博客的 node_modules 文件夹里</p><hr><h1 id="3-配置博客根目录下的-config-yml文件（记事本打开就行）"><a href="#3-配置博客根目录下的-config-yml文件（记事本打开就行）" class="headerlink" title="3.配置博客根目录下的_config.yml文件（记事本打开就行）"></a>3.配置博客根目录下的_config.yml文件（记事本打开就行）</h1><p>打开文件，在最后添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-你文件的名字  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right）</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示（要开启就改为true）</span><br></pre></td></tr></table></figure><hr><h1 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h1><p>依次输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>看看本地网站<a href="http://localhost:4000/">http://localhost:4000/</a> 有无显示</p><hr><h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -54,6 +80,8 @@
     
     <category term="Diary" scheme="https://songkaiai.github.io/categories/Diary/"/>
     
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
     
     <category term="hexo" scheme="https://songkaiai.github.io/tags/hexo/"/>
     
@@ -103,6 +131,30 @@
     
     
     <category term="text" scheme="https://songkaiai.github.io/tags/text/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于搭建Hexo博客</title>
+    <link href="https://songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-09-18T01:36:07.000Z</published>
+    <updated>2021-09-27T03:19:19.037Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br><span class="line">！[](网址)                           #在博客中添加图片</span><br><span class="line"></span><br><span class="line">**设置****Description**    **默认**</span><br><span class="line">layout           layout    post 或 page</span><br><span class="line">title           文章标题     文档名</span><br><span class="line">date           创建日期    文档的创建日期</span><br><span class="line">updated           修改日期    文档的修改日期</span><br><span class="line">comment            是否开启评论      true</span><br><span class="line">tags           标签              NULL</span><br><span class="line">categories   分类              NULL</span><br><span class="line">permalink   url 中的名字     文档名</span><br><span class="line">thumbnail   文章缩略图      NULL</span><br><span class="line">banner       文章缩略图&amp;文章首部      NULL</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="Diary" scheme="https://songkaiai.github.io/categories/Diary/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
     
   </entry>
   

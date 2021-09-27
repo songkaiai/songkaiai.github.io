@@ -20,28 +20,31 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"songkaiai.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="一个普通的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="The world! Time has been stopped.">
-<meta property="og:url" content="https://songkaiai.github.io/404.html">
+<meta name="description" content="点击Next主题的产生的 阅读全文 按钮后，进入的文章会打上 #more标签这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分我们只需要打开 \theme\next\layout\ _macro\post.njk(记事本打开就行) 找到代码 a class&#x3D;&quot;btn&quot; href&#x3D;&quot;&amp;#123;&amp;#123; url_for(po">
+<meta property="og:type" content="article">
+<meta property="og:title" content="去除Next主题博客点击阅读全文后的#more标签">
+<meta property="og:url" content="https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/index.html">
 <meta property="og:site_name" content="songkaiai的博客">
-<meta property="og:description" content="一个普通的博客">
+<meta property="og:description" content="点击Next主题的产生的 阅读全文 按钮后，进入的文章会打上 #more标签这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分我们只需要打开 \theme\next\layout\ _macro\post.njk(记事本打开就行) 找到代码 a class&#x3D;&quot;btn&quot; href&#x3D;&quot;&amp;#123;&amp;#123; url_for(po">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-09-22T08:29:11.000Z">
-<meta property="article:modified_time" content="2021-09-22T08:36:45.401Z">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png">
+<meta property="article:published_time" content="2021-09-27T03:00:42.000Z">
+<meta property="article:modified_time" content="2021-09-27T05:34:26.814Z">
 <meta property="article:author" content="songkaiai">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="Next主题">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png">
 
 
-<link rel="canonical" href="https://songkaiai.github.io/404">
+<link rel="canonical" href="https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":true,"permalink":"https://songkaiai.github.io/404.html","path":"/404.html","title":"The world! Time has been stopped."}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/","path":"2021/09/27/去除博客点击阅读全文后的more标签/","title":"去除Next主题博客点击阅读全文后的#more标签"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>The world! Time has been stopped. | songkaiai的博客
-</title>
+<title>去除Next主题博客点击阅读全文后的#more标签 | songkaiai的博客</title>
   
 
 
@@ -210,36 +213,135 @@
 </noscript>
 
 
-    <div class="main-inner page posts-expand">
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
   
   
 
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s3.bmp.ovh/imgs/2021/09/bc14d0dc560bea9a.jpg">
+      <meta itemprop="name" content="songkaiai">
+      <meta itemprop="description" content="一个普通的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="songkaiai的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          去除Next主题博客点击阅读全文后的#more标签
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-09-27 11:00:42 / 修改时间：13:34:26" itemprop="dateCreated datePublished" datetime="2021-09-27T11:00:42+08:00">2021-09-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Diary/" itemprop="url" rel="index"><span itemprop="name">Diary</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Changyan：</span>
     
     
+      <a title="changyan" href="/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/#SOHUCS" itemprop="discussionUrl">
+        <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2021/09/27/去除博客点击阅读全文后的more标签/" itemprop="commentCount"></span>
+      </a>
     
-    <div class="post-block" lang="zh-CN"><header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">The world! Time has been stopped.
-</h1>
-
-<div class="post-meta-container">
+  </span>
+  
+  
 </div>
 
-</header>
+        </div>
+      </header>
 
-      
-      
-      <div class="post-body">
-          
-      </div>
-      
-      
-      
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p>
+<p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p>
+<p>把代码中的#more删掉就行了</p>
+
     </div>
 
     
     
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>给我一瓶矿泉水~</div>
+  <button>
+    帮忙买水
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.png" alt="songkaiai 微信">
+        <span>微信</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+              <a href="/tags/Next%E4%B8%BB%E9%A2%98/" rel="tag"><i class="fa fa-tag"></i> Next主题</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/" rel="prev" title="安装VMware虚拟机">
+                  <i class="fa fa-chevron-left"></i> 安装VMware虚拟机
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
 
 
     <div class="comments" id="SOHUCS"></div>
