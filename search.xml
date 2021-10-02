@@ -142,11 +142,26 @@
 <p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p>
 <p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p>
 <p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p>
+<p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p>
 <p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p>
 <p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>
 ]]></content>
       <categories>
         <category>密码</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>逆向工具下载链接</title>
+    <url>/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</url>
+    <content><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p>
+<p><strong>DIE 查壳工具</strong>：<a href="https://github.com/horsicq/Detect-It-Easy">https://github.com/horsicq/Detect-It-Easy</a></p>
+<p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>
+]]></content>
+      <categories>
+        <category>逆向</category>
       </categories>
       <tags>
         <tag>工具</tag>

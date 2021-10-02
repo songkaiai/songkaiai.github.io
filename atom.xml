@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-10-01T16:25:34.039Z</updated>
+  <updated>2021-10-02T08:27:00.775Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -17,13 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>逆向工具下载链接</title>
+    <link href="https://songkaiai.github.io/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/"/>
+    <id>https://songkaiai.github.io/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</id>
+    <published>2021-10-03T08:06:53.000Z</published>
+    <updated>2021-10-02T08:27:00.775Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p><p><strong>DIE 查壳工具</strong>：<a href="https://github.com/horsicq/Detect-It-Easy">https://github.com/horsicq/Detect-It-Easy</a></p><p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;IDEA编译工具&lt;/strong&gt;：&lt;a href=&quot;https://www.jetbrains.com/zh-cn/idea/download/#section=windows&quot;&gt;https://www.jetbrains.com/zh-cn/idea/d</summary>
+      
+    
+    
+    
+    <category term="逆向" scheme="https://songkaiai.github.io/categories/%E9%80%86%E5%90%91/"/>
+    
+    
+    <category term="工具" scheme="https://songkaiai.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>解密码网站</title>
     <link href="https://songkaiai.github.io/2021/10/01/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/"/>
     <id>https://songkaiai.github.io/2021/10/01/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/</id>
     <published>2021-10-01T03:42:26.000Z</published>
-    <updated>2021-10-01T16:25:34.039Z</updated>
+    <updated>2021-10-02T08:09:29.291Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p><p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p><p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p><p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p><p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p><p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p><p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p><p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p><p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p><p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p><p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p><p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p><p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p><p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p><p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p><p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p><p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p><p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>]]></content>
     
     
       
