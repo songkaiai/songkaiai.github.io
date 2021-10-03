@@ -1,184 +1,276 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Text</title>
-    <url>/2021/09/18/TEXT/</url>
-    <content><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span>
-<p><a href="https://songkaiai.github.io/">主页套娃</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure>
-<p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>逆向工具下载链接</title>
+      <link href="/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/"/>
+      <url>/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</url>
+      
+        <content type="html"><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p><p><strong>DIE 查壳工具</strong>：<a href="https://www.lanzoui.com/iY94aioy7ad">https://www.lanzoui.com/iY94aioy7ad</a></p><p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>]]></content>
+      
+      
       <categories>
-        <category>Text</category>
+          
+          <category> 逆向 </category>
+          
       </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/09/18/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Read more</title>
-    <url>/2021/09/19/more/</url>
-    <content><![CDATA[<p>摘要</p>
-<span id="more"></span>
-<p>正文</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Web工具</title>
+      <link href="/2021/10/02/Web%E5%B7%A5%E5%85%B7/"/>
+      <url>/2021/10/02/Web%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="BurpSuite：自己查-●ˇ∀ˇ●"><a href="#BurpSuite：自己查-●ˇ∀ˇ●" class="headerlink" title="BurpSuite：自己查(●ˇ∀ˇ●)"></a><strong>BurpSuite</strong>：自己查(●ˇ∀ˇ●)</h2><p><strong>中国蚁剑</strong>：核心：<a href="https://github.com/AntSwordProject/antSword">https://github.com/AntSwordProject/antSword</a></p><p><strong>加载器</strong>：<a href="https://github.com/AntSwordProject/AntSword-Loader">https://github.com/AntSwordProject/AntSword-Loader</a></p><p><strong>出错时自己下代码</strong>：<a href="https://github.com/AntSwordProject/AntSword/archive/master.zip">https://github.com/AntSwordProject/AntSword/archive/master.zip</a><br>解压，初始化时选择它</p><h2 id="安装指导：https-zhuanlan-zhihu-com-p-367151320"><a href="#安装指导：https-zhuanlan-zhihu-com-p-367151320" class="headerlink" title="安装指导：https://zhuanlan.zhihu.com/p/367151320"></a><strong>安装指导</strong>：<a href="https://zhuanlan.zhihu.com/p/367151320">https://zhuanlan.zhihu.com/p/367151320</a></h2>]]></content>
+      
+      
       <categories>
-        <category>Text</category>
+          
+          <category> Web </category>
+          
       </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于搭建Hexo博客</title>
-    <url>/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>**<u><a href="https://www.cnblogs.com/huanhao/p/markdown.html">https://www.cnblogs.com/huanhao/p/markdown.html</a></u>**直接看这个</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br><span class="line">！[](网址)                           #在博客中添加图片</span><br><span class="line"></span><br><span class="line">**设置**	**Description**	    **默认**</span><br><span class="line">layout	           layout	    post 或 page</span><br><span class="line">title	           文章标题	     文档名</span><br><span class="line">date	           创建日期	    文档的创建日期</span><br><span class="line">updated	           修改日期	    文档的修改日期</span><br><span class="line">comment            是否开启评论	      true</span><br><span class="line">tags	           标签	              NULL</span><br><span class="line">categories	   分类	              NULL</span><br><span class="line">permalink	   url 中的名字	     文档名</span><br><span class="line">thumbnail	   文章缩略图	      NULL</span><br><span class="line">banner	       文章缩略图&amp;文章首部      NULL</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解密码网站</title>
+      <link href="/2021/10/01/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/"/>
+      <url>/2021/10/01/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p><p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p><p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p><p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p><p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p><p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p><p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p><p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p><p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p><p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> 密码 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初入攻防世界</title>
-    <url>/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/</url>
-    <content><![CDATA[<p><img src="https://songkaiai.github.io/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/image.jpg" alt="初入攻防世界"><br>今天在攻防世界做了几题，慢慢摸索学习中</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>去除Next主题博客点击阅读全文后的#more标签</title>
+      <link href="/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/"/>
+      <url>/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/</url>
+      
+        <content type="html"><![CDATA[<p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p><p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p><p>把代码中的#more删掉就行了</p>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-        <tag>攻防世界</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>去除Next主题博客点击阅读全文后的#more标签</title>
-    <url>/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p>
-<p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p>
-<p>把代码中的#more删掉就行了</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> Next主题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装VMware虚拟机</title>
+      <link href="/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <url>/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-下载VMware-Workstation-16-Pro-虚拟机软件"><a href="#1-下载VMware-Workstation-16-Pro-虚拟机软件" class="headerlink" title="1.下载VMware Workstation 16 Pro 虚拟机软件"></a>1.下载VMware Workstation 16 Pro 虚拟机软件</h1><p><strong>官网下载：</strong><br><u><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></u></p><span id="more"></span><hr><h1 id="2-下载系统文件，例如Linux系统、Windows系统"><a href="#2-下载系统文件，例如Linux系统、Windows系统" class="headerlink" title="2.下载系统文件，例如Linux系统、Windows系统"></a>2.下载系统文件，例如Linux系统、Windows系统</h1><p>Linux有很多版本，这里提供常见的一种: <strong><u><a href="https://cn.ubuntu.com/download/desktop">Ubuntu</a></u></strong> <strong>⬅点击进入</strong><br>Windows也是官网下载</p><hr><h1 id="3-安装刚刚下载的VMware-Workstation-16-Pro"><a href="#3-安装刚刚下载的VMware-Workstation-16-Pro" class="headerlink" title="3.安装刚刚下载的VMware Workstation 16 Pro"></a>3.安装刚刚下载的VMware Workstation 16 Pro</h1><p>打开软件<br>输入许可证以永久使用，网上有，这里给三个：<br>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8</p><hr><h1 id="4-创建新的虚拟机"><a href="#4-创建新的虚拟机" class="headerlink" title="4.创建新的虚拟机"></a>4.创建新的虚拟机</h1><h5 id="1-在VMware-Workstation中点击创建新的虚拟机"><a href="#1-在VMware-Workstation中点击创建新的虚拟机" class="headerlink" title="1.在VMware Workstation中点击创建新的虚拟机"></a>1.在VMware Workstation中点击创建新的虚拟机</h5><h5 id="2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步"><a href="#2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步" class="headerlink" title="2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步"></a>2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步</h5><h5 id="3-设置个性化Linux，随便"><a href="#3-设置个性化Linux，随便" class="headerlink" title="3.设置个性化Linux，随便"></a>3.设置个性化Linux，随便</h5><h5 id="4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）"><a href="#4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）" class="headerlink" title="4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）"></a>4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）</h5><h5 id="5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"><a href="#5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法" class="headerlink" title="5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"></a>5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法</h5><h5 id="6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html"><a href="#6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html" class="headerlink" title="6.改成中文，图文讲解：https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html"></a>6.改成中文，图文讲解：<u><a href="https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html">https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html</a></u></h5>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> 虚拟机 </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Next主题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在Hexo博客中添加桌宠（live2D）</title>
-    <url>/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><p>在博客根目录右键，点击Git Bash Here，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<p>下载完成能在博客根目录下的 node_moduels 文件夹 中找到 live2d-widget文件夹</p>
-<hr>
-<h1 id="2-下载live2d文件（自己找······）"><a href="#2-下载live2d文件（自己找······）" class="headerlink" title="2.下载live2d文件（自己找······）"></a>2.下载live2d文件（自己找······）</h1><p>下载好之后将所有动画模板拷贝到博客的 node_modules 文件夹里</p>
-<hr>
-<h1 id="3-配置博客根目录下的-config-yml文件（记事本打开就行）"><a href="#3-配置博客根目录下的-config-yml文件（记事本打开就行）" class="headerlink" title="3.配置博客根目录下的_config.yml文件（记事本打开就行）"></a>3.配置博客根目录下的_config.yml文件（记事本打开就行）</h1><p>打开文件，在最后添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-你文件的名字  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right）</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示（要开启就改为true）</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h1><p>依次输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>看看本地网站<a href="http://localhost:4000/">http://localhost:4000/</a> 有无显示</p>
-<hr>
-<h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在Hexo博客中添加桌宠（live2D）</title>
+      <link href="/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/"/>
+      <url>/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><p>在博客根目录右键，点击Git Bash Here，输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><span id="more"></span><p>下载完成能在博客根目录下的 node_moduels 文件夹 中找到 live2d-widget文件夹</p><hr><h1 id="2-下载live2d文件（自己找······）"><a href="#2-下载live2d文件（自己找······）" class="headerlink" title="2.下载live2d文件（自己找······）"></a>2.下载live2d文件（自己找······）</h1><p>下载好之后将所有动画模板拷贝到博客的 node_modules 文件夹里</p><hr><h1 id="3-配置博客根目录下的-config-yml文件（记事本打开就行）"><a href="#3-配置博客根目录下的-config-yml文件（记事本打开就行）" class="headerlink" title="3.配置博客根目录下的_config.yml文件（记事本打开就行）"></a>3.配置博客根目录下的_config.yml文件（记事本打开就行）</h1><p>打开文件，在最后添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-你文件的名字  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right）</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示（要开启就改为true）</span><br></pre></td></tr></table></figure><hr><h1 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h1><p>依次输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>看看本地网站<a href="http://localhost:4000/">http://localhost:4000/</a> 有无显示</p><hr><h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装VMware虚拟机</title>
-    <url>/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
-    <content><![CDATA[<h1 id="1-下载VMware-Workstation-16-Pro-虚拟机软件"><a href="#1-下载VMware-Workstation-16-Pro-虚拟机软件" class="headerlink" title="1.下载VMware Workstation 16 Pro 虚拟机软件"></a>1.下载VMware Workstation 16 Pro 虚拟机软件</h1><p><strong>官网下载：</strong><br><u><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></u></p>
-<span id="more"></span>
-<hr>
-<h1 id="2-下载系统文件，例如Linux系统、Windows系统"><a href="#2-下载系统文件，例如Linux系统、Windows系统" class="headerlink" title="2.下载系统文件，例如Linux系统、Windows系统"></a>2.下载系统文件，例如Linux系统、Windows系统</h1><p>Linux有很多版本，这里提供常见的一种: <strong><u><a href="https://cn.ubuntu.com/download/desktop">Ubuntu</a></u></strong> <strong>⬅点击进入</strong><br>Windows也是官网下载</p>
-<hr>
-<h1 id="3-安装刚刚下载的VMware-Workstation-16-Pro"><a href="#3-安装刚刚下载的VMware-Workstation-16-Pro" class="headerlink" title="3.安装刚刚下载的VMware Workstation 16 Pro"></a>3.安装刚刚下载的VMware Workstation 16 Pro</h1><p>打开软件<br>输入许可证以永久使用，网上有，这里给三个：<br>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8</p>
-<hr>
-<h1 id="4-创建新的虚拟机"><a href="#4-创建新的虚拟机" class="headerlink" title="4.创建新的虚拟机"></a>4.创建新的虚拟机</h1><h5 id="1-在VMware-Workstation中点击创建新的虚拟机"><a href="#1-在VMware-Workstation中点击创建新的虚拟机" class="headerlink" title="1.在VMware Workstation中点击创建新的虚拟机"></a>1.在VMware Workstation中点击创建新的虚拟机</h5><h5 id="2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步"><a href="#2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步" class="headerlink" title="2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步"></a>2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步</h5><h5 id="3-设置个性化Linux，随便"><a href="#3-设置个性化Linux，随便" class="headerlink" title="3.设置个性化Linux，随便"></a>3.设置个性化Linux，随便</h5><h5 id="4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）"><a href="#4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）" class="headerlink" title="4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）"></a>4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）</h5><h5 id="5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"><a href="#5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法" class="headerlink" title="5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"></a>5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法</h5><h5 id="6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html"><a href="#6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html" class="headerlink" title="6.改成中文，图文讲解：https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html"></a>6.改成中文，图文讲解：<u><a href="https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html">https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html</a></u></h5>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初入攻防世界</title>
+      <link href="/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/"/>
+      <url>/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://songkaiai.github.io/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/image.jpg" alt="初入攻防世界"><br>今天在攻防世界做了几题，慢慢摸索学习中</p>]]></content>
+      
+      
       <categories>
-        <category>虚拟机</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解密码网站</title>
-    <url>/2021/10/01/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p>
-<p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p>
-<p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p>
-<p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p>
-<p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p>
-<p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p>
-<p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p>
-<p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p>
-<p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p>
-<p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+            <tag> 攻防世界 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Read more</title>
+      <link href="/2021/09/19/more/"/>
+      <url>/2021/09/19/more/</url>
+      
+        <content type="html"><![CDATA[<p>摘要</p><span id="more"></span><p>正文</p>]]></content>
+      
+      
       <categories>
-        <category>密码</category>
+          
+          <category> Text </category>
+          
       </categories>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>逆向工具下载链接</title>
-    <url>/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</url>
-    <content><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p>
-<p><strong>DIE 查壳工具</strong>：<a href="https://github.com/horsicq/Detect-It-Easy">https://github.com/horsicq/Detect-It-Easy</a></p>
-<p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于搭建Hexo博客</title>
+      <link href="/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>**<u><a href="https://www.cnblogs.com/huanhao/p/markdown.html">https://www.cnblogs.com/huanhao/p/markdown.html</a></u>**直接看这个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br><span class="line">！[](网址)                           #在博客中添加图片</span><br><span class="line"></span><br><span class="line">**设置****Description**    **默认**</span><br><span class="line">layout           layout    post 或 page</span><br><span class="line">title           文章标题     文档名</span><br><span class="line">date           创建日期    文档的创建日期</span><br><span class="line">updated           修改日期    文档的修改日期</span><br><span class="line">comment            是否开启评论      true</span><br><span class="line">tags           标签              NULL</span><br><span class="line">categories   分类              NULL</span><br><span class="line">permalink   url 中的名字     文档名</span><br><span class="line">thumbnail   文章缩略图      NULL</span><br><span class="line">banner       文章缩略图&amp;文章首部      NULL</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>逆向</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web工具</title>
-    <url>/2021/10/02/Web%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<h2 id="BurpSuite：自己查-●ˇ∀ˇ●"><a href="#BurpSuite：自己查-●ˇ∀ˇ●" class="headerlink" title="BurpSuite：自己查(●ˇ∀ˇ●)"></a><strong>BurpSuite</strong>：自己查(●ˇ∀ˇ●)</h2><p><strong>中国蚁剑</strong>：核心：<a href="https://github.com/AntSwordProject/antSword">https://github.com/AntSwordProject/antSword</a></p>
-<p><strong>加载器</strong>：<a href="https://github.com/AntSwordProject/AntSword-Loader">https://github.com/AntSwordProject/AntSword-Loader</a></p>
-<p><strong>出错时自己下代码</strong>：<a href="https://github.com/AntSwordProject/AntSword/archive/master.zip">https://github.com/AntSwordProject/AntSword/archive/master.zip</a><br>解压，初始化时选择它</p>
-<h2 id="安装指导：https-zhuanlan-zhihu-com-p-367151320"><a href="#安装指导：https-zhuanlan-zhihu-com-p-367151320" class="headerlink" title="安装指导：https://zhuanlan.zhihu.com/p/367151320"></a><strong>安装指导</strong>：<a href="https://zhuanlan.zhihu.com/p/367151320">https://zhuanlan.zhihu.com/p/367151320</a></h2>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Text</title>
+      <link href="/2021/09/18/TEXT/"/>
+      <url>/2021/09/18/TEXT/</url>
+      
+        <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>]]></content>
+      
+      
       <categories>
-        <category>Web</category>
+          
+          <category> Text </category>
+          
       </categories>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2021/09/18/hello-world/"/>
+      <url>/2021/09/18/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
