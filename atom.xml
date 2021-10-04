@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-10-02T10:57:35.741Z</updated>
+  <updated>2021-10-04T09:05:37.885Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>逆向工具下载链接</title>
-    <link href="https://songkaiai.github.io/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/"/>
-    <id>https://songkaiai.github.io/2021/10/03/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</id>
-    <published>2021-10-03T08:06:53.000Z</published>
-    <updated>2021-10-02T10:57:35.741Z</updated>
+    <link href="https://songkaiai.github.io/2021/10/04/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/"/>
+    <id>https://songkaiai.github.io/2021/10/04/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</id>
+    <published>2021-10-04T13:06:53.000Z</published>
+    <updated>2021-10-04T09:05:37.885Z</updated>
     
     <content type="html"><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p><p><strong>DIE 查壳工具</strong>：<a href="https://www.lanzoui.com/iY94aioy7ad">https://www.lanzoui.com/iY94aioy7ad</a></p><p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>]]></content>
     
@@ -42,10 +42,10 @@
   
   <entry>
     <title>Web工具</title>
-    <link href="https://songkaiai.github.io/2021/10/02/Web%E5%B7%A5%E5%85%B7/"/>
-    <id>https://songkaiai.github.io/2021/10/02/Web%E5%B7%A5%E5%85%B7/</id>
-    <published>2021-10-02T10:16:20.000Z</published>
-    <updated>2021-10-02T10:23:29.100Z</updated>
+    <link href="https://songkaiai.github.io/2021/10/04/Web%E5%B7%A5%E5%85%B7/"/>
+    <id>https://songkaiai.github.io/2021/10/04/Web%E5%B7%A5%E5%85%B7/</id>
+    <published>2021-10-04T10:16:20.000Z</published>
+    <updated>2021-10-04T09:05:18.435Z</updated>
     
     <content type="html"><![CDATA[<h2 id="BurpSuite：自己查-●ˇ∀ˇ●"><a href="#BurpSuite：自己查-●ˇ∀ˇ●" class="headerlink" title="BurpSuite：自己查(●ˇ∀ˇ●)"></a><strong>BurpSuite</strong>：自己查(●ˇ∀ˇ●)</h2><p><strong>中国蚁剑</strong>：核心：<a href="https://github.com/AntSwordProject/antSword">https://github.com/AntSwordProject/antSword</a></p><p><strong>加载器</strong>：<a href="https://github.com/AntSwordProject/AntSword-Loader">https://github.com/AntSwordProject/AntSword-Loader</a></p><p><strong>出错时自己下代码</strong>：<a href="https://github.com/AntSwordProject/AntSword/archive/master.zip">https://github.com/AntSwordProject/AntSword/archive/master.zip</a><br>解压，初始化时选择它</p><h2 id="安装指导：https-zhuanlan-zhihu-com-p-367151320"><a href="#安装指导：https-zhuanlan-zhihu-com-p-367151320" class="headerlink" title="安装指导：https://zhuanlan.zhihu.com/p/367151320"></a><strong>安装指导</strong>：<a href="https://zhuanlan.zhihu.com/p/367151320">https://zhuanlan.zhihu.com/p/367151320</a></h2>]]></content>
     
