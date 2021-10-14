@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-10-09T05:19:39.357Z</updated>
+  <updated>2021-10-14T08:57:15.168Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -17,16 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>安装虚拟机后本机WIFI无法使用</title>
+    <link href="https://songkaiai.github.io/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/"/>
+    <id>https://songkaiai.github.io/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/</id>
+    <published>2021-10-14T08:42:31.000Z</published>
+    <updated>2021-10-14T08:57:15.168Z</updated>
+    
+    <content type="html"><![CDATA[<p>推优会回来，打开电脑，WIFI消失了，十分难过。</p><p>右键此电脑，点击管理-&gt;设备管理器-&gt;网络适配器<br>怒斥网卡：“李在干什么？”</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/1192c186784718a9.png"><br>网卡回答：“代码56”</p><p>搜索一番便找到了解决方法，下载 Ccleaner 👉<strong><a href="https://www.ccleaner.com/download">https://www.ccleaner.com/download</a></strong><br>用它恢复注册表，重启电脑，就行了······<br>指导你使用👉 <strong><a href="https://www.pianshen.com/article/7279702665/">https://www.pianshen.com/article/7279702665/</a></strong></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;推优会回来，打开电脑，WIFI消失了，十分难过。&lt;/p&gt;
+&lt;p&gt;右键此电脑，点击管理-&amp;gt;设备管理器-&amp;gt;网络适配器&lt;br&gt;怒斥网卡：“李在干什么？”&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="虚拟机" scheme="https://songkaiai.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
     <title>攻防世界三新手区</title>
     <link href="https://songkaiai.github.io/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/"/>
     <id>https://songkaiai.github.io/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/</id>
     <published>2021-10-11T05:11:23.000Z</published>
-    <updated>2021-10-09T05:19:39.357Z</updated>
+    <updated>2021-10-14T08:58:17.671Z</updated>
     
-    <content type="html"><![CDATA[<p>通过三个项目的新手区</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/4add7864bfa002a1.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/673def85978dd43f.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/852a2aa5d94563ff.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>通过三个项目的新手</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/4add7864bfa002a1.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/673def85978dd43f.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/852a2aa5d94563ff.png"></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;通过三个项目的新手区&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;通过三个项目的新手&lt;/p&gt;</summary>
     
     
     
