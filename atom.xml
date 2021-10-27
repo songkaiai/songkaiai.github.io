@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-10-27T15:19:04.374Z</updated>
+  <updated>2021-10-27T15:23:37.830Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://songkaiai.github.io/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/"/>
     <id>https://songkaiai.github.io/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/</id>
     <published>2021-10-27T15:17:35.000Z</published>
-    <updated>2021-10-27T15:19:04.374Z</updated>
+    <updated>2021-10-27T15:23:37.830Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">float n,x,k,t,i,d,result;</span><br><span class="line">printf(&quot;分别输入n和x:&quot;);</span><br><span class="line">scanf(&quot;%f%f&quot;,&amp;n,&amp;x);</span><br><span class="line">  for(result=1,k=1,t=1,i=1,d=1;t&lt;=n;t++)&#123;</span><br><span class="line">   i=i*x;</span><br><span class="line">     result=result+i/k;</span><br><span class="line">     k=k*(d+1);</span><br><span class="line">     d++;</span><br><span class="line">  &#125;</span><br><span class="line"> printf(&quot;e的%f次方=%f&quot;,x,result);</span><br><span class="line">return 0; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">      float n,x,k,t,i,d,result;</span><br><span class="line">printf(&quot;分别输入n和x:&quot;);</span><br><span class="line">scanf(&quot;%f%f&quot;,&amp;n,&amp;x);</span><br><span class="line">  for(result=1,k=1,t=1,i=1,d=1;t&lt;=n;t++)&#123;</span><br><span class="line">     i=i*x;</span><br><span class="line">     result=result+i/k;</span><br><span class="line">     k=k*(d+1);</span><br><span class="line">     d++;</span><br><span class="line">  &#125;</span><br><span class="line"> printf(&quot;e的%f次方=%f&quot;,x,result);</span><br><span class="line"> return 0; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
     
     
       
