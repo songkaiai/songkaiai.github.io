@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-10-27T15:23:37.830Z</updated>
+  <updated>2021-10-31T11:57:28.386Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>输入一行字符，分别统计出其中英文字母 空格 数字和其他字符的个数</title>
+    <link href="https://songkaiai.github.io/2021/10/31/%E8%BE%93%E5%85%A5%E4%B8%80%E8%A1%8C%E5%AD%97%E7%AC%A6%EF%BC%8C%E5%88%86%E5%88%AB%E7%BB%9F%E8%AE%A1%E5%87%BA%E5%85%B6%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D-%E7%A9%BA%E6%A0%BC-%E6%95%B0%E5%AD%97%E5%92%8C%E5%85%B6%E4%BB%96%E5%AD%97%E7%AC%A6%E7%9A%84%E4%B8%AA%E6%95%B0/"/>
+    <id>https://songkaiai.github.io/2021/10/31/%E8%BE%93%E5%85%A5%E4%B8%80%E8%A1%8C%E5%AD%97%E7%AC%A6%EF%BC%8C%E5%88%86%E5%88%AB%E7%BB%9F%E8%AE%A1%E5%87%BA%E5%85%B6%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D-%E7%A9%BA%E6%A0%BC-%E6%95%B0%E5%AD%97%E5%92%8C%E5%85%B6%E4%BB%96%E5%AD%97%E7%AC%A6%E7%9A%84%E4%B8%AA%E6%95%B0/</id>
+    <published>2021-10-31T11:54:02.000Z</published>
+    <updated>2021-10-31T11:57:28.386Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line"> char c;</span><br><span class="line"> int letters=0,space=0,digit=0,other=0;</span><br><span class="line"> printf(&quot;请输入一行字符：&quot;);</span><br><span class="line"> while ((c=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">  if (c&gt;=&#x27;a&#x27;&amp;&amp;c&lt;=&#x27;z&#x27;||c&gt;=&#x27;A&#x27;&amp;&amp;c&lt;=&#x27;Z&#x27;)</span><br><span class="line">   letters++;</span><br><span class="line">  else if (c==&#x27; &#x27;)</span><br><span class="line">   space++;</span><br><span class="line">  else if (c&gt;=&#x27;0&#x27;&amp;&amp;c&lt;=&#x27;9&#x27;)</span><br><span class="line">   digit++;</span><br><span class="line">  else </span><br><span class="line">   other++;</span><br><span class="line"> &#125;</span><br><span class="line"> printf(&quot;字母数:%d\n空格数:%d\n数字数:%d\n其他字符:%d\n&quot;,letters,space,digit,other);</span><br><span class="line"> return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>求e的x次方</title>
