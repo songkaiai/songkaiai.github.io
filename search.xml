@@ -249,4 +249,15 @@
         <tag>diary</tag>
       </tags>
   </entry>
+  <entry>
+    <title>随机某月有多少天</title>
+    <url>/2021/11/03/%E9%9A%8F%E6%9C%BA%E6%9F%90%E6%9C%88%E6%9C%89%E5%A4%9A%E5%B0%91%E5%A4%A9/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;int y,m,d;</span><br><span class="line">	printf(&quot;分别输入年和月:&quot;);</span><br><span class="line">	scanf(&quot;%d%d&quot;,&amp;y,&amp;m);</span><br><span class="line">	switch(m)&#123;</span><br><span class="line">	    case 1: </span><br><span class="line">        case 3: </span><br><span class="line">        case 5: </span><br><span class="line">        case 7: </span><br><span class="line">        case 8: </span><br><span class="line">        case 10: </span><br><span class="line">        case 12:</span><br><span class="line">            d=31;break;</span><br><span class="line">        case 4:</span><br><span class="line">        case 6:</span><br><span class="line">        case 9:</span><br><span class="line">        case 11:</span><br><span class="line">            d=30;break;</span><br><span class="line">        case 2:</span><br><span class="line">        	d=28;if (y%4==0 &amp; y%100!=0 || y%400==0)</span><br><span class="line">                     d=29;</span><br><span class="line">        default:printf(&quot;输入错误，结果为0天！&quot;) ;</span><br><span class="line">	&#125; </span><br><span class="line">    printf(&quot;%d年%d月有%d天&quot;,y,m,d);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
 </search>
