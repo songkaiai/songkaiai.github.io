@@ -260,4 +260,15 @@
         <tag>diary</tag>
       </tags>
   </entry>
+  <entry>
+    <title>取高低四位</title>
+    <url>/2021/11/07/%E5%8F%96%E9%AB%98%E4%BD%8E%E5%9B%9B%E4%BD%8D/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">    unsigned int y;</span><br><span class="line">    y=32767;  //其实这个数只要保证右边4位全1,结果就是15,</span><br><span class="line">    y&lt;&lt;=sizeof(int)*8-4;</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;右4位: %d\n&quot;,y);//  结果为15</span><br><span class="line">    y=-32768;//这个数只要是负数,那么结果应该&gt;=8</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;左4位: %d\n&quot;,y); // 结果为15</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
 </search>

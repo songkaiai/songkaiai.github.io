@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-11-03T14:02:43.296Z</updated>
+  <updated>2021-11-07T03:23:19.929Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>取高低四位</title>
+    <link href="https://songkaiai.github.io/2021/11/07/%E5%8F%96%E9%AB%98%E4%BD%8E%E5%9B%9B%E4%BD%8D/"/>
+    <id>https://songkaiai.github.io/2021/11/07/%E5%8F%96%E9%AB%98%E4%BD%8E%E5%9B%9B%E4%BD%8D/</id>
+    <published>2021-11-07T03:18:24.000Z</published>
+    <updated>2021-11-07T03:23:19.929Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">    unsigned int y;</span><br><span class="line">    y=32767;  //其实这个数只要保证右边4位全1,结果就是15,</span><br><span class="line">    y&lt;&lt;=sizeof(int)*8-4;</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;右4位: %d\n&quot;,y);//  结果为15</span><br><span class="line">    y=-32768;//这个数只要是负数,那么结果应该&gt;=8</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;左4位: %d\n&quot;,y); // 结果为15</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>随机某月有多少天</title>
