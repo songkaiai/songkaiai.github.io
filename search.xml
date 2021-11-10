@@ -271,4 +271,15 @@
         <tag>diary</tag>
       </tags>
   </entry>
+  <entry>
+    <title>16进制转8和10无符号整数</title>
+    <url>/2021/11/10/16%E8%BF%9B%E5%88%B6%E8%BD%AC8%E5%92%8C10/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a;</span><br><span class="line">     scanf(&quot;%x&quot;,&amp;a);</span><br><span class="line">printf(&quot;%o %u&quot;,a,a);</span><br><span class="line">return 0;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
 </search>
