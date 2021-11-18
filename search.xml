@@ -83,7 +83,7 @@
 <p>把代码中的#more删掉就行了</p>
 ]]></content>
       <categories>
-        <category>Diary</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>hexo</tag>
@@ -122,10 +122,9 @@
 <hr>
 <h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>Diary</category>
+        <category>Live2D</category>
       </categories>
       <tags>
-        <tag>diary</tag>
         <tag>hexo</tag>
       </tags>
   </entry>
