@@ -200,6 +200,13 @@
 
   
   <url>
+    <loc>https://songkaiai.github.io/tags/diary/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://songkaiai.github.io/tags/text/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
@@ -208,13 +215,6 @@
   
   <url>
     <loc>https://songkaiai.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://songkaiai.github.io/tags/diary/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -244,14 +244,21 @@
 
   
   <url>
-    <loc>https://songkaiai.github.io/categories/Text/</loc>
+    <loc>https://songkaiai.github.io/categories/%E5%AF%86%E7%A0%81/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/Web/</loc>
+    <loc>https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://songkaiai.github.io/categories/Text/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -265,28 +272,7 @@
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://songkaiai.github.io/categories/%E5%AF%86%E7%A0%81/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://songkaiai.github.io/categories/%E9%80%86%E5%90%91/</loc>
-    <lastmod>2021-11-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://songkaiai.github.io/categories/Web/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -301,6 +287,20 @@
   
   <url>
     <loc>https://songkaiai.github.io/categories/Live2D/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://songkaiai.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <lastmod>2021-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://songkaiai.github.io/categories/%E9%80%86%E5%90%91/</loc>
     <lastmod>2021-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
