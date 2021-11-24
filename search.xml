@@ -330,4 +330,15 @@
         <tag>diary</tag>
       </tags>
   </entry>
+  <entry>
+    <title>生成随机数</title>
+    <url>/2021/11/24/%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line">#include &lt;time.h&gt;</span><br><span class="line">int main()&#123;</span><br><span class="line">srand((unsigned int)time(0));//初始化种子为随机值</span><br><span class="line">int i,n,num;</span><br><span class="line">    printf(&quot;生成几个随机数？我认为是:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">         for(i=0;i&lt;n;i++)&#123;</span><br><span class="line">             num = rand() % 40 + 41;//产生一个41~80之间的数</span><br><span class="line">             printf(&quot;%d &quot;,num);</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
+      <tags>
+        <tag>随机数</tag>
+      </tags>
+  </entry>
 </search>

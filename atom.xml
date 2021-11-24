@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-11-22T12:37:02.133Z</updated>
+  <updated>2021-11-24T14:35:32.116Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生成随机数</title>
+    <link href="https://songkaiai.github.io/2021/11/24/%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/"/>
+    <id>https://songkaiai.github.io/2021/11/24/%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/</id>
+    <published>2021-11-24T14:34:51.000Z</published>
+    <updated>2021-11-24T14:35:32.116Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line">#include &lt;time.h&gt;</span><br><span class="line">int main()&#123;</span><br><span class="line">srand((unsigned int)time(0));//初始化种子为随机值</span><br><span class="line">int i,n,num;</span><br><span class="line">    printf(&quot;生成几个随机数？我认为是:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">         for(i=0;i&lt;n;i++)&#123;</span><br><span class="line">             num = rand() % 40 + 41;//产生一个41~80之间的数</span><br><span class="line">             printf(&quot;%d &quot;,num);</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="随机数" scheme="https://songkaiai.github.io/tags/%E9%9A%8F%E6%9C%BA%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>简单布尔盲注</title>
@@ -456,31 +480,6 @@
     
     
     <category term="text" scheme="https://songkaiai.github.io/tags/text/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于搭建Hexo博客</title>
-    <link href="https://songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://songkaiai.github.io/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</id>
-    <published>2021-09-18T01:36:07.000Z</published>
-    <updated>2021-11-18T15:52:23.269Z</updated>
-    
-    <content type="html"><![CDATA[<p>**<u><a href="https://www.cnblogs.com/huanhao/p/markdown.html">https://www.cnblogs.com/huanhao/p/markdown.html</a></u>**直接看这个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br><span class="line">！[](网址)                           #在博客中添加图片</span><br><span class="line"></span><br><span class="line">**设置****Description**    **默认**</span><br><span class="line">layout           layout    post 或 page</span><br><span class="line">title           文章标题     文档名</span><br><span class="line">date           创建日期    文档的创建日期</span><br><span class="line">updated           修改日期    文档的修改日期</span><br><span class="line">comment            是否开启评论      true</span><br><span class="line">tags           标签              NULL</span><br><span class="line">categories   分类              NULL</span><br><span class="line">permalink   url 中的名字     文档名</span><br><span class="line">thumbnail   文章缩略图      NULL</span><br><span class="line">banner       文章缩略图&amp;文章首部      NULL</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;**&lt;u&gt;&lt;a href=&quot;https://www.cnblogs.com/huanhao/p/markdown.html&quot;&gt;https://www.cnblogs.com/huanhao/p/markdown.html&lt;/a&gt;&lt;/u&gt;**直接看这个&lt;/p&gt;
-&lt;figure</summary>
-      
-    
-    
-    
-    <category term="Diary" scheme="https://songkaiai.github.io/categories/Diary/"/>
-    
-    
-    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
     
   </entry>
   
