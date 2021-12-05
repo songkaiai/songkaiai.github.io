@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-12-01T10:46:06.528Z</updated>
+  <updated>2021-12-05T11:45:33.629Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>找中位数</title>
+    <link href="https://songkaiai.github.io/2021/12/05/%E6%89%BE%E4%B8%AD%E4%BD%8D%E6%95%B0/"/>
+    <id>https://songkaiai.github.io/2021/12/05/%E6%89%BE%E4%B8%AD%E4%BD%8D%E6%95%B0/</id>
+    <published>2021-12-05T11:44:41.000Z</published>
+    <updated>2021-12-05T11:45:33.629Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">int n,i,j,t;</span><br><span class="line">float a[1000],num;</span><br><span class="line">scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">scanf(&quot;%f&quot;,&amp;a[i]);</span><br><span class="line">for(j=0;j&lt;n;j++)</span><br><span class="line">for(i=j;i&lt;n;i++)</span><br><span class="line">if(a[i]&lt;a[j])</span><br><span class="line">t=a[j],</span><br><span class="line">a[j]=a[i],</span><br><span class="line">a[i]=t;</span><br><span class="line">if(n%2!=0)</span><br><span class="line">num=a[(n-1)/2];</span><br><span class="line">else</span><br><span class="line">num=(a[n/2]+a[n/2-1])/2;</span><br><span class="line">printf(&quot;%.1f&quot;,num);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>黑盾杯预赛结果</title>
@@ -458,28 +480,6 @@
     
     
     <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在Hexo博客中添加桌宠（live2D）</title>
-    <link href="https://songkaiai.github.io/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/"/>
-    <id>https://songkaiai.github.io/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/</id>
-    <published>2021-09-23T05:15:52.000Z</published>
-    <updated>2021-11-18T15:40:07.725Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><p>在博客根目录右键，点击Git Bash Here，输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><span id="more"></span><p>下载完成能在博客根目录下的 node_moduels 文件夹 中找到 live2d-widget文件夹</p><hr><h1 id="2-下载live2d文件（自己找······）"><a href="#2-下载live2d文件（自己找······）" class="headerlink" title="2.下载live2d文件（自己找······）"></a>2.下载live2d文件（自己找······）</h1><p>下载好之后将所有动画模板拷贝到博客的 node_modules 文件夹里</p><hr><h1 id="3-配置博客根目录下的-config-yml文件（记事本打开就行）"><a href="#3-配置博客根目录下的-config-yml文件（记事本打开就行）" class="headerlink" title="3.配置博客根目录下的_config.yml文件（记事本打开就行）"></a>3.配置博客根目录下的_config.yml文件（记事本打开就行）</h1><p>打开文件，在最后添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-你文件的名字  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right）</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示（要开启就改为true）</span><br></pre></td></tr></table></figure><hr><h1 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h1><p>依次输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>看看本地网站<a href="http://localhost:4000/">http://localhost:4000/</a> 有无显示</p><hr><h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;1-安装插件&quot;&gt;&lt;a href=&quot;#1-安装插件&quot; class=&quot;headerlink&quot; title=&quot;1.安装插件&quot;&gt;&lt;/a&gt;1.安装插件&lt;/h1&gt;&lt;p&gt;在博客根目录右键，点击Git Bash Here，输入&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install --save hexo-helper-live2d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="Live2D" scheme="https://songkaiai.github.io/categories/Live2D/"/>
-    
-    
-    <category term="hexo" scheme="https://songkaiai.github.io/tags/hexo/"/>
     
   </entry>
   
