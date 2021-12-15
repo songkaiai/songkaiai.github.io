@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-12-08T06:05:06.091Z</updated>
+  <updated>2021-12-15T10:22:01.147Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>求最小公倍数</title>
+    <link href="https://songkaiai.github.io/2021/12/15/%E6%B1%82%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/"/>
+    <id>https://songkaiai.github.io/2021/12/15/%E6%B1%82%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</id>
+    <published>2021-12-15T10:21:10.000Z</published>
+    <updated>2021-12-15T10:22:01.147Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line">int main() </span><br><span class="line">&#123; int Gcd(int,int); </span><br><span class="line">int m,n; </span><br><span class="line">scanf(&quot;%d%d&quot;,&amp;m,&amp;n); </span><br><span class="line">printf(&quot;%d&quot;,m*n/Gcd(m,n)); </span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Gcd(int x,int y) </span><br><span class="line">&#123; </span><br><span class="line">int r; </span><br><span class="line">r=x%y; </span><br><span class="line"> while (r!=0)&#123; </span><br><span class="line">  x=y; </span><br><span class="line">  y=r; </span><br><span class="line">  r=x%y; </span><br><span class="line"> &#125; </span><br><span class="line">return y; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>凯撒密码C语言代码</title>
+    <link href="https://songkaiai.github.io/2021/12/12/%E5%87%AF%E6%92%92%E5%AF%86%E7%A0%81C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/"/>
+    <id>https://songkaiai.github.io/2021/12/12/%E5%87%AF%E6%92%92%E5%AF%86%E7%A0%81C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/</id>
+    <published>2021-12-12T04:19:26.000Z</published>
+    <updated>2021-12-15T10:22:14.044Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main ()</span><br><span class="line">&#123;</span><br><span class="line">int i=0,j,k,key;</span><br><span class="line">char c,a[100];</span><br><span class="line">scanf(&quot;%d &quot;,&amp;key);</span><br><span class="line">while((a[i]=getchar())!=&#x27;\n&#x27;)</span><br><span class="line">i++;</span><br><span class="line"></span><br><span class="line">for(j=0;j&lt;i;j++)</span><br><span class="line">if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27; || a[j]&gt;=&#x27;a&#x27;&amp;&amp;a[j]&lt;=&#x27;z&#x27;)&#123;</span><br><span class="line">if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27;)&#123;</span><br><span class="line">if(a[j]+key%26&gt;&#x27;Z&#x27;)</span><br><span class="line">a[j]+=key%26-26;</span><br><span class="line">else</span><br><span class="line">a[j]+=key%26;</span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line">if(a[j]+key%26&gt;&#x27;z&#x27;)</span><br><span class="line">a[j]+=key%26-26;</span><br><span class="line">else</span><br><span class="line">a[j]+=key%26;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for(j=0;j&lt;i;j++)</span><br><span class="line">printf(&quot;%c&quot;,a[j]);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>矩阵各列从大到小排序</title>
@@ -432,57 +476,6 @@
     
     
     <category term="工具" scheme="https://songkaiai.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解密码网站</title>
-    <link href="https://songkaiai.github.io/2021/10/03/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/"/>
-    <id>https://songkaiai.github.io/2021/10/03/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/</id>
-    <published>2021-10-03T03:42:26.000Z</published>
-    <updated>2021-10-09T05:15:46.407Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p><p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p><p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p><p><strong>ASCII解码，转进制</strong>：<a href="http://www.ab126.com/goju/1711.html">http://www.ab126.com/goju/1711.html</a></p><p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p><p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p><p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p><p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p><p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p><p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p><p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Base64&lt;/strong&gt;：&lt;a href=&quot;https://tool.ip138.com/base64/&quot;&gt;https://tool.ip138.com/base64/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;凯撒密码&lt;/strong&gt;：&lt;a href=</summary>
-      
-    
-    
-    
-    <category term="密码" scheme="https://songkaiai.github.io/categories/%E5%AF%86%E7%A0%81/"/>
-    
-    
-    <category term="工具" scheme="https://songkaiai.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>去除Next主题博客点击阅读全文后的#more标签</title>
-    <link href="https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/"/>
-    <id>https://songkaiai.github.io/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/</id>
-    <published>2021-09-27T03:00:42.000Z</published>
-    <updated>2021-11-18T15:40:54.940Z</updated>
-    
-    <content type="html"><![CDATA[<p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p><p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p><p>把代码中的#more删掉就行了</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;点击Next主题的产生的 &lt;strong&gt;阅读全文&lt;/strong&gt; 按钮后，进入的文章会打上 &lt;strong&gt;#more标签&lt;/strong&gt;&lt;br&gt;这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分&lt;br&gt;&lt;img src=&quot;h</summary>
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://songkaiai.github.io/categories/Hexo/"/>
-    
-    
-    <category term="hexo" scheme="https://songkaiai.github.io/tags/hexo/"/>
-    
-    <category term="Next主题" scheme="https://songkaiai.github.io/tags/Next%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   

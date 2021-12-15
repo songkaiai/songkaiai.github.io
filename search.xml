@@ -568,4 +568,20 @@
         <tag>矩阵</tag>
       </tags>
   </entry>
+  <entry>
+    <title>求最小公倍数</title>
+    <url>/2021/12/15/%E6%B1%82%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line">int main() </span><br><span class="line">&#123; 	int Gcd(int,int); </span><br><span class="line">	int m,n; </span><br><span class="line">	scanf(&quot;%d%d&quot;,&amp;m,&amp;n); </span><br><span class="line">	printf(&quot;%d&quot;,m*n/Gcd(m,n)); </span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Gcd(int x,int y) </span><br><span class="line">&#123; </span><br><span class="line">int r; </span><br><span class="line">r=x%y; </span><br><span class="line"> 	while (r!=0)&#123; </span><br><span class="line">  		x=y; </span><br><span class="line">  		y=r; </span><br><span class="line">  		r=x%y; </span><br><span class="line"> 	&#125; </span><br><span class="line">return y; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>凯撒密码C语言代码</title>
+    <url>/2021/12/12/%E5%87%AF%E6%92%92%E5%AF%86%E7%A0%81C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/</url>
+    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main ()</span><br><span class="line">&#123;	</span><br><span class="line">	int i=0,j,k,key;</span><br><span class="line">	char c,a[100];</span><br><span class="line">scanf(&quot;%d &quot;,&amp;key);</span><br><span class="line">	while((a[i]=getchar())!=&#x27;\n&#x27;)</span><br><span class="line">		i++;</span><br><span class="line">		</span><br><span class="line">	for(j=0;j&lt;i;j++)</span><br><span class="line">		if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27; || a[j]&gt;=&#x27;a&#x27;&amp;&amp;a[j]&lt;=&#x27;z&#x27;)&#123;</span><br><span class="line">			if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27;)&#123;</span><br><span class="line">				if(a[j]+key%26&gt;&#x27;Z&#x27;)</span><br><span class="line">					a[j]+=key%26-26;</span><br><span class="line">				else</span><br><span class="line">					a[j]+=key%26;</span><br><span class="line">			&#125;</span><br><span class="line">			else&#123;</span><br><span class="line">				if(a[j]+key%26&gt;&#x27;z&#x27;)</span><br><span class="line">					a[j]+=key%26-26;</span><br><span class="line">				else</span><br><span class="line">					a[j]+=key%26;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">	for(j=0;j&lt;i;j++)</span><br><span class="line">		printf(&quot;%c&quot;,a[j]);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>C语言</category>
+      </categories>
+  </entry>
 </search>
