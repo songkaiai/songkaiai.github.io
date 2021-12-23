@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-12-15T10:22:01.147Z</updated>
+  <updated>2021-12-23T12:21:52.602Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>统计高于平均的人数</title>
+    <link href="https://songkaiai.github.io/2021/12/22/%E7%BB%9F%E8%AE%A1%E9%AB%98%E4%BA%8E%E5%B9%B3%E5%9D%87%E7%9A%84%E4%BA%BA%E6%95%B0/"/>
+    <id>https://songkaiai.github.io/2021/12/22/%E7%BB%9F%E8%AE%A1%E9%AB%98%E4%BA%8E%E5%B9%B3%E5%9D%87%E7%9A%84%E4%BA%BA%E6%95%B0/</id>
+    <published>2021-12-22T05:21:10.000Z</published>
+    <updated>2021-12-23T12:21:52.602Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">float arrayAvg(int a[],int n)&#123;</span><br><span class="line">int i;</span><br><span class="line">float sum=0,avg;</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">sum+=a[i];</span><br><span class="line">avg=sum/(float)n;</span><br><span class="line">return avg;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int i,n,num=0;</span><br><span class="line">float avg;</span><br><span class="line">float arrayAvg(int a[],int n);</span><br><span class="line">scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">int a[n];</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">scanf(&quot;%d&quot;,&amp;a[i]);</span><br><span class="line">avg=arrayAvg(a,n);</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">if(a[i]&gt;avg)</span><br><span class="line">num++;</span><br><span class="line">printf(&quot;%d&quot;,num);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>水仙花数</title>
+    <link href="https://songkaiai.github.io/2021/12/19/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/"/>
+    <id>https://songkaiai.github.io/2021/12/19/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/</id>
+    <published>2021-12-19T11:18:58.000Z</published>
+    <updated>2021-12-23T12:19:38.297Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int Narnumber(int k)&#123;</span><br><span class="line">int i,t=k,sum=0;</span><br><span class="line">for(i=0;i&lt;3;i++)</span><br><span class="line">sum=sum+(k%10)*(k%10)*(k%10),</span><br><span class="line">k/=10;</span><br><span class="line">k=t;</span><br><span class="line">if(sum==k)</span><br><span class="line">return 1;</span><br><span class="line">else</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int m,n,i;</span><br><span class="line">scanf(&quot;%d %d&quot;,&amp;m,&amp;n);</span><br><span class="line">for(i=m;i&lt;=n;i++)</span><br><span class="line">if(Narnumber(i))</span><br><span class="line">printf(&quot;%d &quot;,i);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>求最小公倍数</title>
@@ -428,54 +476,6 @@
     
     
     <category term="攻防世界" scheme="https://songkaiai.github.io/tags/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Web工具</title>
-    <link href="https://songkaiai.github.io/2021/10/08/Web%E5%B7%A5%E5%85%B7/"/>
-    <id>https://songkaiai.github.io/2021/10/08/Web%E5%B7%A5%E5%85%B7/</id>
-    <published>2021-10-08T10:16:20.000Z</published>
-    <updated>2021-10-09T05:16:38.445Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="BurpSuite：自己查-●ˇ∀ˇ●"><a href="#BurpSuite：自己查-●ˇ∀ˇ●" class="headerlink" title="BurpSuite：自己查(●ˇ∀ˇ●)"></a><strong>BurpSuite</strong>：自己查(●ˇ∀ˇ●)</h2><p><strong>中国蚁剑</strong>：核心：<a href="https://github.com/AntSwordProject/antSword">https://github.com/AntSwordProject/antSword</a></p><p><strong>加载器</strong>：<a href="https://github.com/AntSwordProject/AntSword-Loader">https://github.com/AntSwordProject/AntSword-Loader</a></p><p><strong>出错时自己下代码</strong>：<a href="https://github.com/AntSwordProject/AntSword/archive/master.zip">https://github.com/AntSwordProject/AntSword/archive/master.zip</a><br>解压，初始化时选择它</p><p><strong>安装指导</strong>：<a href="https://zhuanlan.zhihu.com/p/367151320">https://zhuanlan.zhihu.com/p/367151320</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;BurpSuite：自己查-●ˇ∀ˇ●&quot;&gt;&lt;a href=&quot;#BurpSuite：自己查-●ˇ∀ˇ●&quot; class=&quot;headerlink&quot; title=&quot;BurpSuite：自己查(●ˇ∀ˇ●)&quot;&gt;&lt;/a&gt;&lt;strong&gt;BurpSuite&lt;/strong&gt;：自</summary>
-      
-    
-    
-    
-    <category term="Web" scheme="https://songkaiai.github.io/categories/Web/"/>
-    
-    
-    <category term="工具" scheme="https://songkaiai.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>逆向工具下载链接</title>
-    <link href="https://songkaiai.github.io/2021/10/07/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/"/>
-    <id>https://songkaiai.github.io/2021/10/07/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</id>
-    <published>2021-10-07T13:06:53.000Z</published>
-    <updated>2021-10-07T09:13:35.378Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p><p><strong>DIE 查壳工具</strong>：<a href="https://www.lanzoui.com/iY94aioy7ad">https://www.lanzoui.com/iY94aioy7ad</a></p><p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;IDEA编译工具&lt;/strong&gt;：&lt;a href=&quot;https://www.jetbrains.com/zh-cn/idea/download/#section=windows&quot;&gt;https://www.jetbrains.com/zh-cn/idea/d</summary>
-      
-    
-    
-    
-    <category term="逆向" scheme="https://songkaiai.github.io/categories/%E9%80%86%E5%90%91/"/>
-    
-    
-    <category term="工具" scheme="https://songkaiai.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
