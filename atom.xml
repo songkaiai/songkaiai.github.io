@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2021-12-23T12:21:52.602Z</updated>
+  <updated>2022-01-04T03:36:45.045Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>输入三位数倒序输出</title>
+    <link href="https://songkaiai.github.io/2021/12/29/%E8%BE%93%E5%85%A5%E4%B8%89%E4%BD%8D%E6%95%B0%E5%80%92%E5%BA%8F%E8%BE%93%E5%87%BA/"/>
+    <id>https://songkaiai.github.io/2021/12/29/%E8%BE%93%E5%85%A5%E4%B8%89%E4%BD%8D%E6%95%B0%E5%80%92%E5%BA%8F%E8%BE%93%E5%87%BA/</id>
+    <published>2021-12-29T04:33:36.000Z</published>
+    <updated>2022-01-04T03:36:45.045Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>#include &lt;stdio.h&gt;int main()&#123;    int a,b,c;    scanf(&quot;%1d%1d%1d&quot;,&amp;a,&amp;b,&amp;c);    printf(&quot;%d%d%d&quot;,c,b,a);return 0;&#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+int main()
+&amp;#123;
+    int a,b,c;
+    scanf(&amp;quot;%1d%1d%1d&amp;quot;,&amp;amp;a,&amp;amp;b,&amp;amp;c);
+    printf(&amp;quot</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>死循环输出</title>
+    <link href="https://songkaiai.github.io/2021/12/26/%E6%AD%BB%E5%BE%AA%E7%8E%AF%E8%BE%93%E5%87%BA/"/>
+    <id>https://songkaiai.github.io/2021/12/26/%E6%AD%BB%E5%BE%AA%E7%8E%AF%E8%BE%93%E5%87%BA/</id>
+    <published>2021-12-26T03:50:33.000Z</published>
+    <updated>2022-01-04T03:37:20.046Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;windows.h&gt;</span><br><span class="line">#define LIGHT_RED &quot;\033[1;31m&quot;</span><br><span class="line">#define GREEN &quot;\033[0;32;32m&quot;</span><br><span class="line">#define RED &quot;\033[0;32;31m&quot;</span><br><span class="line">#define YELLOW &quot;\033[1;33m&quot;</span><br><span class="line">#define BLUE &quot;\033[0;32;34m&quot;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">system(&quot;cls&quot;);</span><br><span class="line">int i,j;</span><br><span class="line">while(1==1)&#123;</span><br><span class="line">for (i=8;i&gt;0;i--)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(LIGHT_RED&quot;做的全会 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">for (i=0;i&lt;=8;i++)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(GREEN&quot;蒙的全对 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">for (i=8;i&gt;0;i--)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(BLUE&quot;看的全考 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">for (i=0;i&lt;=8;i++)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(YELLOW&quot;不会补考 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">return 0;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
+      
+    
+    
+    
+    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>统计高于平均的人数</title>
@@ -433,49 +486,6 @@
     
     
     <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装虚拟机后本机WIFI无法使用</title>
-    <link href="https://songkaiai.github.io/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/"/>
-    <id>https://songkaiai.github.io/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/</id>
-    <published>2021-10-14T08:42:31.000Z</published>
-    <updated>2021-10-14T08:57:15.168Z</updated>
-    
-    <content type="html"><![CDATA[<p>推优会回来，打开电脑，WIFI消失了，十分难过。</p><p>右键此电脑，点击管理-&gt;设备管理器-&gt;网络适配器<br>怒斥网卡：“李在干什么？”</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/1192c186784718a9.png"><br>网卡回答：“代码56”</p><p>搜索一番便找到了解决方法，下载 Ccleaner 👉<strong><a href="https://www.ccleaner.com/download">https://www.ccleaner.com/download</a></strong><br>用它恢复注册表，重启电脑，就行了······<br>指导你使用👉 <strong><a href="https://www.pianshen.com/article/7279702665/">https://www.pianshen.com/article/7279702665/</a></strong></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;推优会回来，打开电脑，WIFI消失了，十分难过。&lt;/p&gt;
-&lt;p&gt;右键此电脑，点击管理-&amp;gt;设备管理器-&amp;gt;网络适配器&lt;br&gt;怒斥网卡：“李在干什么？”&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="虚拟机" scheme="https://songkaiai.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-    
-    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>攻防世界三新手区</title>
-    <link href="https://songkaiai.github.io/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/"/>
-    <id>https://songkaiai.github.io/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/</id>
-    <published>2021-10-11T05:11:23.000Z</published>
-    <updated>2021-10-14T08:59:08.649Z</updated>
-    
-    <content type="html"><![CDATA[<p>通过三个项目的新手区</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/4add7864bfa002a1.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/673def85978dd43f.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/852a2aa5d94563ff.png"></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;通过三个项目的新手区&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Diary" scheme="https://songkaiai.github.io/categories/Diary/"/>
-    
-    
-    <category term="攻防世界" scheme="https://songkaiai.github.io/tags/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/"/>
     
   </entry>
   
