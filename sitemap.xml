@@ -340,14 +340,7 @@
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/tags/sql/</loc>
-    <lastmod>2022-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://songkaiai.github.io/tags/%E4%BB%A3%E7%A0%81/</loc>
+    <loc>https://songkaiai.github.io/tags/%E7%9F%A9%E9%98%B5/</loc>
     <lastmod>2022-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -361,13 +354,27 @@
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/tags/%E7%9F%A9%E9%98%B5/</loc>
+    <loc>https://songkaiai.github.io/tags/sql/</loc>
+    <lastmod>2022-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://songkaiai.github.io/tags/%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2022-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/</loc>
+    <lastmod>2022-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://songkaiai.github.io/categories/%E5%AF%86%E7%A0%81/</loc>
@@ -377,7 +384,7 @@
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://songkaiai.github.io/categories/Misc/</loc>
     <lastmod>2022-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -412,13 +419,6 @@
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2022-02-26</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://songkaiai.github.io/categories/Live2D/</loc>
     <lastmod>2022-02-26</lastmod>
     <changefreq>daily</changefreq>
@@ -426,14 +426,14 @@
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/%E9%80%86%E5%90%91/</loc>
+    <loc>https://songkaiai.github.io/categories/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
     <lastmod>2022-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://songkaiai.github.io/categories/Misc/</loc>
+    <loc>https://songkaiai.github.io/categories/%E9%80%86%E5%90%91/</loc>
     <lastmod>2022-02-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
