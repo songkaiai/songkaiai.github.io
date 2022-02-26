@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2022-01-04T03:36:45.045Z</updated>
+  <updated>2022-02-26T08:26:22.192Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2022二月misc签到题</title>
+    <link href="https://songkaiai.github.io/2022/02/26/2022%E4%BA%8C%E6%9C%88misc%E7%AD%BE%E5%88%B0%E9%A2%98/"/>
+    <id>https://songkaiai.github.io/2022/02/26/2022%E4%BA%8C%E6%9C%88misc%E7%AD%BE%E5%88%B0%E9%A2%98/</id>
+    <published>2022-02-26T08:20:06.000Z</published>
+    <updated>2022-02-26T08:26:22.192Z</updated>
+    
+    <content type="html"><![CDATA[<p>压缩包“打开看看？”是伪加密，搜索修复网站修复成功，打开是base64加密的图片，网站解密得到flag{Welcome}<br><img src="https://s3.bmp.ovh/imgs/2022/02/d1baab9e62595f3b.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;压缩包“打开看看？”是伪加密，搜索修复网站修复成功，打开是base64加密的图片，网站解密得到flag{Welcome}&lt;br&gt;&lt;img src=&quot;https://s3.bmp.ovh/imgs/2022/02/d1baab9e62595f3b.png&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Misc" scheme="https://songkaiai.github.io/categories/Misc/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>输入三位数倒序输出</title>
@@ -458,27 +481,6 @@ int main()
       
     <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
       
-    
-    
-    
-    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
-    
-    
-    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C计划</title>
-    <link href="https://songkaiai.github.io/2021/10/20/C%E8%AE%A1%E5%88%92/"/>
-    <id>https://songkaiai.github.io/2021/10/20/C%E8%AE%A1%E5%88%92/</id>
-    <published>2021-10-20T13:20:35.000Z</published>
-    <updated>2021-10-20T14:16:22.553Z</updated>
-    
-    <content type="html"><![CDATA[<p>现在开始</p><span id="more"></span><p>好好学编程</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;现在开始&lt;/p&gt;</summary>
     
     
     

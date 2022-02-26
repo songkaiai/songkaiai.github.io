@@ -638,4 +638,13 @@ return 0;
         <tag>diary</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2022二月misc签到题</title>
+    <url>/2022/02/26/2022%E4%BA%8C%E6%9C%88misc%E7%AD%BE%E5%88%B0%E9%A2%98/</url>
+    <content><![CDATA[<p>压缩包“打开看看？”是伪加密，搜索修复网站修复成功，打开是base64加密的图片，网站解密得到flag{Welcome}<br><img src="https://s3.bmp.ovh/imgs/2022/02/d1baab9e62595f3b.png"></p>
+]]></content>
+      <categories>
+        <category>Misc</category>
+      </categories>
+  </entry>
 </search>
