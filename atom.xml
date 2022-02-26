@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2022-02-26T08:26:22.192Z</updated>
+  <updated>2022-02-26T08:43:45.014Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>misc你好，你有一份秘密考核信件请查收</title>
+    <link href="https://songkaiai.github.io/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/"/>
+    <id>https://songkaiai.github.io/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/</id>
+    <published>2022-02-26T08:27:52.000Z</published>
+    <updated>2022-02-26T08:43:45.014Z</updated>
+    
+    <content type="html"><![CDATA[<p>开局一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg"></p><p>拉到kali里用binwalk分离图片中的压缩包<br><img src="https://s3.bmp.ovh/imgs/2022/02/0ed69b6579f3533c.png"><br>发现是个千层饼，用ExtractNow解压。最后的压缩包用《青玉案·元夕》.zip当明文，用archpr明文攻击。</p><p>又拿到一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/cb6dcb300af996e7.png"></p><p>用010 Editor调整图片高度，得到flag{众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。}<br><img src="https://s3.bmp.ovh/imgs/2022/02/decf60b0626b015e.png"><br><img src="https://s3.bmp.ovh/imgs/2022/02/1a6da6b6b426f734.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;开局一张图&lt;br&gt;&lt;img src=&quot;https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;拉到kali里用binwalk分离图片中的压缩包&lt;br&gt;&lt;img src=&quot;https://s3.bmp.ovh</summary>
+      
+    
+    
+    
+    <category term="Misc" scheme="https://songkaiai.github.io/categories/Misc/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>2022二月misc签到题</title>
@@ -451,30 +474,6 @@ int main()
     <updated>2021-10-31T11:57:28.386Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line"> char c;</span><br><span class="line"> int letters=0,space=0,digit=0,other=0;</span><br><span class="line"> printf(&quot;请输入一行字符：&quot;);</span><br><span class="line"> while ((c=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">  if (c&gt;=&#x27;a&#x27;&amp;&amp;c&lt;=&#x27;z&#x27;||c&gt;=&#x27;A&#x27;&amp;&amp;c&lt;=&#x27;Z&#x27;)</span><br><span class="line">   letters++;</span><br><span class="line">  else if (c==&#x27; &#x27;)</span><br><span class="line">   space++;</span><br><span class="line">  else if (c&gt;=&#x27;0&#x27;&amp;&amp;c&lt;=&#x27;9&#x27;)</span><br><span class="line">   digit++;</span><br><span class="line">  else </span><br><span class="line">   other++;</span><br><span class="line"> &#125;</span><br><span class="line"> printf(&quot;字母数:%d\n空格数:%d\n数字数:%d\n其他字符:%d\n&quot;,letters,space,digit,other);</span><br><span class="line"> return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
-      
-    
-    
-    
-    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
-    
-    
-    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>求e的x次方</title>
-    <link href="https://songkaiai.github.io/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/"/>
-    <id>https://songkaiai.github.io/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/</id>
-    <published>2021-10-27T15:17:35.000Z</published>
-    <updated>2021-10-27T15:23:37.830Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">      float n,x,k,t,i,d,result;</span><br><span class="line">printf(&quot;分别输入n和x:&quot;);</span><br><span class="line">scanf(&quot;%f%f&quot;,&amp;n,&amp;x);</span><br><span class="line">  for(result=1,k=1,t=1,i=1,d=1;t&lt;=n;t++)&#123;</span><br><span class="line">     i=i*x;</span><br><span class="line">     result=result+i/k;</span><br><span class="line">     k=k*(d+1);</span><br><span class="line">     d++;</span><br><span class="line">  &#125;</span><br><span class="line"> printf(&quot;e的%f次方=%f&quot;,x,result);</span><br><span class="line"> return 0; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
     
     
       
