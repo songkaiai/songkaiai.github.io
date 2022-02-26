@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2022-02-26T08:43:45.014Z</updated>
+  <updated>2022-02-26T08:46:22.202Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="https://songkaiai.github.io/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/"/>
     <id>https://songkaiai.github.io/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/</id>
     <published>2022-02-26T08:27:52.000Z</published>
-    <updated>2022-02-26T08:43:45.014Z</updated>
+    <updated>2022-02-26T08:46:22.202Z</updated>
     
-    <content type="html"><![CDATA[<p>开局一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg"></p><p>拉到kali里用binwalk分离图片中的压缩包<br><img src="https://s3.bmp.ovh/imgs/2022/02/0ed69b6579f3533c.png"><br>发现是个千层饼，用ExtractNow解压。最后的压缩包用《青玉案·元夕》.zip当明文，用archpr明文攻击。</p><p>又拿到一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/cb6dcb300af996e7.png"></p><p>用010 Editor调整图片高度，得到flag{众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。}<br><img src="https://s3.bmp.ovh/imgs/2022/02/decf60b0626b015e.png"><br><img src="https://s3.bmp.ovh/imgs/2022/02/1a6da6b6b426f734.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>开局一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg"><br>!&lt;–more–&gt;<br>拉到kali里用binwalk分离图片中的压缩包<br><img src="https://s3.bmp.ovh/imgs/2022/02/0ed69b6579f3533c.png"><br>发现是个千层饼，用ExtractNow解压。最后的压缩包用《青玉案·元夕》.zip当明文，用archpr明文攻击。</p><p>又拿到一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/cb6dcb300af996e7.png"></p><p>用010 Editor调整图片高度，得到flag{众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。}<br><img src="https://s3.bmp.ovh/imgs/2022/02/decf60b0626b015e.png"><br><img src="https://s3.bmp.ovh/imgs/2022/02/1a6da6b6b426f734.png"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;开局一张图&lt;br&gt;&lt;img src=&quot;https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;拉到kali里用binwalk分离图片中的压缩包&lt;br&gt;&lt;img src=&quot;https://s3.bmp.ovh</summary>
+    <summary type="html">&lt;p&gt;开局一张图&lt;br&gt;&lt;img src=&quot;https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg&quot;&gt;&lt;br&gt;!&amp;lt;–more–&amp;gt;&lt;br&gt;拉到kali里用binwalk分离图片中的压缩包&lt;br&gt;&lt;img src=&quot;htt</summary>
       
     
     
