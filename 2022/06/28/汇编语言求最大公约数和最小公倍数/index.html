@@ -28,7 +28,7 @@
 <meta property="og:description" content="DATA SEGMENTNUMBER1 DW ?NUMBER2 DW ?MAX     DW ?MIN     DW ?TIP1    DB ‘Input Number1: ‘TIP2    DB ‘Input Number2: ‘COUNT    EQU $-TIP2MAXYUE    DB ‘Max Gong yue : ‘MINBEI  DB ‘Min Gong bei : ‘QT">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-28T09:14:39.000Z">
-<meta property="article:modified_time" content="2022-06-28T09:18:49.944Z">
+<meta property="article:modified_time" content="2022-06-28T09:23:41.877Z">
 <meta property="article:author" content="songkaiai">
 <meta name="twitter:card" content="summary">
 
@@ -246,7 +246,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2022-06-28 17:14:39 / 修改时间：17:18:49" itemprop="dateCreated datePublished" datetime="2022-06-28T17:14:39+08:00">2022-06-28</time>
+      <time title="创建时间：2022-06-28 17:14:39 / 修改时间：17:23:41" itemprop="dateCreated datePublished" datetime="2022-06-28T17:14:39+08:00">2022-06-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -342,7 +342,7 @@
         JMP AGAIN       ;通过CALL调用下面的程序
 </code></pre>
 <p>;———————————————————————<br>INPUT:        MOV BX, 0;整个INPUT的功能是从键盘输入正整数存到BX<br>      NEXT: MOV AH, 1;NEXT指的是输入下一位上的数<br>            INT 21H<br>            CMP AL, 0DH ; 输入回车时结束<br>            JZ  BREAK<br>            AND AX, 000FH;将AL中的ASCII码转换为数字,比如’2’=32H=110010B,AND完变成10B=2(十进制)<br>            XCHG AX, BX<br>            MOV CX, 10<br>            MUL CX<br>            ADD BX, AX;之前输入的数乘以10 加上新输入的数<br>            JMP NEXT<br>     BREAK: RET</p>
-<p>DISPLAY:    MOV AH, 2   ;DISPALY的功能是<br>            MOV DL, 0AH    ;回车换行后,以十进制显示BX当中的数<br>            INT 21H<br>            MOV DL, 0DH<br>            INT 21H<br>        L4:    MOV DL, [DI] ;第一次调用显示’Max Gong yue : ‘<br>            INT 21H         ;第二次调用显示’Max Gong bei : ‘<br>            INC DI<br>            LOOP L4<br>            MOV AX, BX<br>            MOV BX, 10<br>            MOV CX, 0<br>     PART1:    MOV DX, 0;把要显示的数除以10,然后把余数入栈<br>            INC CX     ;记录入栈个数<br>            DIV BX<br>            PUSH DX;如果除数为16位,则结果的商会存放在AX中,余数会存放在DX中。<br>            CMP AX, 0 ;余数为0时结束<br>            JNZ PART1<br>            ;整个PART1的功能是把十进制数从个位开始,把每个位上的数入栈<br>     PART2:    POP AX<br>            ADD AL, 30H ;转成可以显示的ASCII码<br>            MOV DL, AL<br>            MOV AH, 2<br>            INT 21H<br>            LOOP PART2<br>            RET<br>            ;整个PART2的功能是把PART1存入栈中的数出栈并显示在屏幕上</p>
+<p>DISPLAY:    MOV AH, 2   ;DISPALY的功能是<br>            MOV DL, 0AH    ;回车换行后,以十进制显示BX当中的数<br>            INT 21H<br>            MOV DL, 0DH<br>            INT 21H<br>        L4:    MOV DL, [DI] ;第一次调用显示’Max Gong yue : ‘<br>            INT 21H         ;第二次调用显示’Min Gong bei : ‘<br>            INC DI<br>            LOOP L4<br>            MOV AX, BX<br>            MOV BX, 10<br>            MOV CX, 0<br>     PART1:    MOV DX, 0;把要显示的数除以10,然后把余数入栈<br>            INC CX     ;记录入栈个数<br>            DIV BX<br>            PUSH DX;如果除数为16位,则结果的商会存放在AX中,余数会存放在DX中。<br>            CMP AX, 0 ;余数为0时结束<br>            JNZ PART1<br>            ;整个PART1的功能是把十进制数从个位开始,把每个位上的数入栈<br>     PART2:    POP AX<br>            ADD AL, 30H ;转成可以显示的ASCII码<br>            MOV DL, AL<br>            MOV AH, 2<br>            INT 21H<br>            LOOP PART2<br>            RET<br>            ;整个PART2的功能是把PART1存入栈中的数出栈并显示在屏幕上</p>
 <p>YUE:         MOV BX, 1 ;求NUMBER1和NUMBER2的最大公约数,BX当作除数<br>       P1:    MOV DX, 0<br>            MOV AX, NUMBER1<br>            DIV BX<br>            CMP DX, 0<br>            JNZ P2 ; 如果BX不能被NUMBER1整除,BX一定不是公约数,跳到P2<br>            MOV DX, 0<br>            MOV AX, NUMBER2<br>            DIV BX<br>            CMP DX, 0<br>            JNZ P2 ; 如果BX不能被NUMBER2整除,BX一定不是公约数,跳到P2<br>            MOV MAX, BX ;既能被NUMBER1整除又能被NUMBER2整除,把当前BX放到MAX里面<br>       P2:  CMP BX, NUMBER1;BX等于其中一个数(如NUMBER1)的时候退出<br>            INC BX    ;判断BX+1是不是公约数<br>            JNZ P1<br>            MOV BX, MAX<br>            CALL DISPLAY;显示MAX<br>            RET</p>
 <p>BEI:        MOV AX, NUMBER1;最大公倍数就是两数相乘后除以最大公约数<br>            MUL NUMBER2<br>            DIV MAX<br>            MOV MIN, AX<br>            MOV BX, MIN<br>            CALL DISPLAY;显示MIN<br>            RET</p>
 <p>QUIT:        MOV AH, 4CH<br>            INT 21H<br>    CODE ENDS<br>            END START</p>
