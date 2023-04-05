@@ -20,25 +20,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"songkaiai.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="一个普通的博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="songkaiai的博客">
-<meta property="og:url" content="https://songkaiai.github.io/categories/%E5%AF%86%E7%A0%81/index.html">
+<meta name="description" content="打开asm文件得到以下汇编代码：DATAS SEGMENT     STRING DB 32 DUP(?)     SRE       DB 35, 110, 33, 123, 33, 103, 80, 36, 97, 80, 39, 86, 32, 106, 80, 32, 84, 106, 39, 36, 105, 80, 34, 87, 32, 110, 36, 81, 59, 97, 87">
+<meta property="og:type" content="article">
+<meta property="og:title" content="23年鲲鹏杯赛前逆向测试题babyarm">
+<meta property="og:url" content="https://songkaiai.github.io/2023/04/05/23%E5%B9%B4%E9%B2%B2%E9%B9%8F%E6%9D%AF%E8%B5%9B%E5%89%8D%E9%80%86%E5%90%91%E6%B5%8B%E8%AF%95%E9%A2%98babyarm/index.html">
 <meta property="og:site_name" content="songkaiai的博客">
-<meta property="og:description" content="一个普通的博客">
+<meta property="og:description" content="打开asm文件得到以下汇编代码：DATAS SEGMENT     STRING DB 32 DUP(?)     SRE       DB 35, 110, 33, 123, 33, 103, 80, 36, 97, 80, 39, 86, 32, 106, 80, 32, 84, 106, 39, 36, 105, 80, 34, 87, 32, 110, 36, 81, 59, 97, 87">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-04-05T05:30:24.000Z">
+<meta property="article:modified_time" content="2023-04-05T05:48:02.973Z">
 <meta property="article:author" content="songkaiai">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://songkaiai.github.io/categories/%E5%AF%86%E7%A0%81/">
+<link rel="canonical" href="https://songkaiai.github.io/2023/04/05/23%E5%B9%B4%E9%B2%B2%E9%B9%8F%E6%9D%AF%E8%B5%9B%E5%89%8D%E9%80%86%E5%90%91%E6%B5%8B%E8%AF%95%E9%A2%98babyarm/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/密码/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://songkaiai.github.io/2023/04/05/23%E5%B9%B4%E9%B2%B2%E9%B9%8F%E6%9D%AF%E8%B5%9B%E5%89%8D%E9%80%86%E5%90%91%E6%B5%8B%E8%AF%95%E9%A2%98babyarm/","path":"2023/04/05/23年鲲鹏杯赛前逆向测试题babyarm/","title":"23年鲲鹏杯赛前逆向测试题babyarm"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: 密码 | songkaiai的博客</title>
+<title>23年鲲鹏杯赛前逆向测试题babyarm | songkaiai的博客</title>
   
 
 
@@ -208,71 +210,154 @@
 </noscript>
 
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h2 class="collection-header">密码
-          <small>分类</small>
-        </h2>
-      </div>
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://songkaiai.github.io/2023/04/05/23%E5%B9%B4%E9%B2%B2%E9%B9%8F%E6%9D%AF%E8%B5%9B%E5%89%8D%E9%80%86%E5%90%91%E6%B5%8B%E8%AF%95%E9%A2%98babyarm/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://s3.bmp.ovh/imgs/2021/09/bc14d0dc560bea9a.jpg">
+      <meta itemprop="name" content="songkaiai">
+      <meta itemprop="description" content="一个普通的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="songkaiai的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          23年鲲鹏杯赛前逆向测试题babyarm
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+      <time title="创建时间：2023-04-05 13:30:24 / 修改时间：13:48:02" itemprop="dateCreated datePublished" datetime="2023-04-05T13:30:24+08:00">2023-04-05</time>
+    </span>
+
+  
+    <span id="/2023/04/05/23%E5%B9%B4%E9%B2%B2%E9%B9%8F%E6%9D%AF%E8%B5%9B%E5%89%8D%E9%80%86%E5%90%91%E6%B5%8B%E8%AF%95%E9%A2%98babyarm/" class="post-meta-item leancloud_visitors" data-flag-title="23年鲲鹏杯赛前逆向测试题babyarm" title="阅读次数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span class="leancloud-visitors-count"></span>
+    </span>
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.3k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>9 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>打开asm文件得到以下汇编代码：<br>DATAS SEGMENT<br>     STRING DB 32 DUP(?)<br>     SRE       DB 35, 110, 33, 123, 33, 103, 80, 36, 97, 80, 39, 86, 32, 106, 80, 32, 84, 106, 39, 36, 105, 80, 34, 87, 32, 110, 36, 81, 59, 97, 87, 44<br>     RIGHT   DB  ‘RIGHT’<br>     ERROR  DB  ‘ERROR’<br>DATAS ENDS</p>
+<p>CODES SEGMENT<br>     ASSUHE  CS:CODES<br>START:<br>     ASSUHE  ES:STR DS:STRING<br>     MOV AX,STRING<br>     MOV DS,AX<br>     MOV AX,SRE<br>     MOV ES,AX<br>     XOR  SI,SI<br>     XOR  AX,AX<br>CMP:<br>     CMP  SI,1CH<br>     JZ      SHORT R1<br>SOUL:<br>     MOV AX,DS:[SI]<br>     MOV BL,9H<br>     SUB  AX,BL<br>     XOR AX,11<br>     INC  SI<br>     CMP AX,ES:[SI-1]<br>     JZ    CMP<br>R1:<br>     LEA DX,RIGHT<br>     MOV AH,9<br>     INT 21H<br>     JMP P<br>R2:<br>     LEA DX,ERROR<br>     MOV AH,9<br>     INT 21H<br>     JMP P<br>P:<br>     XOR AX,AX<br>CODES ENDS<br>     END START</p>
+<p>看起来不难，直接问chatgpt这段代码有什么用，它的回答：</p>
+<p>这段汇编代码是一个简单的字符串匹配程序，具体功能如下：</p>
+<p>1.在DATAS段中，定义了两个字符串：一个长度为32的字符串变量STRING和一个包含一系列数字的字符串变量SRE。<br>2.定义了两个字符数组变量RIGHT和ERROR，用于在匹配成功或失败时输出相应的提示信息。<br>3.在CODES段中，程序入口为START。<br>4.首先将DS寄存器设置为STRING变量的段地址，ES寄存器设置为SRE变量的段地址，以便程序能够访问这些变量。<br>5.将SI和AX寄存器都清零，用于后面的循环比较操作。<br>6.然后开始循环比较，比较方式是将STRING变量中的每个字符减去9，再异或11，得到一个新的字符值，然后与SRE变量中对应位置上的字符值进行比较。<br>7.如果比较结果相等，则继续比较下一个字符；如果不相等，则跳转到R2，输出匹配失败的提示信息。<br>8.如果比较完整个字符串后都匹配成功，则跳转到R1，输出匹配成功的提示信息。<br>9.程序结束，控制权返回操作系统。</p>
+<p>显然就是把flag加密了，flag就是string，让chatgpt写一个还原出string的python程序，注意告诉它还原方法并指正它的错误：</p>
+<p>告诉gpt:写一个python程序还原出string的内容，sre的数值使用汇编代码里的，异或11的逆操作也是异或11，sre用十进制表示</p>
+<p>它回答：<br>sre = [35, 110, 33, 123, 33, 103, 80, 36, 97, 80, 39, 86, 32, 106, 80, 32, 84, 106, 39, 36, 105, 80, 34, 87, 32, 110, 36, 81, 59, 97, 87, 44]<br>string = “”</p>
+<p>for i in range(len(sre)):<br>    ch = (sre[i] ^ 11) + 9<br>    string += chr(ch)</p>
+<p>print(string)</p>
+<p>自己运行一下代码得到   1n3y3ud8sd5f4jd4hj58kd2e4n8c9se0</p>
+<p>flag{1n3y3ud8sd5f4jd4hj58kd2e4n8c9se0}</p>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-11-17T21:25:29+08:00"
-              content="2021-11-17">
-          11-17
-        </time>
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>给我一瓶矿泉水~</div>
+  <button>
+    帮忙买水
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.png" alt="songkaiai 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.jpg" alt="songkaiai 支付宝">
+        <span>支付宝</span>
       </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/11/17/1000%E4%B8%AA%E5%BC%B1%E5%AF%86%E7%A0%81/" itemprop="url">
-            <span itemprop="name">1000个弱密码</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-10-03T11:42:26+08:00"
-              content="2021-10-03">
-          10-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/10/03/%E8%A7%A3%E5%AF%86%E7%A0%81%E7%BD%91%E7%AB%99/" itemprop="url">
-            <span itemprop="name">解密码网站</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-    </div>
   </div>
-  
-  
-  
+</div>
 
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/04/05/4%E6%9C%88test/" rel="prev" title="4月test">
+                  <i class="fa fa-chevron-left"></i> 4月test
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="valine-comments"></div>
 </div>
   </main>
 
@@ -330,7 +415,7 @@
 
 
 
-<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"9Kje0Eg9wowvsE9W59Y92W2h-gzGzoHsz","appKey":"cP0rYRNV1zA6baLVdO3HSOsO","serverURLs":"https://9kje0eg9.lc-cn-n1-shared.com","placeholder":"输入昵称即可留言/邮箱选填","avatar":"mp","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":true,"enableQQ":false,"requiredFields":[],"el":"#valine-comments","path":"/categories/%E5%AF%86%E7%A0%81/"}</script>
+<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"9Kje0Eg9wowvsE9W59Y92W2h-gzGzoHsz","appKey":"cP0rYRNV1zA6baLVdO3HSOsO","serverURLs":"https://9kje0eg9.lc-cn-n1-shared.com","placeholder":"输入昵称即可留言/邮箱选填","avatar":"mp","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":true,"enableQQ":false,"requiredFields":[],"el":"#valine-comments","path":"/2023/04/05/23%E5%B9%B4%E9%B2%B2%E9%B9%8F%E6%9D%AF%E8%B5%9B%E5%89%8D%E9%80%86%E5%90%91%E6%B5%8B%E8%AF%95%E9%A2%98babyarm/"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.valine.el)
