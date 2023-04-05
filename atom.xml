@@ -6,7 +6,7 @@
   <link href="https://songkaiai.github.io/atom.xml" rel="self"/>
   
   <link href="https://songkaiai.github.io/"/>
-  <updated>2022-06-28T09:23:41.877Z</updated>
+  <updated>2023-04-05T05:22:52.919Z</updated>
   <id>https://songkaiai.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>4月test</title>
+    <link href="https://songkaiai.github.io/2023/04/05/4%E6%9C%88test/"/>
+    <id>https://songkaiai.github.io/2023/04/05/4%E6%9C%88test/</id>
+    <published>2023-04-05T05:21:39.000Z</published>
+    <updated>2023-04-05T05:22:52.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>eztest</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;eztest&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>汇编语言求最大公约数和最小公倍数</title>
@@ -441,30 +462,6 @@ int main()
     <updated>2021-11-07T03:23:19.929Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">    unsigned int y;</span><br><span class="line">    y=32767;  //其实这个数只要保证右边4位全1,结果就是15,</span><br><span class="line">    y&lt;&lt;=sizeof(int)*8-4;</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;右4位: %d\n&quot;,y);//  结果为15</span><br><span class="line">    y=-32768;//这个数只要是负数,那么结果应该&gt;=8</span><br><span class="line">    y&gt;&gt;=sizeof(int)*8-4;</span><br><span class="line">    printf(&quot;左4位: %d\n&quot;,y); // 结果为15</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
-      
-    
-    
-    
-    <category term="C语言" scheme="https://songkaiai.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
-    
-    
-    <category term="diary" scheme="https://songkaiai.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随机某月有多少天</title>
-    <link href="https://songkaiai.github.io/2021/11/03/%E9%9A%8F%E6%9C%BA%E6%9F%90%E6%9C%88%E6%9C%89%E5%A4%9A%E5%B0%91%E5%A4%A9/"/>
-    <id>https://songkaiai.github.io/2021/11/03/%E9%9A%8F%E6%9C%BA%E6%9F%90%E6%9C%88%E6%9C%89%E5%A4%9A%E5%B0%91%E5%A4%A9/</id>
-    <published>2021-11-03T13:55:05.000Z</published>
-    <updated>2021-11-03T14:02:43.296Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;int y,m,d;</span><br><span class="line">printf(&quot;分别输入年和月:&quot;);</span><br><span class="line">scanf(&quot;%d%d&quot;,&amp;y,&amp;m);</span><br><span class="line">switch(m)&#123;</span><br><span class="line">    case 1: </span><br><span class="line">        case 3: </span><br><span class="line">        case 5: </span><br><span class="line">        case 7: </span><br><span class="line">        case 8: </span><br><span class="line">        case 10: </span><br><span class="line">        case 12:</span><br><span class="line">            d=31;break;</span><br><span class="line">        case 4:</span><br><span class="line">        case 6:</span><br><span class="line">        case 9:</span><br><span class="line">        case 11:</span><br><span class="line">            d=30;break;</span><br><span class="line">        case 2:</span><br><span class="line">        d=28;if (y%4==0 &amp; y%100!=0 || y%400==0)</span><br><span class="line">                     d=29;break;</span><br><span class="line">        default:printf(&quot;输入错误，结果为0天！&quot;) ;</span><br><span class="line">&#125; </span><br><span class="line">    printf(&quot;%d年%d月有%d天&quot;,y,m,d);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
